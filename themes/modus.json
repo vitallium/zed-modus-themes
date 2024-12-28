@@ -62,7 +62,7 @@
             "editor.background": "#000000",
             "editor.foreground": "#ffffff",
             "editor.highlighted_line.background": "#2f3849",
-            "error": "#a60000",
+            "error": "#ff5f59",
             "modified": "#efef80",
             "renamed": "#efef80",
             "syntax": {
@@ -96,7 +96,7 @@
             },
             "terminal.dim_foreground": "#989898",
             "terminal.foreground": "#ffffff",
-            "warning": "#884900"
+            "warning": "#fec43f"
          }
       }
    ]

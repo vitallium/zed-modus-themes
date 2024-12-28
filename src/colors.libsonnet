@@ -1,5 +1,5 @@
 {
-  operandi: {
+  Operandi: {
     appearance: 'light',
     white: '#ffffff',
     black: '#000000',
@@ -381,7 +381,7 @@
     overline_heading_7: null,
     overline_heading_8: null,
   },
-  vivendi: {
+  Vivendi: {
     appearance: 'dark',
     white: '#ffffff',
     black: '#000000',
