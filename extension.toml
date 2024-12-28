@@ -1,0 +1,7 @@
+id = "modus-themes"
+name = "Modus Themes"
+description = "Modus Themes"
+version = "0.0.1"
+schema_version = 1
+authors = ["Vitaly Slobodin <vitaliy.slobodin@gmail.com>"]
+repository = "None"

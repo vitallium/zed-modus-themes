@@ -1,0 +1,9 @@
+[tools]
+jsonnet = "latest"
+
+[env]
+JSONNET_PATH = "src"
+
+[tasks.build]
+description = "Compile Modus themes"
+run = "jsonnet src/theme.jsonnet > themes/modus.json"

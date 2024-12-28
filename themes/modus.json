@@ -1,0 +1,103 @@
+{
+   "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+   "author": "Vitaly Slobodin <vitaliy.slobodin@gmail.com>",
+   "name": "Modus Themes",
+   "themes": [
+      {
+         "appearance": "light",
+         "name": "Modus Operandi",
+         "style": {
+            "border": "#9f9f9f",
+            "border.variant": "#9f9f9f",
+            "created": "#005000",
+            "deleted": "#8f1313",
+            "editor.background": "#ffffff",
+            "editor.foreground": "#000000",
+            "editor.highlighted_line.background": "#dae5ec",
+            "error": "#a60000",
+            "modified": "#553d00",
+            "renamed": "#553d00",
+            "syntax": {
+               "attribute": {
+                  "color": "#005e8b"
+               },
+               "comment": {
+                  "color": "#595959"
+               },
+               "constant": {
+                  "color": "#0000b0"
+               },
+               "function": {
+                  "color": "#721045"
+               },
+               "keyword": {
+                  "color": "#531ab6"
+               },
+               "number": {
+                  "color": "#003497"
+               },
+               "string": {
+                  "color": "#3548cf"
+               },
+               "type": {
+                  "color": "#531ab6"
+               },
+               "variable": {
+                  "color": "#005e8b"
+               }
+            },
+            "terminal.dim_foreground": "#595959",
+            "terminal.foreground": "#000000",
+            "warning": "#884900"
+         }
+      },
+      {
+         "appearance": "dark",
+         "name": "Modus Vivendi",
+         "style": {
+            "border": "#646464",
+            "border.variant": "#646464",
+            "created": "#a0e0a0",
+            "deleted": "#ffbfbf",
+            "editor.background": "#000000",
+            "editor.foreground": "#ffffff",
+            "editor.highlighted_line.background": "#2f3849",
+            "error": "#a60000",
+            "modified": "#efef80",
+            "renamed": "#efef80",
+            "syntax": {
+               "attribute": {
+                  "color": "#00d3d0"
+               },
+               "comment": {
+                  "color": "#989898"
+               },
+               "constant": {
+                  "color": "#00bcff"
+               },
+               "function": {
+                  "color": "#feacd0"
+               },
+               "keyword": {
+                  "color": "#b6a0ff"
+               },
+               "number": {
+                  "color": "#82b0ec"
+               },
+               "string": {
+                  "color": "#79a8ff"
+               },
+               "type": {
+                  "color": "#b6a0ff"
+               },
+               "variable": {
+                  "color": "#00d3d0"
+               }
+            },
+            "terminal.dim_foreground": "#989898",
+            "terminal.foreground": "#ffffff",
+            "warning": "#884900"
+         }
+      }
+   ]
+}
