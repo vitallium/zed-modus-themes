@@ -3,6 +3,7 @@
     appearance: 'light',
     white: '#ffffff',
     black: '#000000',
+    gray35: '#595959',
     gray65: '#a6a6a6',
 
     // Basic values
@@ -385,6 +386,7 @@
     appearance: 'dark',
     white: '#ffffff',
     black: '#000000',
+    gray35: '#595959',
     gray65: '#a6a6a6',
     // Basic values
     bg_main: '#000000',
@@ -696,6 +698,7 @@
     fg_term_white: self.gray65,
     bg_term_white_bright: self.white,
     fg_term_white_bright: self.white,
+
     // Heading mappings
     fg_heading_0: self.cyan_cooler,
     fg_heading_1: self.fg_main,
