@@ -27,6 +27,12 @@
                "constant": {
                   "color": "#0000b0"
                },
+               "constructor": {
+                  "color": "#721045"
+               },
+               "embedded": {
+                  "color": "#a0132f"
+               },
                "function": {
                   "color": "#721045"
                },
@@ -36,13 +42,40 @@
                "number": {
                   "color": "#003497"
                },
+               "operator": {
+                  "color": "#721045"
+               },
+               "property": {
+                  "color": "#005f5f"
+               },
                "string": {
+                  "color": "#3548cf"
+               },
+               "string.escape": {
+                  "color": "#3548cf"
+               },
+               "string.regex": {
+                  "color": "#3548cf"
+               },
+               "string.special": {
+                  "color": "#3548cf"
+               },
+               "string.special.symbol": {
+                  "color": "#3548cf"
+               },
+               "tag": {
+                  "color": "#0000b0"
+               },
+               "text.literal": {
                   "color": "#3548cf"
                },
                "type": {
                   "color": "#531ab6"
                },
                "variable": {
+                  "color": "#005e8b"
+               },
+               "variable.special": {
                   "color": "#005e8b"
                }
             },
@@ -101,6 +134,12 @@
                "constant": {
                   "color": "#00bcff"
                },
+               "constructor": {
+                  "color": "#feacd0"
+               },
+               "embedded": {
+                  "color": "#ff7f9f"
+               },
                "function": {
                   "color": "#feacd0"
                },
@@ -110,13 +149,40 @@
                "number": {
                   "color": "#82b0ec"
                },
+               "operator": {
+                  "color": "#feacd0"
+               },
+               "property": {
+                  "color": "#6ae4b9"
+               },
                "string": {
+                  "color": "#79a8ff"
+               },
+               "string.escape": {
+                  "color": "#79a8ff"
+               },
+               "string.regex": {
+                  "color": "#79a8ff"
+               },
+               "string.special": {
+                  "color": "#79a8ff"
+               },
+               "string.special.symbol": {
+                  "color": "#79a8ff"
+               },
+               "tag": {
+                  "color": "#00bcff"
+               },
+               "text.literal": {
                   "color": "#79a8ff"
                },
                "type": {
                   "color": "#b6a0ff"
                },
                "variable": {
+                  "color": "#00d3d0"
+               },
+               "variable.special": {
                   "color": "#00d3d0"
                }
             },

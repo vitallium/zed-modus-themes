@@ -397,6 +397,7 @@
     bg_active: '#535353',
     bg_inactive: '#303030',
     border: '#646464',
+
     // Common accent foregrounds
     red: '#ff5f59',
     red_warmer: '#ff6b55',
@@ -422,6 +423,7 @@
     cyan_warmer: '#4ae2f0',
     cyan_cooler: '#6ae4b9',
     cyan_faint: '#9ac8e0',
+
     // Uncommon accent foregrounds
     rust: '#db7b5f',
     gold: '#c0965b',
@@ -430,6 +432,7 @@
     indigo: '#9099d9',
     maroon: '#cf7fa7',
     pink: '#d09dc0',
+
     // Common accent backgrounds
     bg_red_intense: '#9d1f1f',
     bg_green_intense: '#2f822f',
@@ -449,10 +452,12 @@
     bg_blue_nuanced: '#12154a',
     bg_magenta_nuanced: '#2f0c3f',
     bg_cyan_nuanced: '#042837',
+
     // Uncommon accent backgrounds
     bg_ochre: '#442c2f',
     bg_lavender: '#38325c',
     bg_sage: '#0f3d30',
+
     // Graphs
     bg_graph_red_0: '#b52c2c',
     bg_graph_red_1: '#702020',
@@ -539,6 +544,7 @@
     fg_active_argument: self.yellow_cooler,
     bg_active_value: self.bg_cyan_nuanced,
     fg_active_value: self.cyan_cooler,
+
     // Code mappings
     builtin: self.magenta_warmer,
     comment: self.fg_dim,

@@ -54,14 +54,11 @@ local makeTheme(name, colorScheme) = {
       constant: {
         color: colorScheme.constant,
       },
-      number: {
-        color: colorScheme.blue_faint,
+      constructor: {
+        color: colorScheme.fnname,
       },
-      variable: {
-        color: colorScheme.variable,
-      },
-      string: {
-        color: colorScheme.string,
+      embedded: {
+        color: colorScheme.preprocessor,
       },
       'function': {
         color: colorScheme.magenta,
@@ -69,8 +66,44 @@ local makeTheme(name, colorScheme) = {
       keyword: {
         color: colorScheme.magenta_cooler,
       },
+      number: {
+        color: colorScheme.blue_faint,
+      },
+      operator: {
+        color: colorScheme.fnname,
+      },
+      property: {
+        color: colorScheme.type,
+      },
+      string: {
+        color: colorScheme.string,
+      },
+      'string.escape': {
+        color: colorScheme.string,
+      },
+      'string.regex': {
+        color: colorScheme.string,
+      },
+      'string.special': {
+        color: colorScheme.string,
+      },
+      'string.special.symbol': {
+        color: colorScheme.string,
+      },
+      tag: {
+        color: colorScheme.constant,
+      },
+      'text.literal': {
+        color: colorScheme.string,
+      },
       type: {
         color: colorScheme.magenta_cooler,
+      },
+      variable: {
+        color: colorScheme.variable,
+      },
+      'variable.special': {
+        color: colorScheme.variable,
       },
     },
   },
