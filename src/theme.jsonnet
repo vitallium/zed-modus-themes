@@ -4,6 +4,8 @@ local makeTheme(name, colorScheme) = {
   name: 'Modus ' + name,
   appearance: colorScheme.appearance,
   style: {
+    text: colorScheme.fg_main,
+    'text.muted': colorScheme.fg_dim,
     'editor.background': colorScheme.bg_main,
     'editor.foreground': colorScheme.fg_main,
     'editor.highlighted_line.background': colorScheme.bg_hl_line,
@@ -15,6 +17,11 @@ local makeTheme(name, colorScheme) = {
     modified: colorScheme.fg_changed,
     warning: colorScheme.warning,
     'error': colorScheme.err,
+    // Tab Bar
+    'tab_bar.background': colorScheme.bg_tab_bar,
+    'tab.inactive_background': colorScheme.bg_tab_other,
+    'tab.active_background': colorScheme.bg_tab_current,
+    // 'drop_target.background': colorScheme.blue_cooler,
     // Terminal
     'terminal.background': colorScheme.bg_main,
     'terminal.foreground': colorScheme.fg_main,
@@ -44,12 +51,21 @@ local makeTheme(name, colorScheme) = {
     'terminal.ansi.white': colorScheme.bg_term_white,
     'terminal.ansi.bright_white': colorScheme.bg_term_white_bright,
     'terminal.ansi.dim_white': null,
+    accents: [
+      colorScheme.accent_0,
+      colorScheme.accent_1,
+      colorScheme.accent_2,
+      colorScheme.accent_3,
+    ],
     syntax: {
       comment: {
         color: colorScheme.comment,
       },
       attribute: {
         color: colorScheme.cyan,
+      },
+      boolean: {
+        color: colorScheme.blue_cooler,
       },
       constant: {
         color: colorScheme.constant,
@@ -94,10 +110,15 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.constant,
       },
       'text.literal': {
-        color: colorScheme.string,
+        color: colorScheme.fg_dim,
+        background_color: colorScheme.bg_dim,
+      },
+      title: {
+        color: colorScheme.fg_heading_2,
+        font_weight: 700,
       },
       type: {
-        color: colorScheme.magenta_cooler,
+        color: colorScheme.cyan_cooler,
       },
       variable: {
         color: colorScheme.variable,
