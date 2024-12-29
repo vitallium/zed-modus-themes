@@ -10,28 +10,62 @@ local makeTheme(name, colorScheme) = {
     border: colorScheme.border,
     'border.variant': colorScheme.border,
 
-    // Editor
-    'editor.background': colorScheme.bg_main,
-    'editor.foreground': colorScheme.fg_main,
-    'editor.highlighted_line.background': colorScheme.bg_hl_line,
-    'editor.line_number': colorScheme.fg_line_number_inactive,
-    'editor.active_line_number': colorScheme.fg_line_number_active,
-    'search_match.background': colorScheme.bg_search_current,
-
-    created: colorScheme.fg_added,
-    deleted: colorScheme.fg_removed,
-    renamed: colorScheme.fg_changed,
-    modified: colorScheme.fg_changed,
-
-    warning: colorScheme.yellow_cooler,
-    info: colorScheme.blue_cooler,
-    'error': colorScheme.red_cooler,
-    hint: colorScheme.cyan_cooler,
+    // Panels and other UI elements
+    'elevated_surface.background': colorScheme.bg_button_inactive,
+    'surface.background': colorScheme.bg_button_inactive,
+    background: colorScheme.bg_main,
+    'element.background': colorScheme.bg_button_inactive,
+    'element.hover': colorScheme.bg_button_active,
+    'element.active': colorScheme.bg_button_active,
+    'element.selected': colorScheme.bg_button_active,
+    'element.disabled': colorScheme.bg_button_inactive,
+    // "drop_target.background": "N/A",
+    'ghost_element.background': colorScheme.bg_button_inactive,
+    'ghost_element.hover': colorScheme.bg_button_active,
+    'ghost_element.active': colorScheme.bg_button_active,
+    'ghost_element.selected': colorScheme.bg_button_active,
+    'ghost_element.disabled': colorScheme.bg_button_inactive,
+    'title_bar.background': colorScheme.bg_main,
+    'title_bar.inactive_background': colorScheme.bg_dim,
+    'panel.background': colorScheme.bg_main,
+    'toolbar.background': colorScheme.bg_main,
+    'status_bar.background': colorScheme.bg_mode_line_active,
 
     // Tab Bar
     'tab_bar.background': colorScheme.bg_tab_bar,
     'tab.inactive_background': colorScheme.bg_tab_other,
     'tab.active_background': colorScheme.bg_tab_current,
+
+    // Editor
+    'editor.background': colorScheme.bg_main,
+    'editor.foreground': colorScheme.fg_main,
+    'editor.highlighted_line.background': colorScheme.bg_hl_line,
+    'editor.line_number': colorScheme.fg_line_number_inactive,
+    'editor.active_line.background': colorScheme.bg_hl_line,
+    'editor.active_line_number': colorScheme.fg_line_number_active,
+    'editor.gutter.background': colorScheme.bg_line_number_inactive,
+    'search.match_background': colorScheme.bg_search_current,
+
+    conflict: colorScheme.fg_changed,
+    'conflict.background': colorScheme.bg_changed,
+    'conflict.border': colorScheme.border,
+    created: colorScheme.fg_added,
+    'created.background': colorScheme.bg_added,
+    'created.border': colorScheme.border,
+    deleted: colorScheme.fg_removed,
+    'deleted.background': colorScheme.bg_removed,
+    'deleted.border': colorScheme.border,
+    renamed: colorScheme.fg_changed,
+    'renamed.background': colorScheme.bg_changed,
+    'renamed.border': colorScheme.border,
+    modified: colorScheme.fg_changed,
+    'modified.background': colorScheme.bg_changed,
+    'modified.border': colorScheme.border,
+
+    warning: colorScheme.yellow_cooler,
+    info: colorScheme.blue_cooler,
+    'error': colorScheme.red_cooler,
+    hint: colorScheme.cyan_cooler,
 
     // Terminal
     'terminal.background': colorScheme.bg_main,
@@ -72,6 +106,13 @@ local makeTheme(name, colorScheme) = {
         background: colorScheme.bg_main,
         selection: colorScheme.bg_region,
       },
+    ] + [
+      {
+        cursor: colorScheme['rainbow_' + i],
+        background: colorScheme.bg_main,
+        selection: colorScheme['rainbow_' + i],
+      }
+      for i in std.range(0, 7)
     ],
     syntax: {
       comment: {
