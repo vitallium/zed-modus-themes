@@ -45,6 +45,11 @@ local makeTheme(name, colorScheme) = {
     'editor.active_line_number': colorScheme.fg_line_number_active,
     'editor.gutter.background': colorScheme.bg_line_number_inactive,
     'search.match_background': colorScheme.bg_search_current,
+    'scrollbar.thumb.background': colorScheme.bg_inactive,
+    'scrollbar.thumb.hover_background': colorScheme.bg_active,
+    'scrollbar.thumb.border': colorScheme.border,
+    'scrollbar.track.background': colorScheme.bg_dim,
+    'scrollbar.track.border': colorScheme.border,
 
     conflict: colorScheme.fg_changed,
     'conflict.background': colorScheme.bg_changed,
