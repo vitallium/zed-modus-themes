@@ -13,9 +13,17 @@ is a Zed port of the original
 
 ![](./doc/images/modus_operandi.png)
 
+#### Modus Operandi Tinted
+
+![](./doc/images/modus_operandi_tinted.png)
+
 ### Modus Vivendi
 
 ![](./doc/images/modus_vivendi.png)
+
+#### Modus Vivendi Tinted
+
+![](./doc/images/modus_vivendi_tinted.png)
 
 ## How to build
 
