@@ -5,23 +5,34 @@ local makeTheme(name, colorScheme) = {
   appearance: colorScheme.appearance,
   style: {
     text: colorScheme.fg_main,
-    'text.muted': colorScheme.fg_dim,
+    'text.muted': colorScheme.comment,
+
+    border: colorScheme.border,
+    'border.variant': colorScheme.border,
+
+    // Editor
     'editor.background': colorScheme.bg_main,
     'editor.foreground': colorScheme.fg_main,
     'editor.highlighted_line.background': colorScheme.bg_hl_line,
-    border: colorScheme.border,
-    'border.variant': colorScheme.border,
+    'editor.line_number': colorScheme.fg_line_number_inactive,
+    'editor.active_line_number': colorScheme.fg_line_number_active,
+    'search_match.background': colorScheme.bg_search_current,
+
     created: colorScheme.fg_added,
     deleted: colorScheme.fg_removed,
     renamed: colorScheme.fg_changed,
     modified: colorScheme.fg_changed,
-    warning: colorScheme.warning,
-    'error': colorScheme.err,
+
+    warning: colorScheme.yellow_cooler,
+    info: colorScheme.blue_cooler,
+    'error': colorScheme.red_cooler,
+    hint: colorScheme.cyan_cooler,
+
     // Tab Bar
     'tab_bar.background': colorScheme.bg_tab_bar,
     'tab.inactive_background': colorScheme.bg_tab_other,
     'tab.active_background': colorScheme.bg_tab_current,
-    // 'drop_target.background': colorScheme.blue_cooler,
+
     // Terminal
     'terminal.background': colorScheme.bg_main,
     'terminal.foreground': colorScheme.fg_main,
@@ -56,6 +67,13 @@ local makeTheme(name, colorScheme) = {
       colorScheme.accent_1,
       colorScheme.accent_2,
       colorScheme.accent_3,
+    ],
+    players: [
+      {
+        cursor: colorScheme.cursor,
+        background: colorScheme.bg_main,
+        selection: colorScheme.bg_region,
+      },
     ],
     syntax: {
       comment: {

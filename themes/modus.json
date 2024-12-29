@@ -17,12 +17,24 @@
             "border.variant": "#9f9f9f",
             "created": "#005000",
             "deleted": "#8f1313",
+            "editor.active_line_number": "#000000",
             "editor.background": "#ffffff",
             "editor.foreground": "#000000",
             "editor.highlighted_line.background": "#dae5ec",
-            "error": "#a60000",
+            "editor.line_number": "#595959",
+            "error": "#a0132f",
+            "hint": "#005f5f",
+            "info": "#0000b0",
             "modified": "#553d00",
+            "players": [
+               {
+                  "background": "#ffffff",
+                  "cursor": "#000000",
+                  "selection": "#bdbdbd"
+               }
+            ],
             "renamed": "#553d00",
+            "search_match.background": "#f3d000",
             "syntax": {
                "attribute": {
                   "color": "#005e8b"
@@ -126,7 +138,7 @@
             "terminal.foreground": "#000000",
             "text": "#000000",
             "text.muted": "#595959",
-            "warning": "#884900"
+            "warning": "#7a4f2f"
          }
       },
       {
@@ -143,12 +155,24 @@
             "border.variant": "#646464",
             "created": "#a0e0a0",
             "deleted": "#ffbfbf",
+            "editor.active_line_number": "#ffffff",
             "editor.background": "#000000",
             "editor.foreground": "#ffffff",
             "editor.highlighted_line.background": "#2f3849",
-            "error": "#ff5f59",
+            "editor.line_number": "#989898",
+            "error": "#ff7f9f",
+            "hint": "#6ae4b9",
+            "info": "#00bcff",
             "modified": "#efef80",
+            "players": [
+               {
+                  "background": "#000000",
+                  "cursor": "#ffffff",
+                  "selection": "#5a5a5a"
+               }
+            ],
             "renamed": "#efef80",
+            "search_match.background": "#7a6100",
             "syntax": {
                "attribute": {
                   "color": "#00d3d0"
@@ -252,7 +276,7 @@
             "terminal.foreground": "#ffffff",
             "text": "#ffffff",
             "text.muted": "#989898",
-            "warning": "#fec43f"
+            "warning": "#dfaf7a"
          }
       }
    ]
