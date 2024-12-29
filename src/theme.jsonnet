@@ -5,7 +5,10 @@ local makeTheme(name, colorScheme) = {
   appearance: colorScheme.appearance,
   style: {
     text: colorScheme.fg_main,
-    'text.muted': colorScheme.comment,
+    'text.muted': colorScheme.fg_dim,
+    'text.placeholder': colorScheme.fg_dim,
+    'text.disabled': colorScheme.fg_alt,
+    'text.accent': colorScheme.fg_alt,
 
     border: colorScheme.border,
     'border.variant': colorScheme.border,
@@ -29,7 +32,7 @@ local makeTheme(name, colorScheme) = {
     'title_bar.inactive_background': colorScheme.bg_dim,
     'panel.background': colorScheme.bg_main,
     'toolbar.background': colorScheme.bg_main,
-    'status_bar.background': colorScheme.bg_mode_line_active,
+    'status_bar.background': colorScheme.bg_mode_line_inactive,
 
     // Tab Bar
     'tab_bar.background': colorScheme.bg_tab_bar,
@@ -108,14 +111,14 @@ local makeTheme(name, colorScheme) = {
     players: [
       {
         cursor: colorScheme.cursor,
-        background: colorScheme.bg_main,
-        selection: colorScheme.bg_region,
+        background: colorScheme.bg_mark_select,
+        selection: colorScheme.fg_mark_select + '80',
       },
     ] + [
       {
         cursor: colorScheme['rainbow_' + i],
         background: colorScheme.bg_main,
-        selection: colorScheme['rainbow_' + i],
+        selection: colorScheme['rainbow_' + i] + '80',
       }
       for i in std.range(0, 7)
     ],
