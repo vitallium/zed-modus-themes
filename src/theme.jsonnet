@@ -63,10 +63,8 @@ local makeTheme(name, colorScheme) = {
     'terminal.ansi.bright_white': colorScheme.bg_term_white_bright,
     'terminal.ansi.dim_white': null,
     accents: [
-      colorScheme.accent_0,
-      colorScheme.accent_1,
-      colorScheme.accent_2,
-      colorScheme.accent_3,
+      colorScheme['rainbow_' + i]
+      for i in std.range(0, 7)
     ],
     players: [
       {

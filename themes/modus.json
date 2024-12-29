@@ -8,10 +8,14 @@
          "name": "Modus Operandi",
          "style": {
             "accents": [
-               "#0031a9",
-               "#8f0075",
-               "#005e8b",
-               "#a60000"
+               "#000000",
+               "#dd22dd",
+               "#008899",
+               "#972500",
+               "#808000",
+               "#531ab6",
+               "#008900",
+               "#3548cf"
             ],
             "border": "#9f9f9f",
             "border.variant": "#9f9f9f",
@@ -142,14 +146,160 @@
          }
       },
       {
+         "appearance": "light",
+         "name": "Modus Operandi Tinted",
+         "style": {
+            "accents": [
+               "#000000",
+               "#dd22dd",
+               "#008899",
+               "#972500",
+               "#808000",
+               "#531ab6",
+               "#008900",
+               "#3548cf"
+            ],
+            "border": "#9f9690",
+            "border.variant": "#9f9690",
+            "created": "#005000",
+            "deleted": "#8f1313",
+            "editor.active_line_number": "#000000",
+            "editor.background": "#fbf7f0",
+            "editor.foreground": "#000000",
+            "editor.highlighted_line.background": "#f1d5d0",
+            "editor.line_number": "#595959",
+            "error": "#a0132f",
+            "hint": "#005f5f",
+            "info": "#0000b0",
+            "modified": "#553d00",
+            "players": [
+               {
+                  "background": "#fbf7f0",
+                  "cursor": "#a60000",
+                  "selection": "#c2bcb5"
+               }
+            ],
+            "renamed": "#553d00",
+            "search_match.background": "#f3d000",
+            "syntax": {
+               "attribute": {
+                  "color": "#005e8b"
+               },
+               "boolean": {
+                  "color": "#0000b0"
+               },
+               "comment": {
+                  "color": "#7f0000"
+               },
+               "constant": {
+                  "color": "#0000b0"
+               },
+               "constructor": {
+                  "color": "#721045"
+               },
+               "embedded": {
+                  "color": "#a0132f"
+               },
+               "function": {
+                  "color": "#721045"
+               },
+               "keyword": {
+                  "color": "#531ab6"
+               },
+               "number": {
+                  "color": "#003497"
+               },
+               "operator": {
+                  "color": "#721045"
+               },
+               "property": {
+                  "color": "#005f5f"
+               },
+               "string": {
+                  "color": "#3548cf"
+               },
+               "string.escape": {
+                  "color": "#3548cf"
+               },
+               "string.regex": {
+                  "color": "#3548cf"
+               },
+               "string.special": {
+                  "color": "#3548cf"
+               },
+               "string.special.symbol": {
+                  "color": "#3548cf"
+               },
+               "tag": {
+                  "color": "#0000b0"
+               },
+               "text.literal": {
+                  "background_color": "#efe9dd",
+                  "color": "#595959"
+               },
+               "title": {
+                  "color": "#624416",
+                  "font_weight": 700
+               },
+               "type": {
+                  "color": "#005f5f"
+               },
+               "variable": {
+                  "color": "#005e8b"
+               },
+               "variable.special": {
+                  "color": "#005e8b"
+               }
+            },
+            "tab.active_background": "#fbf7f0",
+            "tab.inactive_background": "#c8b8b2",
+            "tab_bar.background": "#e0d4ce",
+            "terminal.ansi.black": "black",
+            "terminal.ansi.blue": "#0031a9",
+            "terminal.ansi.bright_black": "gray35",
+            "terminal.ansi.bright_blue": "#3548cf",
+            "terminal.ansi.bright_cyan": "#005f5f",
+            "terminal.ansi.bright_green": "#00663f",
+            "terminal.ansi.bright_magenta": "#721045",
+            "terminal.ansi.bright_red": "#972500",
+            "terminal.ansi.bright_white": "white",
+            "terminal.ansi.bright_yellow": "#884900",
+            "terminal.ansi.cyan": "#005e8b",
+            "terminal.ansi.dim_black": null,
+            "terminal.ansi.dim_blue": null,
+            "terminal.ansi.dim_cyan": null,
+            "terminal.ansi.dim_green": null,
+            "terminal.ansi.dim_magenta": null,
+            "terminal.ansi.dim_red": null,
+            "terminal.ansi.dim_white": null,
+            "terminal.ansi.dim_yellow": null,
+            "terminal.ansi.green": "#006800",
+            "terminal.ansi.magenta": "#721045",
+            "terminal.ansi.red": "#a60000",
+            "terminal.ansi.white": "gray65",
+            "terminal.ansi.yellow": "#6f5500",
+            "terminal.background": "#fbf7f0",
+            "terminal.bright_foreground": null,
+            "terminal.dim_foreground": null,
+            "terminal.foreground": "#000000",
+            "text": "#000000",
+            "text.muted": "#7f0000",
+            "warning": "#7a4f2f"
+         }
+      },
+      {
          "appearance": "dark",
          "name": "Modus Vivendi",
          "style": {
             "accents": [
-               "#00bcff",
-               "#f78fe7",
-               "#6ae4b9",
-               "#d0bc00"
+               "#ffffff",
+               "#ff66ff",
+               "#00eff0",
+               "#ff6b55",
+               "#efef00",
+               "#b6a0ff",
+               "#44df44",
+               "#79a8ff"
             ],
             "border": "#646464",
             "border.variant": "#646464",
@@ -276,6 +426,148 @@
             "terminal.foreground": "#ffffff",
             "text": "#ffffff",
             "text.muted": "#989898",
+            "warning": "#dfaf7a"
+         }
+      },
+      {
+         "appearance": "dark",
+         "name": "Modus Vivendi Tinted",
+         "style": {
+            "accents": [
+               "#ffffff",
+               "#ff66ff",
+               "#00eff0",
+               "#ff6b55",
+               "#efef00",
+               "#b6a0ff",
+               "#44df44",
+               "#79a8ff"
+            ],
+            "border": "#61647a",
+            "border.variant": "#61647a",
+            "created": "#a0e0a0",
+            "deleted": "#ffbfbf",
+            "editor.active_line_number": "#ffffff",
+            "editor.background": "#0d0e1c",
+            "editor.foreground": "#ffffff",
+            "editor.highlighted_line.background": "#303a6f",
+            "editor.line_number": "#989898",
+            "error": "#ff7f9f",
+            "hint": "#6ae4b9",
+            "info": "#00bcff",
+            "modified": "#efef80",
+            "players": [
+               {
+                  "background": "#0d0e1c",
+                  "cursor": "#f78fe7",
+                  "selection": "#555a66"
+               }
+            ],
+            "renamed": "#efef80",
+            "search_match.background": "#7a6100",
+            "syntax": {
+               "attribute": {
+                  "color": "#00d3d0"
+               },
+               "boolean": {
+                  "color": "#00bcff"
+               },
+               "comment": {
+                  "color": "#ff9f80"
+               },
+               "constant": {
+                  "color": "#00bcff"
+               },
+               "constructor": {
+                  "color": "#feacd0"
+               },
+               "embedded": {
+                  "color": "#ff7f9f"
+               },
+               "function": {
+                  "color": "#feacd0"
+               },
+               "keyword": {
+                  "color": "#b6a0ff"
+               },
+               "number": {
+                  "color": "#82b0ec"
+               },
+               "operator": {
+                  "color": "#feacd0"
+               },
+               "property": {
+                  "color": "#6ae4b9"
+               },
+               "string": {
+                  "color": "#79a8ff"
+               },
+               "string.escape": {
+                  "color": "#79a8ff"
+               },
+               "string.regex": {
+                  "color": "#79a8ff"
+               },
+               "string.special": {
+                  "color": "#79a8ff"
+               },
+               "string.special.symbol": {
+                  "color": "#79a8ff"
+               },
+               "tag": {
+                  "color": "#00bcff"
+               },
+               "text.literal": {
+                  "background_color": "#1d2235",
+                  "color": "#989898"
+               },
+               "title": {
+                  "color": "#d2b580",
+                  "font_weight": 700
+               },
+               "type": {
+                  "color": "#6ae4b9"
+               },
+               "variable": {
+                  "color": "#00d3d0"
+               },
+               "variable.special": {
+                  "color": "#00d3d0"
+               }
+            },
+            "tab.active_background": "#0d0e1c",
+            "tab.inactive_background": "#4a4f6a",
+            "tab_bar.background": "#2c3045",
+            "terminal.ansi.black": "black",
+            "terminal.ansi.blue": "#2fafff",
+            "terminal.ansi.bright_black": "gray35",
+            "terminal.ansi.bright_blue": "#79a8ff",
+            "terminal.ansi.bright_cyan": "#6ae4b9",
+            "terminal.ansi.bright_green": "#00c06f",
+            "terminal.ansi.bright_magenta": "#feacd0",
+            "terminal.ansi.bright_red": "#ff6b55",
+            "terminal.ansi.bright_white": "white",
+            "terminal.ansi.bright_yellow": "#fec43f",
+            "terminal.ansi.cyan": "#00d3d0",
+            "terminal.ansi.dim_black": null,
+            "terminal.ansi.dim_blue": null,
+            "terminal.ansi.dim_cyan": null,
+            "terminal.ansi.dim_green": null,
+            "terminal.ansi.dim_magenta": null,
+            "terminal.ansi.dim_red": null,
+            "terminal.ansi.dim_white": null,
+            "terminal.ansi.dim_yellow": null,
+            "terminal.ansi.green": "#44bc44",
+            "terminal.ansi.magenta": "#feacd0",
+            "terminal.ansi.red": "#ff5f59",
+            "terminal.ansi.white": "gray65",
+            "terminal.ansi.yellow": "#d0bc00",
+            "terminal.background": "#0d0e1c",
+            "terminal.bright_foreground": null,
+            "terminal.dim_foreground": null,
+            "terminal.foreground": "#ffffff",
+            "text": "#ffffff",
+            "text.muted": "#ff9f80",
             "warning": "#dfaf7a"
          }
       }
