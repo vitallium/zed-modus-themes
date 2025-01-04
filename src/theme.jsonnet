@@ -70,10 +70,18 @@ local makeTheme(name, colorScheme) = {
     'modified.background': colorScheme.bg_changed,
     'modified.border': colorScheme.border,
 
-    warning: colorScheme.yellow_cooler,
-    info: colorScheme.blue_cooler,
-    'error': colorScheme.red_cooler,
+    warning: colorScheme.warning,
+    'warning.background': colorScheme.bg_prominent_warning,
+    'warning.border': colorScheme.border,
+    info: colorScheme.info,
+    'info.background': colorScheme.bg_prominent_note,
+    'info.border': colorScheme.border,
+    'error': colorScheme.err,
+    'error.background': colorScheme.bg_prominent_err,
+    'error.border': colorScheme.border,
     hint: colorScheme.cyan_cooler,
+    'hint.background': colorScheme.bg_magenta_intense,
+    'hint.border': colorScheme.border,
 
     // Terminal
     'terminal.background': colorScheme.bg_main,
