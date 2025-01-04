@@ -5,9 +5,9 @@ local makeTheme(name, colorScheme) = {
   appearance: colorScheme.appearance,
   style: {
     text: colorScheme.fg_main,
-    'text.muted': colorScheme.fg_dim,
+    'text.muted': colorScheme.fg_alt,
     'text.placeholder': colorScheme.fg_dim,
-    'text.disabled': colorScheme.fg_alt,
+    'text.disabled': colorScheme.fg_dim,
     'text.accent': colorScheme.fg_alt,
 
     border: colorScheme.border,
@@ -83,9 +83,9 @@ local makeTheme(name, colorScheme) = {
     'hint.background': colorScheme.bg_magenta_intense,
     'hint.border': colorScheme.border,
 
-    "predictive": colorScheme.fg_prompt,
-    "predictive.background": colorScheme.bg_prompt,
-    "predictive.border": colorScheme.border,
+    predictive: colorScheme.fg_prompt,
+    'predictive.background': colorScheme.bg_prompt,
+    'predictive.border': colorScheme.border,
 
     // Terminal
     'terminal.background': colorScheme.bg_main,
