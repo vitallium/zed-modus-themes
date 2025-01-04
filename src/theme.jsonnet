@@ -83,6 +83,10 @@ local makeTheme(name, colorScheme) = {
     'hint.background': colorScheme.bg_magenta_intense,
     'hint.border': colorScheme.border,
 
+    "predictive": colorScheme.fg_prompt,
+    "predictive.background": colorScheme.bg_prompt,
+    "predictive.border": colorScheme.border,
+
     // Terminal
     'terminal.background': colorScheme.bg_main,
     'terminal.foreground': colorScheme.fg_main,

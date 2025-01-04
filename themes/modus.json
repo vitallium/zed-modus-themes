@@ -107,6 +107,9 @@
                   "selection": "#3548cf80"
                }
             ],
+            "predictive": "#005f5f",
+            "predictive.background": null,
+            "predictive.border": "#9f9f9f",
             "renamed": "#553d00",
             "renamed.background": "#ffdfa9",
             "renamed.border": "#9f9f9f",
@@ -336,6 +339,9 @@
                   "selection": "#3548cf80"
                }
             ],
+            "predictive": "#005f5f",
+            "predictive.background": null,
+            "predictive.border": "#9f9690",
             "renamed": "#553d00",
             "renamed.background": "#ffdfa9",
             "renamed.border": "#9f9690",
@@ -565,6 +571,9 @@
                   "selection": "#79a8ff80"
                }
             ],
+            "predictive": "#6ae4b9",
+            "predictive.background": null,
+            "predictive.border": "#646464",
             "renamed": "#efef80",
             "renamed.background": "#363300",
             "renamed.border": "#646464",
@@ -794,6 +803,9 @@
                   "selection": "#79a8ff80"
                }
             ],
+            "predictive": "#6ae4b9",
+            "predictive.background": null,
+            "predictive.border": "#61647a",
             "renamed": "#efef80",
             "renamed.background": "#363300",
             "renamed.border": "#61647a",
