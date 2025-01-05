@@ -620,7 +620,7 @@
                   "color": "#3f578f"
                },
                "property": {
-                  "color": "#3548cf"
+                  "color": "#005f5f"
                },
                "string": {
                   "color": "#005e8b"
@@ -698,7 +698,7 @@
             "title_bar.inactive_background": "#f2f2f2",
             "toolbar.background": "#ffffff",
             "warning": "#721045",
-            "warning.background": "#f3d000",
+            "warning.background": "#dfa0f0",
             "warning.border": "#9f9f9f"
          }
       },

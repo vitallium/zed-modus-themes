@@ -901,7 +901,6 @@ local commonColors = {
     comment: self.red_faint,
   },
   'Operandi Tritanopia': self.Operandi {
-    // Common accent foregrounds
     red_warmer: '#b21100',
     red_faint: '#702000',
     yellow: '#695500',
@@ -910,19 +909,12 @@ local commonColors = {
     magenta_intense: '#cd22bd',
     cyan_faint: '#004f5f',
 
-    // Graphs
-    bg_graph_green_0: '#70c3b0',
-    bg_graph_green_1: '#a3dfe5',
+    bg_graph_green_0: '#68c0a0',
+    bg_graph_green_1: '#a5dfd0',
     bg_graph_yellow_0: '#d99f9f',
     bg_graph_yellow_1: '#ffb58f',
-    bg_graph_blue_0: '#80a0df',
-    bg_graph_blue_1: '#9fcaff',
-    bg_graph_magenta_0: '#efafcf',
-    bg_graph_magenta_1: '#ffdaef',
-    bg_graph_cyan_0: '#7fd3ed',
-    bg_graph_cyan_1: '#afefff',
+    bg_graph_blue_1: '#a8cfff',
 
-    // Special purpose
     bg_completion: '#afdfef',
     bg_hover: '#ffafbc',
     bg_hover_secondary: '#9fdfff',
@@ -940,7 +932,6 @@ local commonColors = {
     modeline_warning: '#6f306f',
     modeline_info: '#00445f',
 
-    // Diffs
     bg_added: '#b5e7ff',
     bg_added_faint: '#c6f6ff',
     bg_added_refine: '#9adcef',
@@ -955,7 +946,6 @@ local commonColors = {
     fg_changed: '#6f1343',
     fg_changed_intense: '#7f0f9f',
 
-    // Mappings
     cursor: self.red_intense,
 
     keybind: self.red,
@@ -968,73 +958,66 @@ local commonColors = {
 
     underline_warning: self.magenta_intense,
 
+    bg_prominent_warning: self.bg_magenta_intense,
+
     bg_active_argument: self.bg_red_nuanced,
     fg_active_argument: self.red_warmer,
-    bg_active_value: self.bg_cyan_nuanced,
-    fg_active_value: self.cyan,
 
-    // Code mappings
+    builtin: self.magenta,
     comment: self.red_faint,
     constant: self.green_cooler,
+    docstring: self.fg_alt,
     fnname: self.cyan_warmer,
     keyword: self.red_cooler,
     preprocessor: self.red_warmer,
-    string: self.cyan,
-    type: self.blue_warmer,
-    variable: self.cyan_cooler,
     rx_construct: self.red,
+    string: self.cyan,
+    variable: self.cyan_cooler,
 
-    // Accent mappings
     accent_0: self.cyan,
     accent_1: self.red_warmer,
     accent_2: self.cyan_cooler,
     accent_3: self.magenta,
 
-    // Completion mappings
     fg_completion_match_0: self.cyan,
     fg_completion_match_1: self.red_warmer,
     fg_completion_match_2: self.magenta,
     fg_completion_match_3: self.cyan_cooler,
 
-    // Date mappings
     date_common: self.cyan_cooler,
+    date_deadline: self.red,
     date_holiday: self.red,
     date_holiday_other: self.cyan,
     date_scheduled: self.magenta,
-    date_weekday: self.cyan,
-    date_weekend: self.red_faint,
+    date_weekend: self.magenta_warmer,
 
-    // Link mappings
     fg_link: self.cyan,
     underline_link: self.cyan,
 
     fg_link_symbolic: self.cyan_cooler,
     underline_link_symbolic: self.cyan_cooler,
 
-    // Mail mappings
     mail_cite_0: self.cyan_faint,
     mail_cite_1: self.red_faint,
-    mail_cite_2: self.magenta_warmer,
-    mail_cite_3: self.cyan_warmer,
     mail_part: self.cyan_cooler,
     mail_recipient: self.cyan,
     mail_subject: self.red_cooler,
     mail_other: self.cyan,
 
-    // Mark mappings
     fg_mark_delete: self.red,
     fg_mark_select: self.cyan,
+    fg_mark_other: self.magenta,
 
-    // Prompt mappings
     fg_prompt: self.cyan_cooler,
 
-    // Prose mappings
-    prose_code: self.cyan,
+    fg_prose_code: self.cyan,
+
+    fg_prose_macro: self.red_warmer,
+
     prose_done: self.cyan,
-    prose_macro: self.red_warmer,
+
     prose_table_formula: self.red_cooler,
 
-    // Rainbow mappings
     rainbow_0: self.cyan,
     rainbow_1: self.red,
     rainbow_2: self.cyan_warmer,
@@ -1045,11 +1028,15 @@ local commonColors = {
     rainbow_7: self.magenta_faint,
     rainbow_8: self.red_faint,
 
-    // Heading mappings
+    bg_search_replace: self.bg_magenta_intense,
+
+    bg_search_rx_group_1: self.bg_magenta_intense,
+    bg_search_rx_group_2: self.bg_cyan_subtle,
+    bg_search_rx_group_3: self.bg_red_subtle,
+
     fg_heading_0: self.cyan_cooler,
     fg_heading_2: self.red_faint,
     fg_heading_3: self.cyan_faint,
-    fg_heading_5: self.green_faint,
     fg_heading_6: self.magenta_faint,
     fg_heading_7: self.cyan_warmer,
   },
