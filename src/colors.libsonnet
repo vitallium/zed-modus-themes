@@ -436,7 +436,7 @@ local commonColors = {
     // Common accent foregrounds
     red: '#ff5f59',
     red_warmer: '#ff6b55',
-    red_cooler: '#ff7f9f',
+    red_cooler: '#ff7f86',
     red_faint: '#ff9580',
     red_intense: '#ff5f5f',
     green: '#44bc44',
@@ -481,14 +481,12 @@ local commonColors = {
     bg_blue_intense: '#1640b0',
     bg_magenta_intense: '#7030af',
     bg_cyan_intense: '#2266ae',
-
     bg_red_subtle: '#620f2a',
     bg_green_subtle: '#00422a',
     bg_yellow_subtle: '#4a4000',
     bg_blue_subtle: '#242679',
     bg_magenta_subtle: '#552f5f',
     bg_cyan_subtle: '#004065',
-
     bg_red_nuanced: '#3a0c14',
     bg_green_nuanced: '#092f1f',
     bg_yellow_nuanced: '#381d0f',
@@ -496,10 +494,15 @@ local commonColors = {
     bg_magenta_nuanced: '#2f0c3f',
     bg_cyan_nuanced: '#042837',
 
-    // Uncommon accent backgrounds
-    bg_ochre: '#442c2f',
+    // Uncommon accent background and foreground pairs
+    bg_clay: '#49191a',
+    fg_clay: '#f1b090',
+    bg_ochre: '#462f20',
+    fg_ochre: '#e0d09c',
     bg_lavender: '#38325c',
-    bg_sage: '#0f3d30',
+    fg_lavender: '#dfc0f0',
+    bg_sage: '#143e32',
+    fg_sage: '#c3e7d4',
 
     // Graphs
     bg_graph_red_0: '#b52c2c',
@@ -522,7 +525,6 @@ local commonColors = {
     bg_hl_line: '#2f3849',
     bg_region: '#5a5a5a',
     fg_region: '#ffffff',
-
     bg_char_0: '#0050af',
     bg_char_1: '#7f1f7f',
     bg_char_2: '#625a00',
@@ -533,11 +535,9 @@ local commonColors = {
     bg_mode_line_inactive: '#2d2d2d',
     fg_mode_line_inactive: '#969696',
     border_mode_line_inactive: '#606060',
-
     modeline_err: '#ffa9bf',
     modeline_warning: '#dfcf43',
     modeline_info: '#9fefff',
-
     bg_tab_bar: '#313131',
     bg_tab_current: '#000000',
     bg_tab_other: '#545454',
@@ -549,71 +549,68 @@ local commonColors = {
     bg_added_fringe: '#237f3f',
     fg_added: '#a0e0a0',
     fg_added_intense: '#80e080',
-
     bg_changed: '#363300',
     bg_changed_faint: '#2a1f00',
     bg_changed_refine: '#4a4a00',
     bg_changed_fringe: '#8a7a00',
     fg_changed: '#efef80',
     fg_changed_intense: '#c0b05f',
-
     bg_removed: '#4f1119',
     bg_removed_faint: '#380a0f',
     bg_removed_refine: '#781a1f',
     bg_removed_fringe: '#b81a1f',
     fg_removed: '#ffbfbf',
     fg_removed_intense: '#ff9095',
-
     bg_diff_context: '#1a1a1a',
 
     // Paren match
     bg_paren_match: '#2f7f9f',
+    fg_paren_match: self.fg_main,
     bg_paren_expression: '#453040',
     underline_paren_match: null,
 
     // Mappings
-    // General mappings
     fringe: self.bg_dim,
     cursor: self.fg_main,
-
     keybind: self.blue_cooler,
     name: self.magenta,
     identifier: self.yellow_faint,
-
     err: self.red,
     warning: self.yellow_warmer,
     info: self.cyan_cooler,
-
     underline_err: self.red_intense,
     underline_warning: self.yellow,
     underline_note: self.cyan,
-
     bg_prominent_err: self.bg_red_intense,
     fg_prominent_err: self.fg_main,
     bg_prominent_warning: self.bg_yellow_intense,
     fg_prominent_warning: self.fg_main,
     bg_prominent_note: self.bg_cyan_intense,
     fg_prominent_note: self.fg_main,
-
     bg_active_argument: self.bg_yellow_nuanced,
     fg_active_argument: self.yellow_cooler,
     bg_active_value: self.bg_cyan_nuanced,
     fg_active_value: self.cyan_cooler,
 
     // Code mappings
+    bracket: self.fg_main,
     builtin: self.magenta_warmer,
     comment: self.fg_dim,
     constant: self.blue_cooler,
-    docstring: self.cyan_faint,
+    delimiter: self.fg_main,
     docmarkup: self.magenta_faint,
+    docstring: self.cyan_faint,
     fnname: self.magenta,
     keyword: self.magenta_cooler,
+    number: self.fg_main,
+    operator: self.fg_main,
     preprocessor: self.red_cooler,
+    punctuation: self.fg_main,
+    rx_backslash: self.magenta,
+    rx_construct: self.green_cooler,
     string: self.blue_warmer,
     type: self.cyan_cooler,
     variable: self.cyan,
-    rx_construct: self.green_cooler,
-    rx_backslash: self.magenta,
 
     // Accent mappings
     accent_0: self.blue_cooler,
@@ -639,15 +636,17 @@ local commonColors = {
 
     // Date mappings
     date_common: self.cyan,
-    date_deadline: self.red,
+    date_deadline: self.red_cooler,
+    date_deadline_subtle: self.red_faint,
     date_event: self.fg_alt,
-    date_holiday: self.red_cooler,
+    date_holiday: self.magenta_warmer,
     date_holiday_other: self.blue,
     date_now: self.fg_main,
     date_range: self.fg_alt,
-    date_scheduled: self.yellow_warmer,
+    date_scheduled: self.yellow_cooler,
+    date_scheduled_subtle: self.yellow_faint,
     date_weekday: self.cyan,
-    date_weekend: self.red_faint,
+    date_weekend: self.magenta,
 
     // Line number mappings
     fg_line_number_inactive: self.fg_dim,
@@ -659,11 +658,9 @@ local commonColors = {
     fg_link: self.blue_warmer,
     bg_link: null,
     underline_link: self.blue_warmer,
-
     fg_link_symbolic: self.cyan,
     bg_link_symbolic: null,
     underline_link_symbolic: self.cyan,
-
     fg_link_visited: self.magenta,
     bg_link_visited: null,
     underline_link_visited: self.magenta,
@@ -691,17 +688,22 @@ local commonColors = {
     bg_prompt: null,
 
     // Prose mappings
-    prose_block: self.fg_dim,
-    prose_code: self.cyan_cooler,
+    bg_prose_block_delimiter: self.bg_dim,
+    fg_prose_block_delimiter: self.fg_dim,
+    bg_prose_block_contents: self.bg_dim,
+    bg_prose_code: null,
+    fg_prose_code: self.cyan_cooler,
+    bg_prose_macro: null,
+    fg_prose_macro: self.magenta_cooler,
+    bg_prose_verbatim: null,
+    fg_prose_verbatim: self.magenta_warmer,
     prose_done: self.green,
-    prose_macro: self.magenta_cooler,
+    prose_todo: self.red,
     prose_metadata: self.fg_dim,
     prose_metadata_value: self.fg_alt,
     prose_table: self.fg_alt,
     prose_table_formula: self.magenta_warmer,
     prose_tag: self.magenta_faint,
-    prose_todo: self.red,
-    prose_verbatim: self.magenta_warmer,
 
     // Rainbow mappings
     rainbow_0: self.fg_main,
@@ -729,10 +731,10 @@ local commonColors = {
     bg_space_err: self.bg_red_intense,
 
     // Terminal mappings
-    bg_term_black: self.black,
-    fg_term_black: self.black,
-    bg_term_black_bright: self.gray35,
-    fg_term_black_bright: self.gray35,
+    bg_term_black: '#000000',
+    fg_term_black: '#000000',
+    bg_term_black_bright: '#595959',
+    fg_term_black_bright: '#595959',
     bg_term_red: self.red,
     fg_term_red: self.red,
     bg_term_red_bright: self.red_warmer,
@@ -757,10 +759,10 @@ local commonColors = {
     fg_term_cyan: self.cyan,
     bg_term_cyan_bright: self.cyan_cooler,
     fg_term_cyan_bright: self.cyan_cooler,
-    bg_term_white: self.gray65,
-    fg_term_white: self.gray65,
-    bg_term_white_bright: self.white,
-    fg_term_white_bright: self.white,
+    bg_term_white: '#a6a6a6',
+    fg_term_white: '#a6a6a6',
+    bg_term_white_bright: '#ffffff',
+    fg_term_white_bright: '#ffffff',
 
     // Heading mappings
     fg_heading_0: self.cyan_cooler,
