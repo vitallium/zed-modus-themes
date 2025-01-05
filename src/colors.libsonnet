@@ -850,17 +850,29 @@ local commonColors = {
     border: '#61647a',
 
     // Special purpose
+    red_faint: '#ff9f80',
+
     bg_completion: '#483d8a',
+    bg_hover: '#45605e',
+    bg_hover_secondary: '#654a39',
     bg_hl_line: '#303a6f',
     bg_region: '#555a66',
+
+    bg_char_0: '#0050af',
+    bg_char_1: '#7f1f7f',
+    bg_char_2: '#625a00',
 
     bg_mode_line_active: '#484d67',
     border_mode_line_active: '#979797',
     bg_mode_line_inactive: '#292d48',
+    fg_mode_line_inactive: '#969696',
     border_mode_line_inactive: '#606270',
 
+    modeline_err: '#ffa9bf',
+    modeline_warning: '#dfcf43',
+    modeline_info: '#9fefff',
+
     bg_tab_bar: '#2c3045',
-    bg_tab_current: '#0d0e1c',
     bg_tab_other: '#4a4f6a',
 
     // Diffs
@@ -881,10 +893,11 @@ local commonColors = {
 
     bg_diff_context: '#1a1f30',
 
-    // Mappings
-    cursor: self.magenta_warmer,
+    bg_paren_match: '#5f789f',
+    bg_paren_expression: '#453040',
 
-    // Code mappings
+    cursor: self.magenta_intense,
+
     comment: self.red_faint,
   },
   'Operandi Tritanopia': self.Operandi {
