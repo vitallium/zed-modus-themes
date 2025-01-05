@@ -1173,14 +1173,14 @@
          "name": "Modus Vivendi Tritanopia",
          "style": {
             "accents": [
-               "#00d3d0",
-               "#ff5f59",
-               "#4ae2ff",
-               "#ff6f9f",
-               "#6ae4b9",
-               "#feacd0",
-               "#7fdbdf",
-               "#caa6df"
+               "#ffffff",
+               "#ef7fff",
+               "#00eff0",
+               "#ff6740",
+               "#efef00",
+               "#b6a0ff",
+               "#44df44",
+               "#79a8ff"
             ],
             "background": "#000000",
             "border": "#646464",
@@ -1208,7 +1208,7 @@
             "element.hover": "#535353",
             "element.selected": "#535353",
             "elevated_surface.background": "#1e1e1e",
-            "error": "#ff6740",
+            "error": "#ff5f59",
             "error.background": "#9d1f1f",
             "error.border": "#646464",
             "ghost_element.active": "#535353",
@@ -1229,48 +1229,48 @@
             "players": [
                {
                   "background": "#004065",
-                  "cursor": "#ff5f5f",
+                  "cursor": "#ffffff",
                   "selection": "#00d3d080"
                },
                {
                   "background": "#000000",
-                  "cursor": "#00d3d0",
-                  "selection": "#00d3d080"
+                  "cursor": "#ffffff",
+                  "selection": "#ffffff80"
                },
                {
                   "background": "#000000",
-                  "cursor": "#ff5f59",
-                  "selection": "#ff5f5980"
+                  "cursor": "#ef7fff",
+                  "selection": "#ef7fff80"
                },
                {
                   "background": "#000000",
-                  "cursor": "#4ae2ff",
-                  "selection": "#4ae2ff80"
+                  "cursor": "#00eff0",
+                  "selection": "#00eff080"
                },
                {
                   "background": "#000000",
-                  "cursor": "#ff6f9f",
-                  "selection": "#ff6f9f80"
+                  "cursor": "#ff6740",
+                  "selection": "#ff674080"
                },
                {
                   "background": "#000000",
-                  "cursor": "#6ae4b9",
-                  "selection": "#6ae4b980"
+                  "cursor": "#efef00",
+                  "selection": "#efef0080"
                },
                {
                   "background": "#000000",
-                  "cursor": "#feacd0",
-                  "selection": "#feacd080"
+                  "cursor": "#b6a0ff",
+                  "selection": "#b6a0ff80"
                },
                {
                   "background": "#000000",
-                  "cursor": "#7fdbdf",
-                  "selection": "#7fdbdf80"
+                  "cursor": "#44df44",
+                  "selection": "#44df4480"
                },
                {
                   "background": "#000000",
-                  "cursor": "#caa6df",
-                  "selection": "#caa6df80"
+                  "cursor": "#79a8ff",
+                  "selection": "#79a8ff80"
                }
             ],
             "predictive": "#6ae4b9",
@@ -1284,7 +1284,7 @@
             "scrollbar.thumb.hover_background": "#535353",
             "scrollbar.track.background": "#1e1e1e",
             "scrollbar.track.border": "#646464",
-            "search.match_background": "#9d1f1f",
+            "search.match_background": "#7a6100",
             "status_bar.background": "#2d2d2d",
             "surface.background": "#1e1e1e",
             "syntax": {
@@ -1295,16 +1295,16 @@
                   "color": "#00bcff"
                },
                "comment": {
-                  "color": "#ff9070"
+                  "color": "#989898"
                },
                "constant": {
-                  "color": "#88ca9f"
+                  "color": "#00bcff"
                },
                "constructor": {
-                  "color": "#4ae2ff"
+                  "color": "#feacd0"
                },
                "embedded": {
-                  "color": "#ff6740"
+                  "color": "#ff7f86"
                },
                "function": {
                   "color": "#feacd0"
@@ -1316,45 +1316,45 @@
                   "color": "#82b0ec"
                },
                "operator": {
-                  "color": "#4ae2ff"
+                  "color": "#feacd0"
                },
                "property": {
-                  "color": "#79a8ff"
+                  "color": "#6ae4b9"
                },
                "string": {
-                  "color": "#00d3d0"
+                  "color": "#79a8ff"
                },
                "string.escape": {
-                  "color": "#00d3d0"
+                  "color": "#79a8ff"
                },
                "string.regex": {
-                  "color": "#00d3d0"
+                  "color": "#79a8ff"
                },
                "string.special": {
-                  "color": "#00d3d0"
+                  "color": "#79a8ff"
                },
                "string.special.symbol": {
-                  "color": "#00d3d0"
+                  "color": "#79a8ff"
                },
                "tag": {
-                  "color": "#88ca9f"
+                  "color": "#00bcff"
                },
                "text.literal": {
                   "background_color": "#1e1e1e",
                   "color": "#989898"
                },
                "title": {
-                  "color": "#ff9070",
+                  "color": "#d2b580",
                   "font_weight": 700
                },
                "type": {
                   "color": "#6ae4b9"
                },
                "variable": {
-                  "color": "#6ae4b9"
+                  "color": "#00d3d0"
                },
                "variable.special": {
-                  "color": "#6ae4b9"
+                  "color": "#00d3d0"
                }
             },
             "tab.active_background": "#000000",
@@ -1396,7 +1396,7 @@
             "title_bar.background": "#000000",
             "title_bar.inactive_background": "#1e1e1e",
             "toolbar.background": "#000000",
-            "warning": "#feacd0",
+            "warning": "#ffa00f",
             "warning.background": "#7a6100",
             "warning.border": "#646464"
          }

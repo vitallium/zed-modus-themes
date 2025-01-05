@@ -1041,9 +1041,8 @@ local commonColors = {
     fg_heading_7: self.cyan_warmer,
   },
   'Vivendi Tritanopia': self.Vivendi {
-    // Common accent foregrounds
     red_warmer: '#ff6740',
-    red_cooler: '#ff6f9f',
+    red_cooler: '#ff7f86',
     red_faint: '#ff9070',
     yellow: '#cabf00',
     yellow_warmer: '#ffa00f',
@@ -1053,7 +1052,6 @@ local commonColors = {
     cyan_warmer: '#4ae2ff',
     cyan_faint: '#7fdbdf',
 
-    // Graphs
     bg_graph_green_0: '#afd1c0',
     bg_graph_green_1: '#607a8f',
     bg_graph_yellow_0: '#facfd6',
@@ -1064,10 +1062,10 @@ local commonColors = {
     bg_graph_magenta_1: '#7f506f',
     bg_graph_cyan_0: '#57dfea',
 
-    // Special purpose
     bg_completion: '#004253',
     bg_hover: '#8e3e3b',
     bg_hover_secondary: '#00405f',
+
     bg_char_0: '#922a00',
     bg_char_1: '#00709f',
     bg_char_2: '#5f3faf',
@@ -1080,7 +1078,6 @@ local commonColors = {
     modeline_warning: '#df9f93',
     modeline_info: '#4fcfef',
 
-    // Diffs
     bg_added: '#004254',
     bg_added_faint: '#003042',
     bg_added_refine: '#004f7f',
@@ -1095,103 +1092,6 @@ local commonColors = {
     fg_changed: '#e3cfff',
     fg_changed_intense: '#cf9fe2',
 
-    // Mappings
-    cursor: self.red_intense,
-
-    keybind: self.red,
-    name: self.red_cooler,
-    identifier: self.red_faint,
-
-    err: self.red_warmer,
-    warning: self.magenta,
-    info: self.cyan,
-
-    // Code mappings
-    builtin: self.magenta,
-    comment: self.red_faint,
-    constant: self.green_faint,
-    fnname: self.cyan_warmer,
-    keyword: self.red_cooler,
-    preprocessor: self.red_warmer,
-    string: self.cyan,
-    type: self.blue_warmer,
-    variable: self.cyan_cooler,
-    rx_construct: self.red,
-
-    // Accent mappings
-    accent_0: self.cyan,
-    accent_1: self.red_warmer,
-    accent_2: self.cyan_cooler,
-    accent_3: self.magenta,
-
-    // Completion mappings
-    fg_completion_match_0: self.cyan,
-    fg_completion_match_1: self.red_warmer,
-    fg_completion_match_2: self.magenta,
-    fg_completion_match_3: self.cyan_cooler,
-
-    // Date mappings
-    date_common: self.cyan_cooler,
-    date_deadline: self.red,
-    date_holiday: self.red_intense,
-    date_holiday_other: self.cyan_warmer,
-    date_scheduled: self.magenta,
-    date_weekday: self.cyan,
-    date_weekend: self.red_faint,
-
-    // Link mappings
-    fg_link: self.cyan,
-    underline_link: self.cyan,
-
-    fg_link_symbolic: self.cyan_cooler,
-    underline_link_symbolic: self.cyan_cooler,
-
-    // Mail mappings
-    mail_cite_0: self.cyan_faint,
-    mail_cite_1: self.red_faint,
-    mail_cite_2: self.magenta_warmer,
-    mail_cite_3: self.cyan_warmer,
-    mail_part: self.cyan_cooler,
-    mail_recipient: self.cyan,
-    mail_subject: self.red_cooler,
-    mail_other: self.cyan,
-
-    // Mark mappings
-    fg_mark_delete: self.red,
-    fg_mark_select: self.cyan,
-    fg_mark_other: self.magenta_warmer,
-
-    // Prompt mappings
-    fg_prompt: self.cyan_cooler,
-
-    // Prose mappings
-    prose_code: self.cyan,
-    prose_done: self.cyan,
-    prose_macro: self.red_warmer,
-    prose_table_formula: self.red_cooler,
-
-    // Rainbow mappings
-    rainbow_0: self.cyan,
-    rainbow_1: self.red,
-    rainbow_2: self.cyan_warmer,
-    rainbow_3: self.red_cooler,
-    rainbow_4: self.cyan_cooler,
-    rainbow_5: self.magenta,
-    rainbow_6: self.cyan_faint,
-    rainbow_7: self.magenta_faint,
-    rainbow_8: self.red_faint,
-
-    // Search mappings
-    bg_search_current: self.bg_red_intense,
-    bg_search_lazy: self.bg_cyan_intense,
-    bg_search_replace: self.bg_magenta_intense,
-
-    // Heading mappings
-    fg_heading_0: self.cyan_cooler,
-    fg_heading_2: self.red_faint,
-    fg_heading_3: self.cyan_faint,
-    fg_heading_5: self.green_faint,
-    fg_heading_6: self.magenta_faint,
-    fg_heading_7: self.cyan_faint,
+    bg_paren_match: '#2f7f9f',
   },
 }
