@@ -801,7 +801,6 @@ local commonColors = {
     bg_inactive: '#dfd5cf',
     border: '#9f9690',
 
-    // Special purpose
     bg_completion: '#f0c1cf',
     bg_hover: '#b2e4dc',
     bg_hover_secondary: '#f5d0a0',
@@ -811,10 +810,10 @@ local commonColors = {
     bg_mode_line_active: '#cab9b2',
     border_mode_line_active: '#545454',
     bg_mode_line_inactive: '#dfd9cf',
+    fg_mode_line_inactive: '#585858',
     border_mode_line_inactive: '#a59a94',
 
     bg_tab_bar: '#e0d4ce',
-    bg_tab_current: '#fbf7f0',
     bg_tab_other: '#c8b8b2',
 
     // Diffs
@@ -822,24 +821,22 @@ local commonColors = {
     bg_added_faint: '#dcf8d1',
     bg_added_refine: '#acd6a5',
     bg_added_fringe: '#6cc06c',
-
     bg_changed: '#ffdfa9',
     bg_changed_faint: '#ffefbf',
     bg_changed_refine: '#fac090',
     bg_changed_fringe: '#c0b200',
-
     bg_removed: '#f4d0cf',
     bg_removed_faint: '#ffe9e5',
     bg_removed_refine: '#f3b5a7',
     bg_removed_fringe: '#d84a4f',
-
     bg_diff_context: '#efe9df',
 
     // Paren match
     bg_paren_match: '#7fdfcf',
+    bg_paren_expression: '#efd3f5',
 
     // Mappings
-    cursor: self.red,
+    cursor: self.red_intense,
 
     // Code mappings
     comment: self.red_faint,

@@ -297,7 +297,7 @@
             "players": [
                {
                   "background": "#bfefff",
-                  "cursor": "#a60000",
+                  "cursor": "#d00000",
                   "selection": "#005e8b80"
                },
                {
@@ -425,7 +425,7 @@
                   "color": "#005e8b"
                }
             },
-            "tab.active_background": "#fbf7f0",
+            "tab.active_background": "#ffffff",
             "tab.inactive_background": "#c8b8b2",
             "tab_bar.background": "#e0d4ce",
             "terminal.ansi.black": "#000000",
