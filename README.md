@@ -3,8 +3,7 @@
 Highly accessible themes for [Zed](https://zed.dev), conforming with
 the highest standard for color contrast between background and foreground values
 ([WCAG AAA](https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced.html)). This
-is a Zed port of the original
-[Modus Themes](https://protesilaos.com/emacs/modus-themes) built for
+is a Zed port of the original [Modus Themes](https://protesilaos.com/emacs/modus-themes) built for
 [GNU Emacs](https://www.gnu.org/software/emacs/).
 
 ## Screenshots
@@ -17,6 +16,10 @@ is a Zed port of the original
 
 ![](./doc/images/modus_operandi_tinted.png)
 
+#### Modus Operandi Tritanopia
+
+![](./doc/images/modus_operandi_tritanopia.png)
+
 ### Modus Vivendi
 
 ![](./doc/images/modus_vivendi.png)
@@ -24,6 +27,10 @@ is a Zed port of the original
 #### Modus Vivendi Tinted
 
 ![](./doc/images/modus_vivendi_tinted.png)
+
+#### Modus Vivendi Tritanopia
+
+![](./doc/images/modus_vivendi_tritanopia.png)
 
 ## How to build
 
