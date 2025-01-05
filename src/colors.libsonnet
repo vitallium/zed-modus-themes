@@ -1094,4 +1094,117 @@ local commonColors = {
 
     bg_paren_match: '#2f7f9f',
   },
+  'Operandi Deuteranopia': self.Operandi {
+    yellow: '#695500',
+    yellow_warmer: '#973300',
+    yellow_cooler: '#77492f',
+    yellow_faint: '#624416',
+    yellow_intense: '#808000',
+
+    bg_graph_red_0: '#d0b029',
+    bg_graph_red_1: '#e0cab4',
+    bg_graph_green_0: '#8ac050',
+    bg_graph_green_1: '#afdfa5',
+    bg_graph_magenta_0: '#b0b0d0',
+    bg_graph_magenta_1: '#d0dfdf',
+    bg_graph_cyan_0: '#6faad9',
+    bg_graph_cyan_1: '#bfe0ff',
+
+    bg_mode_line_active: '#d0d6ff',
+    fg_mode_line_active: '#0f0f0f',
+    border_mode_line_active: '#4f4f74',
+
+    modeline_err: '#603a00',
+    modeline_warning: '#454500',
+    modeline_info: '#023d92',
+
+    bg_added: '#d5d7ff',
+    bg_added_faint: '#e6e6ff',
+    bg_added_refine: '#babcef',
+    bg_added_fringe: '#275acc',
+    fg_added: '#303099',
+    fg_added_intense: '#0303cc',
+
+    bg_removed: '#f4f099',
+    bg_removed_faint: '#f6f6b7',
+    bg_removed_refine: '#ede06f',
+    bg_removed_fringe: '#c0b200',
+    fg_removed: '#553d00',
+    fg_removed_intense: '#7f6f00',
+  },
+  'Vivendi Deuteranopia': self.Vivendi {
+    yellow: '#cabf00',
+    yellow_warmer: '#ffa00f',
+    yellow_cooler: '#d8af7a',
+    yellow_faint: '#d2b580',
+    yellow_intense: '#efef00',
+
+    bg_graph_red_0: '#bf6000',
+    bg_graph_red_1: '#733500',
+    bg_graph_green_0: '#6fbf8f',
+    bg_graph_green_1: '#2f5f4f',
+    bg_graph_yellow_0: '#c1c00a',
+    bg_graph_yellow_1: '#7f6640',
+    bg_graph_magenta_0: '#7f7f8e',
+    bg_graph_magenta_1: '#4f4f5f',
+    bg_graph_cyan_0: '#376f9a',
+    bg_graph_cyan_1: '#00404f',
+
+    bg_mode_line_active: '#2a2a6a',
+    fg_mode_line_active: '#f0f0f0',
+    border_mode_line_active: '#8080a7',
+
+    modeline_err: '#e5bf00',
+    modeline_warning: '#c0cf35',
+    modeline_info: '#abeadf',
+
+    bg_added: '#003066',
+    bg_added_faint: '#001a4f',
+    bg_added_refine: '#0f4a77',
+    bg_added_fringe: '#006fff',
+    fg_added: '#c4d5ff',
+    fg_added_intense: '#8080ff',
+
+    bg_removed: '#3d3d00',
+    bg_removed_faint: '#281f00',
+    bg_removed_refine: '#555500',
+    bg_removed_fringe: '#d0c03f',
+    fg_removed: '#d4d48f',
+    fg_removed_intense: '#d0b05f',
+
+    comment: self.yellow_cooler,
+    rx_backslash: self.blue_cooler,
+    rx_construct: self.yellow_cooler,
+
+    accent_1: self.yellow,
+
+    fg_completion_match_1: self.yellow,
+
+    date_deadline: self.yellow_warmer,
+    date_holiday: self.yellow_warmer,
+    date_scheduled: self.yellow_cooler,
+    date_scheduled_subtle: self.yellow_faint,
+
+    fg_link_visited: self.yellow_faint,
+    underline_link_visited: self.yellow_faint,
+
+    mail_cite_1: self.yellow_cooler,
+    mail_cite_3: self.yellow,
+    mail_subject: self.yellow_warmer,
+
+    fg_mark_delete: self.yellow,
+
+    prose_todo: self.yellow_warmer,
+    prose_table_formula: self.yellow_warmer,
+
+    rainbow_0: self.yellow_warmer,
+    rainbow_2: self.yellow_cooler,
+    rainbow_4: self.yellow,
+    rainbow_6: self.yellow_faint,
+
+    bg_search_current: self.bg_yellow_intense,
+    bg_search_rx_group_3: self.bg_yellow_subtle,
+
+    bg_space_err: self.bg_yellow_intense,
+  },
 }
