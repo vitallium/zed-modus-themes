@@ -22,7 +22,7 @@ local makeTheme(name, colorScheme) = {
     'element.active': colorScheme.bg_button_active,
     'element.selected': colorScheme.bg_button_active,
     'element.disabled': colorScheme.bg_button_inactive,
-    // "drop_target.background": "N/A",
+    'drop_target.background': colorScheme.bg_active,
     'ghost_element.background': colorScheme.bg_button_inactive,
     'ghost_element.hover': colorScheme.bg_button_active,
     'ghost_element.active': colorScheme.bg_button_active,
