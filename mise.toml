@@ -7,3 +7,7 @@ JSONNET_PATH = "src"
 [tasks.build]
 description = "Compile Modus themes"
 run = "jsonnet src/theme.jsonnet > themes/modus.json"
+
+[tasks.watch]
+description = "Watch and compile Modus themes on changes"
+run = "mise watch build --watch src"
