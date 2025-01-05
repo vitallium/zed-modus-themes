@@ -318,10 +318,10 @@ local commonColors = {
     bg_space_err: self.bg_red_intense,
 
     // Terminal mappings
-    bg_term_black: 'black',
-    fg_term_black: 'black',
-    bg_term_black_bright: 'gray35',
-    fg_term_black_bright: 'gray35',
+    bg_term_black: self.black,
+    fg_term_black: self.black,
+    bg_term_black_bright: self.gray35,
+    fg_term_black_bright: self.gray35,
 
     bg_term_red: self.red,
     fg_term_red: self.red,
@@ -353,10 +353,10 @@ local commonColors = {
     bg_term_cyan_bright: self.cyan_cooler,
     fg_term_cyan_bright: self.cyan_cooler,
 
-    bg_term_white: 'gray65',
-    fg_term_white: 'gray65',
-    bg_term_white_bright: 'white',
-    fg_term_white_bright: 'white',
+    bg_term_white: self.gray65,
+    fg_term_white: self.gray65,
+    bg_term_white_bright: self.white,
+    fg_term_white_bright: self.white,
 
     // Heading mappings
     fg_heading_0: self.cyan_cooler,
