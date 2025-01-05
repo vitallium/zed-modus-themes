@@ -20,6 +20,10 @@ is a Zed port of the original [Modus Themes](https://protesilaos.com/emacs/modus
 
 ![](./doc/images/modus_operandi_tritanopia.png)
 
+#### Modus Operandi Deuteranopia
+
+![](./doc/images/modus_operandi_deuteranopia.png)
+
 ### Modus Vivendi
 
 ![](./doc/images/modus_vivendi.png)
@@ -31,6 +35,10 @@ is a Zed port of the original [Modus Themes](https://protesilaos.com/emacs/modus
 #### Modus Vivendi Tritanopia
 
 ![](./doc/images/modus_vivendi_tritanopia.png)
+
+#### Modus Vivendi Deuteranopia
+
+![](./doc/images/modus_vivendi_deuteranopia.png)
 
 ## How to build
 
