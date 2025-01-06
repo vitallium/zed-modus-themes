@@ -196,7 +196,6 @@ local makeTheme(name, colorScheme) = {
       },
       'text.literal': {
         color: colorScheme.fg_dim,
-        background_color: colorScheme.bg_dim,
       },
       title: {
         color: colorScheme.fg_heading_2,
