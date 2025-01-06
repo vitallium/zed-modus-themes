@@ -1,5 +1,13 @@
 local colors = import 'colors.libsonnet';
 
+local addAlpha(color, alpha) =
+  if std.length(color) == 7 then
+    color + std.format('%02x', std.floor(alpha * 255))
+  else if std.length(color) == 9 then
+    color[:-2] + std.format('%02x', std.floor(alpha * 255))
+  else
+    color;
+
 local makeTheme(name, colorScheme) = {
   name: 'Modus ' + name,
   appearance: colorScheme.appearance,
@@ -22,7 +30,7 @@ local makeTheme(name, colorScheme) = {
     'element.active': colorScheme.bg_button_active,
     'element.selected': colorScheme.bg_button_active,
     'element.disabled': colorScheme.bg_button_inactive,
-    'drop_target.background': colorScheme.bg_active,
+    'drop_target.background': addAlpha(colorScheme.bg_active, 0.55),
     'ghost_element.background': colorScheme.bg_button_inactive,
     'ghost_element.hover': colorScheme.bg_button_active,
     'ghost_element.active': colorScheme.bg_button_active,
@@ -124,13 +132,13 @@ local makeTheme(name, colorScheme) = {
       {
         cursor: colorScheme.cursor,
         background: colorScheme.bg_mark_select,
-        selection: colorScheme.fg_mark_select + '80',
+        selection: addAlpha(colorScheme.fg_mark_select, 0.55),
       },
     ] + [
       {
         cursor: colorScheme['rainbow_' + i],
         background: colorScheme.bg_main,
-        selection: colorScheme['rainbow_' + i] + '80',
+        selection: addAlpha(colorScheme['rainbow_' + i], 0.55),
       }
       for i in std.range(0, 7)
     ],
