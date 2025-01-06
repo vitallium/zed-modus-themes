@@ -814,6 +814,7 @@ local commonColors = {
     border_mode_line_inactive: '#a59a94',
 
     bg_tab_bar: '#e0d4ce',
+    bg_tab_current: '#fbf7f0',
     bg_tab_other: '#c8b8b2',
 
     // Diffs
