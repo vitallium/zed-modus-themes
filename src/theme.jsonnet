@@ -15,8 +15,14 @@ local makeTheme(name, colorScheme) = {
     text: colorScheme.fg_main,
     'text.muted': colorScheme.fg_alt,
     'text.placeholder': colorScheme.fg_dim,
-    'text.disabled': colorScheme.fg_dim,
+    'text.disabled': colorScheme.fg_alt,
     'text.accent': colorScheme.fg_alt,
+
+    icon: colorScheme.fg_main,
+    'icon.muted': colorScheme.fg_alt,
+    'icon.disabled': colorScheme.fg_dim,
+    'icon.placeholder': colorScheme.fg_dim,
+    'icon.accent': colorScheme.fg_alt,
 
     border: colorScheme.border,
     'border.variant': colorScheme.border,
