@@ -114,7 +114,7 @@
                   "selection": "#3548cf8c"
                }
             ],
-            "predictive": "#005f5f",
+            "predictive": "#595959",
             "predictive.background": null,
             "predictive.border": "#9f9f9f",
             "renamed": "#553d00",
@@ -352,7 +352,7 @@
                   "selection": "#3548cf8c"
                }
             ],
-            "predictive": "#005f5f",
+            "predictive": "#595959",
             "predictive.background": null,
             "predictive.border": "#9f9f9f",
             "renamed": "#553d00",
@@ -590,7 +590,7 @@
                   "selection": "#3548cf8c"
                }
             ],
-            "predictive": "#005f5f",
+            "predictive": "#595959",
             "predictive.background": null,
             "predictive.border": "#9f9690",
             "renamed": "#553d00",
@@ -828,7 +828,7 @@
                   "selection": "#7c318f8c"
                }
             ],
-            "predictive": "#005f5f",
+            "predictive": "#595959",
             "predictive.background": null,
             "predictive.border": "#9f9f9f",
             "renamed": "#6f1343",
@@ -1066,7 +1066,7 @@
                   "selection": "#79a8ff8c"
                }
             ],
-            "predictive": "#6ae4b9",
+            "predictive": "#989898",
             "predictive.background": null,
             "predictive.border": "#646464",
             "renamed": "#efef80",
@@ -1304,7 +1304,7 @@
                   "selection": "#79a8ff8c"
                }
             ],
-            "predictive": "#6ae4b9",
+            "predictive": "#989898",
             "predictive.background": null,
             "predictive.border": "#646464",
             "renamed": "#efef80",
@@ -1542,7 +1542,7 @@
                   "selection": "#79a8ff8c"
                }
             ],
-            "predictive": "#6ae4b9",
+            "predictive": "#989898",
             "predictive.background": null,
             "predictive.border": "#61647a",
             "renamed": "#efef80",
@@ -1780,7 +1780,7 @@
                   "selection": "#79a8ff8c"
                }
             ],
-            "predictive": "#6ae4b9",
+            "predictive": "#989898",
             "predictive.background": null,
             "predictive.border": "#646464",
             "renamed": "#e3cfff",

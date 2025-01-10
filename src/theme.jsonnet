@@ -98,7 +98,7 @@ local makeTheme(name, colorScheme) = {
     'hint.background': colorScheme.bg_cyan_intense,
     'hint.border': colorScheme.border,
 
-    predictive: colorScheme.fg_prompt,
+    predictive: colorScheme.fg_dim,
     'predictive.background': colorScheme.bg_prompt,
     'predictive.border': colorScheme.border,
 
