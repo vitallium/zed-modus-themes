@@ -94,7 +94,7 @@ local makeTheme(name, colorScheme) = {
     'error': colorScheme.err,
     'error.background': colorScheme.bg_prominent_err,
     'error.border': colorScheme.border,
-    hint: colorScheme.cyan_cooler,
+    hint: colorScheme.fg_dim,
     'hint.background': colorScheme.bg_cyan_intense,
     'hint.border': colorScheme.border,
 
@@ -228,6 +228,5 @@ local makeTheme(name, colorScheme) = {
   themes: [
     makeTheme(name, colors[name])
     for name in std.objectFields(colors)
-    if colors[name].appearance != null
   ],
 }
