@@ -130,7 +130,7 @@
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
-                  "color": "#005e8b"
+                  "color": "#a0132f"
                },
                "boolean": {
                   "color": "#0000b0"
@@ -371,7 +371,7 @@
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
-                  "color": "#005e8b"
+                  "color": "#a0132f"
                },
                "boolean": {
                   "color": "#0000b0"
@@ -612,7 +612,7 @@
             "surface.background": "#efe9dd",
             "syntax": {
                "attribute": {
-                  "color": "#005e8b"
+                  "color": "#a0132f"
                },
                "boolean": {
                   "color": "#0000b0"
@@ -853,7 +853,7 @@
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
-                  "color": "#005e8b"
+                  "color": "#b21100"
                },
                "boolean": {
                   "color": "#0000b0"
@@ -1094,7 +1094,7 @@
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
-                  "color": "#00d3d0"
+                  "color": "#ff7f86"
                },
                "boolean": {
                   "color": "#00bcff"
@@ -1335,7 +1335,7 @@
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
-                  "color": "#00d3d0"
+                  "color": "#ff7f86"
                },
                "boolean": {
                   "color": "#00bcff"
@@ -1576,7 +1576,7 @@
             "surface.background": "#1d2235",
             "syntax": {
                "attribute": {
-                  "color": "#00d3d0"
+                  "color": "#ff7f86"
                },
                "boolean": {
                   "color": "#00bcff"
@@ -1817,7 +1817,7 @@
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
-                  "color": "#00d3d0"
+                  "color": "#ff7f86"
                },
                "boolean": {
                   "color": "#00bcff"

@@ -154,7 +154,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.comment,
       },
       attribute: {
-        color: colorScheme.cyan,
+        color: colorScheme.preprocessor,
       },
       boolean: {
         color: colorScheme.blue_cooler,
