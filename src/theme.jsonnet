@@ -173,6 +173,7 @@ local makeTheme(name, colorScheme) = {
       },
       keyword: {
         color: colorScheme.magenta_cooler,
+        font_weight: 700,
       },
       number: {
         color: colorScheme.blue_faint,

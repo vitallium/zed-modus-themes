@@ -151,7 +151,8 @@
                   "color": "#721045"
                },
                "keyword": {
-                  "color": "#531ab6"
+                  "color": "#531ab6",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#003497"
@@ -389,7 +390,8 @@
                   "color": "#721045"
                },
                "keyword": {
-                  "color": "#531ab6"
+                  "color": "#531ab6",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#003497"
@@ -627,7 +629,8 @@
                   "color": "#721045"
                },
                "keyword": {
-                  "color": "#531ab6"
+                  "color": "#531ab6",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#003497"
@@ -865,7 +868,8 @@
                   "color": "#721045"
                },
                "keyword": {
-                  "color": "#531ab6"
+                  "color": "#531ab6",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#003497"
@@ -1103,7 +1107,8 @@
                   "color": "#feacd0"
                },
                "keyword": {
-                  "color": "#b6a0ff"
+                  "color": "#b6a0ff",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#82b0ec"
@@ -1341,7 +1346,8 @@
                   "color": "#feacd0"
                },
                "keyword": {
-                  "color": "#b6a0ff"
+                  "color": "#b6a0ff",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#82b0ec"
@@ -1579,7 +1585,8 @@
                   "color": "#feacd0"
                },
                "keyword": {
-                  "color": "#b6a0ff"
+                  "color": "#b6a0ff",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#82b0ec"
@@ -1817,7 +1824,8 @@
                   "color": "#feacd0"
                },
                "keyword": {
-                  "color": "#b6a0ff"
+                  "color": "#b6a0ff",
+                  "font_weight": 700
                },
                "number": {
                   "color": "#82b0ec"
