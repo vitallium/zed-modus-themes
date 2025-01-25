@@ -170,7 +170,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.preprocessor,
       },
       'function': {
-        color: colorScheme.magenta,
+        color: colorScheme.fnname,
       },
       keyword: {
         color: colorScheme.keyword,
