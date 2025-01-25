@@ -136,7 +136,8 @@
                   "color": "#0000b0"
                },
                "comment": {
-                  "color": "#595959"
+                  "color": "#595959",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#0000b0"
@@ -377,7 +378,8 @@
                   "color": "#0000b0"
                },
                "comment": {
-                  "color": "#595959"
+                  "color": "#595959",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#0000b0"
@@ -618,7 +620,8 @@
                   "color": "#0000b0"
                },
                "comment": {
-                  "color": "#7f0000"
+                  "color": "#7f0000",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#0000b0"
@@ -859,7 +862,8 @@
                   "color": "#0000b0"
                },
                "comment": {
-                  "color": "#702000"
+                  "color": "#702000",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#00663f"
@@ -1100,7 +1104,8 @@
                   "color": "#00bcff"
                },
                "comment": {
-                  "color": "#989898"
+                  "color": "#989898",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#00bcff"
@@ -1341,7 +1346,8 @@
                   "color": "#00bcff"
                },
                "comment": {
-                  "color": "#d8af7a"
+                  "color": "#d8af7a",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#00bcff"
@@ -1582,7 +1588,8 @@
                   "color": "#00bcff"
                },
                "comment": {
-                  "color": "#ff9f80"
+                  "color": "#ff9f80",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#00bcff"
@@ -1823,7 +1830,8 @@
                   "color": "#00bcff"
                },
                "comment": {
-                  "color": "#989898"
+                  "color": "#989898",
+                  "font_style": "italic"
                },
                "constant": {
                   "color": "#00bcff"

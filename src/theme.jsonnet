@@ -150,14 +150,15 @@ local makeTheme(name, colorScheme) = {
       for i in std.range(0, 7)
     ],
     syntax: {
-      comment: {
-        color: colorScheme.comment,
-      },
       attribute: {
         color: colorScheme.preprocessor,
       },
       boolean: {
         color: colorScheme.blue_cooler,
+      },
+      comment: {
+        color: colorScheme.comment,
+        font_style: 'italic',
       },
       constant: {
         color: colorScheme.constant,
