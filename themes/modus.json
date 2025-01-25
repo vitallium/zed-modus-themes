@@ -115,7 +115,7 @@
             "scrollbar.thumb.hover_background": "#c4c4c4",
             "scrollbar.track.background": "#f2f2f2",
             "scrollbar.track.border": "#9f9f9f",
-            "search.match_background": "#f3d000",
+            "search.match_background": "#a4d5f9",
             "status_bar.background": "#e6e6e6",
             "surface.background": "#f2f2f2",
             "syntax": {
@@ -347,7 +347,7 @@
             "scrollbar.thumb.hover_background": "#c4c4c4",
             "scrollbar.track.background": "#f2f2f2",
             "scrollbar.track.border": "#9f9f9f",
-            "search.match_background": "#f3d000",
+            "search.match_background": "#a4d5f9",
             "status_bar.background": "#e6e6e6",
             "surface.background": "#f2f2f2",
             "syntax": {
@@ -579,7 +579,7 @@
             "scrollbar.thumb.hover_background": "#c9b9b0",
             "scrollbar.track.background": "#efe9dd",
             "scrollbar.track.border": "#9f9690",
-            "search.match_background": "#f3d000",
+            "search.match_background": "#a4d5f9",
             "status_bar.background": "#dfd9cf",
             "surface.background": "#efe9dd",
             "syntax": {
@@ -811,7 +811,7 @@
             "scrollbar.thumb.hover_background": "#c4c4c4",
             "scrollbar.track.background": "#f2f2f2",
             "scrollbar.track.border": "#9f9f9f",
-            "search.match_background": "#f3d000",
+            "search.match_background": "#a4d5f9",
             "status_bar.background": "#e6e6e6",
             "surface.background": "#f2f2f2",
             "syntax": {
@@ -1043,7 +1043,7 @@
             "scrollbar.thumb.hover_background": "#535353",
             "scrollbar.track.background": "#1e1e1e",
             "scrollbar.track.border": "#646464",
-            "search.match_background": "#7a6100",
+            "search.match_background": "#2266ae",
             "status_bar.background": "#2d2d2d",
             "surface.background": "#1e1e1e",
             "syntax": {
@@ -1275,7 +1275,7 @@
             "scrollbar.thumb.hover_background": "#535353",
             "scrollbar.track.background": "#1e1e1e",
             "scrollbar.track.border": "#646464",
-            "search.match_background": "#7a6100",
+            "search.match_background": "#2266ae",
             "status_bar.background": "#2d2d2d",
             "surface.background": "#1e1e1e",
             "syntax": {
@@ -1507,7 +1507,7 @@
             "scrollbar.thumb.hover_background": "#4a4f69",
             "scrollbar.track.background": "#1d2235",
             "scrollbar.track.border": "#61647a",
-            "search.match_background": "#7a6100",
+            "search.match_background": "#2266ae",
             "status_bar.background": "#292d48",
             "surface.background": "#1d2235",
             "syntax": {
@@ -1739,7 +1739,7 @@
             "scrollbar.thumb.hover_background": "#535353",
             "scrollbar.track.background": "#1e1e1e",
             "scrollbar.track.border": "#646464",
-            "search.match_background": "#7a6100",
+            "search.match_background": "#2266ae",
             "status_bar.background": "#2d2d2d",
             "surface.background": "#1e1e1e",
             "syntax": {
