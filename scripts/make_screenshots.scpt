@@ -67,3 +67,5 @@ repeat with theme in themes
         delay 1
     end tell
 end repeat
+
+display notification "The script has finished successfully!" with title "Script Complete"
