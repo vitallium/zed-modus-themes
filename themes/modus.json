@@ -196,7 +196,8 @@
                   "color": "#005e8b"
                },
                "variable.special": {
-                  "color": "#005e8b"
+                  "color": "#005e8b",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#ffffff",
@@ -436,7 +437,8 @@
                   "color": "#005e8b"
                },
                "variable.special": {
-                  "color": "#005e8b"
+                  "color": "#005e8b",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#ffffff",
@@ -676,7 +678,8 @@
                   "color": "#005e8b"
                },
                "variable.special": {
-                  "color": "#005e8b"
+                  "color": "#005e8b",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#fbf7f0",
@@ -916,7 +919,8 @@
                   "color": "#005f5f"
                },
                "variable.special": {
-                  "color": "#005f5f"
+                  "color": "#005f5f",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#ffffff",
@@ -1156,7 +1160,8 @@
                   "color": "#00d3d0"
                },
                "variable.special": {
-                  "color": "#00d3d0"
+                  "color": "#00d3d0",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#000000",
@@ -1396,7 +1401,8 @@
                   "color": "#00d3d0"
                },
                "variable.special": {
-                  "color": "#00d3d0"
+                  "color": "#00d3d0",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#000000",
@@ -1636,7 +1642,8 @@
                   "color": "#00d3d0"
                },
                "variable.special": {
-                  "color": "#00d3d0"
+                  "color": "#00d3d0",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#000000",
@@ -1876,7 +1883,8 @@
                   "color": "#00d3d0"
                },
                "variable.special": {
-                  "color": "#00d3d0"
+                  "color": "#00d3d0",
+                  "font_weight": 700
                }
             },
             "tab.active_background": "#000000",
