@@ -173,7 +173,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.magenta,
       },
       keyword: {
-        color: colorScheme.magenta_cooler,
+        color: colorScheme.keyword,
         font_weight: 700,
       },
       number: {
