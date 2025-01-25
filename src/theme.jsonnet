@@ -218,7 +218,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.variable,
       },
       'variable.special': {
-        color: colorScheme.variable,
+        color: colorScheme.keyword,
         font_weight: 700,
       },
     },
