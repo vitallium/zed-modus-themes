@@ -138,8 +138,8 @@ local makeTheme(name, colorScheme) = {
     players: [
       {
         cursor: colorScheme.cursor,
-        background: colorScheme.bg_mark_select,
-        selection: addAlpha(colorScheme.fg_mark_select, 0.55),
+        background: colorScheme.bg_region,
+        selection: addAlpha(colorScheme.bg_region, 0.76),
       },
     ] + [
       {

@@ -69,9 +69,9 @@
             "panel.background": "#ffffff",
             "players": [
                {
-                  "background": "#bfefff",
+                  "background": "#bdbdbd",
                   "cursor": "#000000",
-                  "selection": "#005e8b8c"
+                  "selection": "#bdbdbdc1"
                },
                {
                   "background": "#dd22dd",
@@ -301,9 +301,9 @@
             "panel.background": "#ffffff",
             "players": [
                {
-                  "background": "#bfefff",
+                  "background": "#bdbdbd",
                   "cursor": "#000000",
-                  "selection": "#005e8b8c"
+                  "selection": "#bdbdbdc1"
                },
                {
                   "background": "#dd22dd",
@@ -533,9 +533,9 @@
             "panel.background": "#fbf7f0",
             "players": [
                {
-                  "background": "#bfefff",
+                  "background": "#c2bcb5",
                   "cursor": "#d00000",
-                  "selection": "#005e8b8c"
+                  "selection": "#c2bcb5c1"
                },
                {
                   "background": "#dd22dd",
@@ -765,9 +765,9 @@
             "panel.background": "#ffffff",
             "players": [
                {
-                  "background": "#bfefff",
+                  "background": "#bdbdbd",
                   "cursor": "#d00000",
-                  "selection": "#005e8b8c"
+                  "selection": "#bdbdbdc1"
                },
                {
                   "background": "#a60000",
@@ -997,9 +997,9 @@
             "panel.background": "#000000",
             "players": [
                {
-                  "background": "#004065",
+                  "background": "#5a5a5a",
                   "cursor": "#ffffff",
-                  "selection": "#00d3d08c"
+                  "selection": "#5a5a5ac1"
                },
                {
                   "background": "#ff66ff",
@@ -1229,9 +1229,9 @@
             "panel.background": "#000000",
             "players": [
                {
-                  "background": "#004065",
+                  "background": "#5a5a5a",
                   "cursor": "#ffffff",
-                  "selection": "#00d3d08c"
+                  "selection": "#5a5a5ac1"
                },
                {
                   "background": "#ff66ff",
@@ -1461,9 +1461,9 @@
             "panel.background": "#0d0e1c",
             "players": [
                {
-                  "background": "#004065",
+                  "background": "#555a66",
                   "cursor": "#ff66ff",
-                  "selection": "#00d3d08c"
+                  "selection": "#555a66c1"
                },
                {
                   "background": "#ff66ff",
@@ -1693,9 +1693,9 @@
             "panel.background": "#000000",
             "players": [
                {
-                  "background": "#004065",
+                  "background": "#5a5a5a",
                   "cursor": "#ffffff",
-                  "selection": "#00d3d08c"
+                  "selection": "#5a5a5ac1"
                },
                {
                   "background": "#ef7fff",
