@@ -512,7 +512,7 @@
             "editor.foreground": "#000000",
             "editor.gutter.background": "#efe9dd",
             "editor.highlighted_line.background": "#f1d5d0",
-            "editor.line_number": "#595959",
+            "editor.line_number": "#6c6c6c",
             "editor.subheader.background": "#cab9b2",
             "element.active": "#c9b9b0",
             "element.background": "#efe9dd",
@@ -528,14 +528,14 @@
             "ghost_element.disabled": "#efe9dd",
             "ghost_element.hover": "#b2e4dc",
             "ghost_element.selected": "#c9b9b0",
-            "hint": "#595959",
+            "hint": "#6c6c6c",
             "hint.background": "#a4d5f9",
             "hint.border": "#9f9690",
             "icon": "#000000",
             "icon.accent": "#193668",
-            "icon.disabled": "#595959",
+            "icon.disabled": "#6c6c6c",
             "icon.muted": "#193668",
-            "icon.placeholder": "#595959",
+            "icon.placeholder": "#6c6c6c",
             "info": "#0000b0",
             "info.background": "#bfc9ff",
             "info.border": "#9f9690",
@@ -590,7 +590,7 @@
                   "selection": "#3548cf8c"
                }
             ],
-            "predictive": "#595959",
+            "predictive": "#6c6c6c",
             "predictive.background": null,
             "predictive.border": "#9f9690",
             "renamed": "#553d00",
@@ -657,7 +657,7 @@
                   "color": "#0000b0"
                },
                "text.literal": {
-                  "color": "#595959"
+                  "color": "#6c6c6c"
                },
                "title": {
                   "color": "#624416",
@@ -702,13 +702,13 @@
             "terminal.ansi.yellow": "#6f5500",
             "terminal.background": "#fbf7f0",
             "terminal.bright_foreground": "#193668",
-            "terminal.dim_foreground": "#595959",
+            "terminal.dim_foreground": "#6c6c6c",
             "terminal.foreground": "#000000",
             "text": "#000000",
             "text.accent": "#193668",
             "text.disabled": "#193668",
             "text.muted": "#193668",
-            "text.placeholder": "#595959",
+            "text.placeholder": "#6c6c6c",
             "title_bar.background": "#fbf7f0",
             "title_bar.inactive_background": "#efe9dd",
             "toolbar.background": "#fbf7f0",

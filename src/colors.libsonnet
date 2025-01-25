@@ -799,6 +799,7 @@ local commonColors = {
     // Basic values
     bg_main: '#fbf7f0',
     bg_dim: '#efe9dd',
+    fg_dim: '#6c6c6c',  // Added manually
     bg_active: '#c9b9b0',
     bg_inactive: '#dfd5cf',
     border: '#9f9690',
