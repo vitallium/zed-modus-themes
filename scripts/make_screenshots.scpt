@@ -10,7 +10,17 @@ end tell
 
 repeat with theme in themes
     tell application "System Events"
-        -- Focus Zed Preview
+        -- Clear previous search
+        key code 53 -- ESC
+        delay 0.5
+
+        -- Scroll to the beginning of the buffer
+        key down command
+        key code 126 -- Arrow Up
+        key up command
+        delay 0.5
+
+        -- Open Theme picker
         keystroke "k" using {command down}
         keystroke "t" using {command down}
         delay 0.5
