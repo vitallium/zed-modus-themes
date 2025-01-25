@@ -202,7 +202,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.constant,
       },
       'text.literal': {
-        color: colorScheme.fg_dim,
+        color: colorScheme.fg_prose_code,
       },
       title: {
         color: colorScheme.fg_heading_2,

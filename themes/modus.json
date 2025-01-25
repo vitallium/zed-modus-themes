@@ -181,7 +181,7 @@
                   "color": "#0000b0"
                },
                "text.literal": {
-                  "color": "#595959"
+                  "color": "#005f5f"
                },
                "title": {
                   "color": "#624416",
@@ -419,7 +419,7 @@
                   "color": "#0000b0"
                },
                "text.literal": {
-                  "color": "#595959"
+                  "color": "#005f5f"
                },
                "title": {
                   "color": "#624416",
@@ -657,7 +657,7 @@
                   "color": "#0000b0"
                },
                "text.literal": {
-                  "color": "#6c6c6c"
+                  "color": "#005f5f"
                },
                "title": {
                   "color": "#624416",
@@ -895,7 +895,7 @@
                   "color": "#00663f"
                },
                "text.literal": {
-                  "color": "#595959"
+                  "color": "#005e8b"
                },
                "title": {
                   "color": "#702000",
@@ -1133,7 +1133,7 @@
                   "color": "#00bcff"
                },
                "text.literal": {
-                  "color": "#989898"
+                  "color": "#6ae4b9"
                },
                "title": {
                   "color": "#d2b580",
@@ -1371,7 +1371,7 @@
                   "color": "#00bcff"
                },
                "text.literal": {
-                  "color": "#989898"
+                  "color": "#6ae4b9"
                },
                "title": {
                   "color": "#d2b580",
@@ -1609,7 +1609,7 @@
                   "color": "#00bcff"
                },
                "text.literal": {
-                  "color": "#989898"
+                  "color": "#6ae4b9"
                },
                "title": {
                   "color": "#d2b580",
@@ -1847,7 +1847,7 @@
                   "color": "#00bcff"
                },
                "text.literal": {
-                  "color": "#989898"
+                  "color": "#6ae4b9"
                },
                "title": {
                   "color": "#d2b580",
