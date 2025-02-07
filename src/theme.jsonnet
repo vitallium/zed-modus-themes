@@ -102,6 +102,18 @@ local makeTheme(name, colorScheme) = {
     'predictive.background': colorScheme.bg_prompt,
     'predictive.border': colorScheme.border,
 
+    // Git panel
+    'version.control.added': colorScheme.fg_added,
+    'version.control.added.background': colorScheme.bg_added_faint,
+    'version.control.deleted': colorScheme.fg_removed,
+    'version.control.deleted.background': colorScheme.bg_removed_faint,
+    'version.control.modified': colorScheme.fg_changed,
+    'version.control.modified.background': colorScheme.bg_changed_faint,
+    'version.control.renamed': colorScheme.fg_changed,
+    'version.control.conflict': colorScheme.err,
+    'version.control.conflict.background': colorScheme.bg_prominent_err,
+    'version.control.ignored': colorScheme.fg_dim,
+
     // Terminal
     'terminal.background': colorScheme.bg_main,
     'terminal.foreground': colorScheme.fg_main,
