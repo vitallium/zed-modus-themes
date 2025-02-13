@@ -151,13 +151,13 @@ local makeTheme(name, colorScheme) = {
       {
         cursor: colorScheme.cursor,
         background: colorScheme.bg_region,
-        selection: addAlpha(colorScheme.bg_region, 0.76),
+        selection: addAlpha(colorScheme.fg_region, 0.24),
       },
     ] + [
       {
         cursor: colorScheme['rainbow_' + i],
         background: colorScheme['rainbow_' + i],
-        selection: addAlpha(colorScheme['rainbow_' + i], 0.76),
+        selection: addAlpha(colorScheme['rainbow_' + i], 0.24),
       }
       for i in std.range(1, 6)
     ],
