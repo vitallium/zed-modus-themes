@@ -16,13 +16,13 @@ local makeTheme(name, colorScheme) = {
     'text.muted': colorScheme.fg_alt,
     'text.placeholder': colorScheme.fg_dim,
     'text.disabled': colorScheme.fg_alt,
-    'text.accent': colorScheme.fg_alt,
+    'text.accent': colorScheme.fg_link,
 
     icon: colorScheme.fg_main,
     'icon.muted': colorScheme.fg_alt,
     'icon.disabled': colorScheme.fg_dim,
     'icon.placeholder': colorScheme.fg_dim,
-    'icon.accent': colorScheme.fg_alt,
+    'icon.accent': colorScheme.fg_link,
 
     border: colorScheme.border,
     'border.variant': colorScheme.border,
