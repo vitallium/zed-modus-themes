@@ -103,6 +103,10 @@ local makeTheme(name, colorScheme) = {
     'predictive.border': colorScheme.border,
 
     // Git panel
+    version_control_added: colorScheme.fg_added,
+    version_control_modified: colorScheme.fg_changed,
+    version_control_deleted: colorScheme.fg_removed,
+
     'version.control.added': colorScheme.fg_added,
     'version.control.added.background': colorScheme.bg_added_faint,
     'version.control.deleted': colorScheme.fg_removed,
