@@ -94,7 +94,7 @@ local makeTheme(name, colorScheme) = {
     'error': colorScheme.err,
     'error.background': colorScheme.bg_prominent_err,
     'error.border': colorScheme.border,
-    hint: colorScheme.fg_main,
+    hint: colorScheme.fg_dim,
     'hint.background': colorScheme.bg_dim,
     'hint.border': colorScheme.border,
 
