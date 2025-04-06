@@ -881,6 +881,9 @@ local commonColors = {
     bg_inactive: '#2b3045',
     border: '#61647a',
 
+    // Common accent foregrounds
+    green_warmer: '#70d920',
+
     // Special purpose
     red_faint: '#ff9f80',
 
@@ -928,9 +931,27 @@ local commonColors = {
     bg_paren_match: '#5f789f',
     bg_paren_expression: '#453040',
 
+    // Mapping
+    // General mappings
     cursor: self.magenta_intense,
+    warning: self.yellow,
+    info: self.green_cooler,
 
+    // Code mappings
     comment: self.red_faint,
+    builtin: self.magenta,
+    constant: self.magenta_cooler,
+    fnname: self.magenta_warmer,
+    keyword: self.blue_warmer,
+    rx_backslash: self.magenta_warmer,
+    rx_construct: self.magenta_cooler,
+    string: self.cyan_cooler,
+    type: self.green_warmer,
+    variable: self.cyan_warmer,
+
+    // Prompt mappings
+    fg_prompt: self.cyan_warmer,
+
   },
   'Operandi Tritanopia': self.Operandi {
     red_warmer: '#b21100',

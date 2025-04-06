@@ -1621,47 +1621,47 @@
                   "font_style": "italic"
                },
                "constant": {
-                  "color": "#00bcff"
+                  "color": "#b6a0ff"
                },
                "constructor": {
-                  "color": "#feacd0"
+                  "color": "#f78fe7"
                },
                "embedded": {
                   "color": "#ff7f86"
                },
                "function": {
-                  "color": "#feacd0"
+                  "color": "#f78fe7"
                },
                "keyword": {
-                  "color": "#b6a0ff",
+                  "color": "#79a8ff",
                   "font_weight": 700
                },
                "number": {
                   "color": "#82b0ec"
                },
                "operator": {
-                  "color": "#feacd0"
+                  "color": "#f78fe7"
                },
                "property": {
-                  "color": "#6ae4b9"
+                  "color": "#70d920"
                },
                "string": {
-                  "color": "#79a8ff"
+                  "color": "#6ae4b9"
                },
                "string.escape": {
-                  "color": "#79a8ff"
+                  "color": "#6ae4b9"
                },
                "string.regex": {
-                  "color": "#79a8ff"
+                  "color": "#6ae4b9"
                },
                "string.special": {
-                  "color": "#79a8ff"
+                  "color": "#6ae4b9"
                },
                "string.special.symbol": {
-                  "color": "#79a8ff"
+                  "color": "#6ae4b9"
                },
                "tag": {
-                  "color": "#00bcff"
+                  "color": "#b6a0ff"
                },
                "text.literal": {
                   "color": "#6ae4b9"
@@ -1675,10 +1675,10 @@
                   "font_weight": 700
                },
                "variable": {
-                  "color": "#00d3d0"
+                  "color": "#4ae2f0"
                },
                "variable.special": {
-                  "color": "#b6a0ff",
+                  "color": "#79a8ff",
                   "font_weight": 700
                }
             },
@@ -1734,7 +1734,7 @@
             "version_control_added": "#a0e0a0",
             "version_control_deleted": "#ffbfbf",
             "version_control_modified": "#efef80",
-            "warning": "#fec43f",
+            "warning": "#d0bc00",
             "warning.background": "#7a6100",
             "warning.border": "#61647a"
          }
