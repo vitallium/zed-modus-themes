@@ -636,6 +636,7 @@ local commonColors = import 'colors.libsonnet';
     yellow_faint: '#624416',
     yellow_intense: '#808000',
 
+    // Graphs
     bg_graph_red_0: '#d0b029',
     bg_graph_red_1: '#e0cab4',
     bg_graph_green_0: '#8ac050',
@@ -644,6 +645,11 @@ local commonColors = import 'colors.libsonnet';
     bg_graph_magenta_1: '#d0dfdf',
     bg_graph_cyan_0: '#6faad9',
     bg_graph_cyan_1: '#bfe0ff',
+
+    // Special purpose
+    bg_char_0: '#7faaff',
+    bg_char_1: '#dfe000',
+    bg_char_2: '#7feaff',
 
     bg_mode_line_active: '#d0d6ff',
     fg_mode_line_active: '#0f0f0f',
