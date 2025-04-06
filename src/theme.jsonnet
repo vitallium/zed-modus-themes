@@ -196,7 +196,7 @@ local makeTheme(name, colorScheme) = {
         font_weight: 700,
       },
       number: {
-        color: colorScheme.blue_faint,
+        color: colorScheme.number,
       },
       operator: {
         color: colorScheme.fnname,

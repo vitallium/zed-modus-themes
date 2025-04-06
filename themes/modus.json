@@ -149,7 +149,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#003497"
+                  "color": "#000000"
                },
                "operator": {
                   "color": "#721045"
@@ -397,7 +397,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#003497"
+                  "color": "#000000"
                },
                "operator": {
                   "color": "#973300"
@@ -645,7 +645,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#003497"
+                  "color": "#000000"
                },
                "operator": {
                   "color": "#77492f"
@@ -893,7 +893,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#003497"
+                  "color": "#000000"
                },
                "operator": {
                   "color": "#3f578f"
@@ -1141,7 +1141,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#82b0ec"
+                  "color": "#ffffff"
                },
                "operator": {
                   "color": "#feacd0"
@@ -1389,7 +1389,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#82b0ec"
+                  "color": "#ffffff"
                },
                "operator": {
                   "color": "#ffa00f"
@@ -1637,7 +1637,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#82b0ec"
+                  "color": "#ffffff"
                },
                "operator": {
                   "color": "#f78fe7"
@@ -1885,7 +1885,7 @@
                   "font_weight": 700
                },
                "number": {
-                  "color": "#82b0ec"
+                  "color": "#ffffff"
                },
                "operator": {
                   "color": "#feacd0"
