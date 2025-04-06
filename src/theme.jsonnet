@@ -230,7 +230,7 @@ local makeTheme(name, colorScheme) = {
         font_weight: 700,
       },
       type: {
-        color: colorScheme.cyan_cooler,
+        color: colorScheme.type,
         font_weight: 700,
       },
       variable: {
