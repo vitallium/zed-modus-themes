@@ -173,7 +173,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.preprocessor,
       },
       boolean: {
-        color: colorScheme.blue_cooler,
+        color: colorScheme.constant,
       },
       comment: {
         color: colorScheme.comment,

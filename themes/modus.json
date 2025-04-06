@@ -374,7 +374,7 @@
                   "color": "#531ab6"
                },
                "boolean": {
-                  "color": "#0000b0"
+                  "color": "#003497"
                },
                "comment": {
                   "color": "#595959",
@@ -622,7 +622,7 @@
                   "color": "#894000"
                },
                "boolean": {
-                  "color": "#0000b0"
+                  "color": "#531ab6"
                },
                "comment": {
                   "color": "#7f0000",
@@ -870,7 +870,7 @@
                   "color": "#b21100"
                },
                "boolean": {
-                  "color": "#0000b0"
+                  "color": "#00663f"
                },
                "comment": {
                   "color": "#702000",
@@ -1366,7 +1366,7 @@
                   "color": "#b6a0ff"
                },
                "boolean": {
-                  "color": "#00bcff"
+                  "color": "#82b0ec"
                },
                "comment": {
                   "color": "#d8af7a",
@@ -1614,7 +1614,7 @@
                   "color": "#ff7f86"
                },
                "boolean": {
-                  "color": "#00bcff"
+                  "color": "#b6a0ff"
                },
                "comment": {
                   "color": "#ff9f80",
