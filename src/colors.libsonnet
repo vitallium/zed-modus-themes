@@ -804,6 +804,18 @@ local commonColors = {
     bg_inactive: '#dfd5cf',
     border: '#9f9690',
 
+    // Common accent foregrounds
+    green: '#006300',
+    green_warmer: '#316000',
+    green_cooler: '#00603f',
+    yellow: '#6d5000',
+    yellow_warmer: '#894000',
+    yellow_cooler: '#77492f',
+    blue_warmer: '#3546c2',
+    cyan: '#00598b',
+    cyan_warmer: '#32548f',
+    cyan_faint: '#304463',
+
     bg_completion: '#f0c1cf',
     bg_hover: '#b2e4dc',
     bg_hover_secondary: '#f5d0a0',
@@ -841,9 +853,25 @@ local commonColors = {
 
     // Mappings
     cursor: self.red_intense,
+    warning: self.yellow,
+    info: self.green,
 
     // Code mappings
     comment: self.red_faint,
+    builtin: self.magenta,
+    constant: self.magenta_cooler,
+    docstring: self.cyan_faint,
+    fnname: self.yellow_cooler,
+    keyword: self.blue_cooler,
+    preprocessor: self.yellow_warmer,
+    rx_backslash: self.magenta_warmer,
+    rx_construct: self.magenta_cooler,
+    string: self.cyan,
+    type: self.green_cooler,
+    variable: self.green_warmer,
+
+    // Prompt mappings
+    fg_prompt: self.green_cooler,
   },
   'Vivendi Tinted': self.Vivendi {
     // Basic values
