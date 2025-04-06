@@ -591,9 +591,14 @@ local commonColors = import 'colors.libsonnet';
 
     fg_mark_delete: self.yellow,
 
+    // Prose mappings
     prose_todo: self.yellow_warmer,
     prose_table_formula: self.yellow_warmer,
 
+    fg_prose_verbatim: self.yellow,
+    prose_tag: self.fg_alt,
+
+    // Rainbow mappings
     rainbow_0: self.yellow_warmer,
     rainbow_2: self.yellow_cooler,
     rainbow_4: self.yellow,
@@ -603,5 +608,11 @@ local commonColors = import 'colors.libsonnet';
     bg_search_rx_group_3: self.bg_yellow_subtle,
 
     bg_space_err: self.bg_yellow_intense,
+
+    // Heading mappings
+    fg_heading_4: self.green_faint,
+    fg_heading_5: self.magenta_cooler,
+    fg_heading_6: self.yellow_cooler,
+    fg_heading_7: self.cyan,
   },
 }

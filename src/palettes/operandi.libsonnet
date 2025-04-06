@@ -693,5 +693,16 @@ local commonColors = import 'colors.libsonnet';
 
     // Date mappings
     date_weekend: self.magenta_cooler,
+
+    // Prose mappings
+    fg_prose_verbatim: self.yellow,
+    prose_tag: self.fg_alt,
+
+    // Heading mappings
+    fg_heading_3: self.blue_faint,
+    fg_heading_4: self.green_faint,
+    fg_heading_5: self.magenta_cooler,
+    fg_heading_6: self.yellow_cooler,
+    fg_heading_7: self.cyan,
   },
 }
