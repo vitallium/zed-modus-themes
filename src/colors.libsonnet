@@ -1184,6 +1184,24 @@ local commonColors = {
     bg_removed_fringe: '#c0b200',
     fg_removed: '#553d00',
     fg_removed_intense: '#7f6f00',
+
+    // Mappings
+    // Code mappings
+    builtin: self.yellow,
+    constant: self.blue_faint,
+    fnname: self.yellow_warmer,
+    keyword: self.blue_cooler,
+    preprocessor: self.magenta_cooler,
+
+    // Accent mappings
+    accent_0: self.blue_warmer,
+    accent_1: self.yellow_warmer,
+    accent_2: self.cyan,
+    accent_3: self.yellow_cooler,
+
+    // Completion mappings
+    fg_completion_match_0: self.blue_warmer,
+    fg_completion_match_3: self.yellow_cooler,
   },
   'Vivendi Deuteranopia': self.Vivendi {
     yellow: '#cabf00',
@@ -1225,13 +1243,21 @@ local commonColors = {
     fg_removed: '#d4d48f',
     fg_removed_intense: '#d0b05f',
 
+    // Code mappings
+    builtin: self.yellow,
     comment: self.yellow_cooler,
+    constant: self.blue_faint,
+    fnname: self.yellow_warmer,
+    keyword: self.blue_cooler,
     rx_backslash: self.blue_cooler,
     rx_construct: self.yellow_cooler,
+    preprocessor: self.magenta_cooler,
 
     accent_1: self.yellow,
+    accent_3: self.yellow_cooler,
 
     fg_completion_match_1: self.yellow,
+    fg_completion_match_3: self.yellow_cooler,
 
     date_deadline: self.yellow_warmer,
     date_holiday: self.yellow_warmer,

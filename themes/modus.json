@@ -371,7 +371,7 @@
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
-                  "color": "#a0132f"
+                  "color": "#531ab6"
                },
                "boolean": {
                   "color": "#0000b0"
@@ -381,26 +381,26 @@
                   "font_style": "italic"
                },
                "constant": {
-                  "color": "#0000b0"
+                  "color": "#003497"
                },
                "constructor": {
-                  "color": "#721045"
+                  "color": "#973300"
                },
                "embedded": {
-                  "color": "#a0132f"
+                  "color": "#531ab6"
                },
                "function": {
-                  "color": "#721045"
+                  "color": "#973300"
                },
                "keyword": {
-                  "color": "#531ab6",
+                  "color": "#0000b0",
                   "font_weight": 700
                },
                "number": {
                   "color": "#003497"
                },
                "operator": {
-                  "color": "#721045"
+                  "color": "#973300"
                },
                "property": {
                   "color": "#005f5f"
@@ -421,7 +421,7 @@
                   "color": "#3548cf"
                },
                "tag": {
-                  "color": "#0000b0"
+                  "color": "#003497"
                },
                "text.literal": {
                   "color": "#005f5f"
@@ -438,7 +438,7 @@
                   "color": "#005e8b"
                },
                "variable.special": {
-                  "color": "#531ab6",
+                  "color": "#0000b0",
                   "font_weight": 700
                }
             },
@@ -1363,7 +1363,7 @@
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
-                  "color": "#ff7f86"
+                  "color": "#b6a0ff"
                },
                "boolean": {
                   "color": "#00bcff"
@@ -1373,26 +1373,26 @@
                   "font_style": "italic"
                },
                "constant": {
-                  "color": "#00bcff"
+                  "color": "#82b0ec"
                },
                "constructor": {
-                  "color": "#feacd0"
+                  "color": "#ffa00f"
                },
                "embedded": {
-                  "color": "#ff7f86"
+                  "color": "#b6a0ff"
                },
                "function": {
-                  "color": "#feacd0"
+                  "color": "#ffa00f"
                },
                "keyword": {
-                  "color": "#b6a0ff",
+                  "color": "#00bcff",
                   "font_weight": 700
                },
                "number": {
                   "color": "#82b0ec"
                },
                "operator": {
-                  "color": "#feacd0"
+                  "color": "#ffa00f"
                },
                "property": {
                   "color": "#6ae4b9"
@@ -1413,7 +1413,7 @@
                   "color": "#79a8ff"
                },
                "tag": {
-                  "color": "#00bcff"
+                  "color": "#82b0ec"
                },
                "text.literal": {
                   "color": "#6ae4b9"
@@ -1430,7 +1430,7 @@
                   "color": "#00d3d0"
                },
                "variable.special": {
-                  "color": "#b6a0ff",
+                  "color": "#00bcff",
                   "font_weight": 700
                }
             },
