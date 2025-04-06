@@ -1202,6 +1202,9 @@ local commonColors = {
     // Completion mappings
     fg_completion_match_0: self.blue_warmer,
     fg_completion_match_3: self.yellow_cooler,
+
+    // Date mappings
+    date_weekend: self.magenta_cooler,
   },
   'Vivendi Deuteranopia': self.Vivendi {
     yellow: '#cabf00',
@@ -1263,6 +1266,7 @@ local commonColors = {
     date_holiday: self.yellow_warmer,
     date_scheduled: self.yellow_cooler,
     date_scheduled_subtle: self.yellow_faint,
+    date_weekend: self.magenta_cooler,
 
     fg_link_visited: self.yellow_faint,
     underline_link_visited: self.yellow_faint,
