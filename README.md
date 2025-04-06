@@ -10,6 +10,10 @@ is a Zed port of the original [Modus Themes](https://protesilaos.com/emacs/modus
 
 The Modus Themes are designed with accessibility and readability as primary goals. With a minimum contrast ratio of 7:1 between foreground and background elements, they reduce eye strain during long coding sessions and ensure optimal readability for all users, including those with visual impairments.
 
+## Installation
+
+In the command palette, choose `zed: extensions` then search for `modus-themes`.
+
 ## Features
 
 - **WCAG AAA Compliance**: All color combinations meet or exceed the 7:1 contrast ratio required for WCAG AAA certification
@@ -61,7 +65,7 @@ The Modus Themes are designed with accessibility and readability as primary goal
 - **Tritanopia**: Specifically designed for users with blue-yellow color blindness
 - **Deuteranopia**: Optimized for users with red-green color blindness (specifically deuteranopia)
 
-## Installation
+## Development
 
 ### Prerequisites
 
