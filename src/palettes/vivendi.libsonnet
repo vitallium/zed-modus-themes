@@ -569,6 +569,7 @@ local commonColors = import 'colors.libsonnet';
     rx_construct: self.yellow_cooler,
     preprocessor: self.magenta_cooler,
 
+    accent_0: self.blue_warmer,
     accent_1: self.yellow,
     accent_3: self.yellow_cooler,
 
