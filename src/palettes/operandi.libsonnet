@@ -617,7 +617,7 @@ local commonColors = import 'colors.libsonnet';
     rainbow_7: self.magenta_faint,
     rainbow_8: self.red_faint,
 
-    bg_search_replace: self.bg_magenta_intense,
+    bg_search_replace: self.bg_yellow_intense,
 
     bg_search_rx_group_1: self.bg_magenta_intense,
     bg_search_rx_group_2: self.bg_cyan_subtle,

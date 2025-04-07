@@ -605,6 +605,7 @@ local commonColors = import 'colors.libsonnet';
     rainbow_6: self.yellow_faint,
 
     bg_search_current: self.bg_yellow_intense,
+    bg_search_replace: self.bg_yellow_intense,
     bg_search_rx_group_3: self.bg_yellow_subtle,
 
     bg_space_err: self.bg_yellow_intense,
