@@ -152,12 +152,6 @@ local commonColors = import 'colors.libsonnet';
 
     bg_diff_context: '#f3f3f3',
 
-    // Paren match
-    bg_paren_match: '#5fcfff',
-    fg_paren_match: self.fg_main,
-    bg_paren_expression: '#efd3f5',
-    underline_paren_match: null,
-
     // General mappings
     fringe: self.bg_dim,
     cursor: self.fg_main,
@@ -205,6 +199,12 @@ local commonColors = import 'colors.libsonnet';
     string: self.blue_warmer,
     type: self.cyan_cooler,
     variable: self.cyan,
+
+    // Paren match
+    bg_paren_match: self.bg_cyan_subtle,
+    fg_paren_match: self.fg_main,
+    underline_paren_match: null,
+    bg_paren_expression: self.bg_yellow_nuanced,
 
     // Accent mappings
     accent_0: self.blue,
@@ -620,6 +620,9 @@ local commonColors = import 'colors.libsonnet';
     fg_heading_3: self.cyan_faint,
     fg_heading_6: self.magenta_faint,
     fg_heading_7: self.cyan_warmer,
+
+    // Paren match
+    bg_paren_expression: self.bg_yellow_nuanced,
   },
   'Operandi Deuteranopia': self.Operandi {
     yellow: '#695500',

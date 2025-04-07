@@ -146,12 +146,6 @@ local commonColors = import 'colors.libsonnet';
     fg_removed_intense: '#ff9095',
     bg_diff_context: '#1a1a1a',
 
-    // Paren match
-    bg_paren_match: '#2f7f9f',
-    fg_paren_match: self.fg_main,
-    bg_paren_expression: '#453040',
-    underline_paren_match: null,
-
     // Mappings
     fringe: self.bg_dim,
     cursor: self.fg_main,
@@ -194,6 +188,12 @@ local commonColors = import 'colors.libsonnet';
     string: self.blue_warmer,
     type: self.cyan_cooler,
     variable: self.cyan,
+
+    // Paren match
+    bg_paren_match: self.bg_cyan_subtle,
+    fg_paren_match: self.fg_main,
+    bg_paren_expression: null,
+    underline_paren_match: self.bg_yellow_nuanced,
 
     // Accent mappings
     accent_0: self.blue_cooler,
@@ -500,7 +500,9 @@ local commonColors = import 'colors.libsonnet';
     fg_changed: '#e3cfff',
     fg_changed_intense: '#cf9fe2',
 
+    // Paren match
     bg_paren_match: '#2f7f9f',
+    bg_paren_expression: self.bg_red_nuanced,
   },
   'Vivendi Deuteranopia': self.Vivendi {
     yellow: '#cabf00',
