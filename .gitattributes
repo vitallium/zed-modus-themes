@@ -1,8 +1,0 @@
-doc/images/modus_operandi_tinted.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_operandi_tritanopia.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_vivendi.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_vivendi_deuteranopia.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_vivendi_tinted.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_vivendi_tritanopia.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_operandi.png filter=lfs diff=lfs merge=lfs -text
-doc/images/modus_operandi_deuteranopia.png filter=lfs diff=lfs merge=lfs -text
