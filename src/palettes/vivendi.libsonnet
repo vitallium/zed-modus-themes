@@ -111,9 +111,6 @@ local commonColors = import 'colors.libsonnet';
     bg_hl_line: '#2f3849',
     bg_region: '#5a5a5a',
     fg_region: '#ffffff',
-    bg_char_0: '#0050af',
-    bg_char_1: '#7f1f7f',
-    bg_char_2: '#625a00',
 
     bg_mode_line_active: '#505050',
     fg_mode_line_active: '#ffffff',
@@ -400,10 +397,6 @@ local commonColors = import 'colors.libsonnet';
     bg_hl_line: '#303a6f',
     bg_region: '#555a66',
 
-    bg_char_0: '#0050af',
-    bg_char_1: '#7f1f7f',
-    bg_char_2: '#625a00',
-
     bg_mode_line_active: '#484d67',
     border_mode_line_active: '#979797',
     bg_mode_line_inactive: '#292d48',
@@ -485,10 +478,6 @@ local commonColors = import 'colors.libsonnet';
     bg_hover: '#8e3e3b',
     bg_hover_secondary: '#00405f',
 
-    bg_char_0: '#922a00',
-    bg_char_1: '#00709f',
-    bg_char_2: '#5f3faf',
-
     bg_mode_line_active: '#003c52',
     fg_mode_line_active: '#f0f0f0',
     border_mode_line_active: '#5f8fb4',
@@ -531,11 +520,6 @@ local commonColors = import 'colors.libsonnet';
     bg_graph_magenta_1: '#4f4f5f',
     bg_graph_cyan_0: '#376f9a',
     bg_graph_cyan_1: '#00404f',
-
-    // Special purpose
-    bg_char_0: '#0040ff',
-    bg_char_1: '#625000',
-    bg_char_2: '#105faf',
 
     bg_mode_line_active: '#2a2a6a',
     fg_mode_line_active: '#f0f0f0',
