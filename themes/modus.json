@@ -641,7 +641,7 @@
                   "color": "#77492f"
                },
                "keyword": {
-                  "color": "#0000b0",
+                  "color": "#0031a9",
                   "font_weight": 700
                },
                "number": {
@@ -686,7 +686,7 @@
                   "color": "#316000"
                },
                "variable.special": {
-                  "color": "#0000b0",
+                  "color": "#0031a9",
                   "font_weight": 700
                }
             },

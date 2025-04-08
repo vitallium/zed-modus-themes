@@ -474,7 +474,7 @@ local commonColors = import 'colors.libsonnet';
     constant: self.magenta_cooler,
     docstring: self.cyan_faint,
     fnname: self.yellow_cooler,
-    keyword: self.blue_cooler,
+    keyword: self.blue,
     preprocessor: self.yellow_warmer,
     rx_backslash: self.magenta_warmer,
     rx_construct: self.magenta_cooler,
