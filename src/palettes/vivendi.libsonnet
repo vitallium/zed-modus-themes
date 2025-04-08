@@ -389,7 +389,7 @@ local commonColors = import 'colors.libsonnet';
     green_warmer: '#70d920',
 
     // Special purpose
-    red_faint: '#ff9f80',
+    red_faint: '#ef8386',
 
     bg_completion: '#483d8a',
     bg_hover: '#45605e',
