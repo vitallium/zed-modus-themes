@@ -503,6 +503,8 @@ local commonColors = import 'colors.libsonnet';
     // Paren match
     bg_paren_match: '#2f7f9f',
     bg_paren_expression: self.bg_red_nuanced,
+
+    prose_tag: self.fg_alt,
   },
   'Vivendi Deuteranopia': self.Vivendi {
     yellow: '#cabf00',

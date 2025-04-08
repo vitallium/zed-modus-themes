@@ -592,13 +592,12 @@ local commonColors = import 'colors.libsonnet';
     fg_prompt: self.cyan_cooler,
 
     fg_prose_code: self.cyan,
-
     fg_prose_macro: self.red_warmer,
-
     prose_done: self.cyan,
-
     prose_table_formula: self.red_cooler,
+    prose_tag: self.fg_alt,
 
+    // Rainbow mappings
     rainbow_0: self.cyan,
     rainbow_1: self.red,
     rainbow_2: self.cyan_warmer,
