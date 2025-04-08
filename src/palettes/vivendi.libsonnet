@@ -464,6 +464,8 @@ local commonColors = import 'colors.libsonnet';
     cyan_warmer: '#4ae2ff',
     cyan_faint: '#7fdbdf',
 
+    fg_alt: '#a0d7f2',
+
     bg_graph_green_0: '#afd1c0',
     bg_graph_green_1: '#607a8f',
     bg_graph_yellow_0: '#facfd6',

@@ -494,6 +494,8 @@ local commonColors = import 'colors.libsonnet';
     magenta_intense: '#cd22bd',
     cyan_faint: '#004f5f',
 
+    fg_alt: '#024960',
+
     bg_graph_green_0: '#68c0a0',
     bg_graph_green_1: '#a5dfd0',
     bg_graph_yellow_0: '#d99f9f',
