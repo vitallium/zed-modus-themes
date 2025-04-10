@@ -428,9 +428,10 @@ local commonColors = import 'colors.libsonnet';
     cyan_warmer: '#32548f',
     cyan_faint: '#304463',
 
+    // Special purpose
     bg_completion: '#f0c1cf',
     bg_hover: '#b2e4dc',
-    bg_hover_secondary: '#f5d0a0',
+    bg_hover_secondary: '#dfe09f',
     bg_hl_line: '#f1d5d0',
     bg_region: '#c2bcb5',
 
@@ -502,9 +503,10 @@ local commonColors = import 'colors.libsonnet';
     bg_graph_yellow_1: '#ffb58f',
     bg_graph_blue_1: '#a8cfff',
 
+    // Special purpose
     bg_completion: '#afdfef',
     bg_hover: '#ffafbc',
-    bg_hover_secondary: '#9fdfff',
+    bg_hover_secondary: '#abdfdd',
     bg_hl_line: '#dfeaec',
 
     bg_mode_line_active: '#afe0f2',
@@ -643,6 +645,7 @@ local commonColors = import 'colors.libsonnet';
     bg_graph_cyan_1: '#bfe0ff',
 
     // Special purpose
+    bg_hover_secondary: '#e5d7a0',
     bg_mode_line_active: '#d0d6ff',
     fg_mode_line_active: '#0f0f0f',
     border_mode_line_active: '#4f4f74',
