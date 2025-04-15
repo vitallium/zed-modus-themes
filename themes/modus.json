@@ -632,13 +632,13 @@
                   "color": "#531ab6"
                },
                "constructor": {
-                  "color": "#733f40"
+                  "color": "#673f40"
                },
                "embedded": {
                   "color": "#894000"
                },
                "function": {
-                  "color": "#733f40"
+                  "color": "#673f40"
                },
                "keyword": {
                   "color": "#0031a9",
@@ -648,7 +648,7 @@
                   "color": "#000000"
                },
                "operator": {
-                  "color": "#733f40"
+                  "color": "#673f40"
                },
                "property": {
                   "color": "#00603f"
@@ -675,7 +675,7 @@
                   "color": "#005f5f"
                },
                "title": {
-                  "color": "#624416",
+                  "color": "#5e4816",
                   "font_weight": 700
                },
                "type": {
