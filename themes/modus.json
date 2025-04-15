@@ -632,13 +632,13 @@
                   "color": "#531ab6"
                },
                "constructor": {
-                  "color": "#77494f"
+                  "color": "#733f40"
                },
                "embedded": {
                   "color": "#894000"
                },
                "function": {
-                  "color": "#77494f"
+                  "color": "#733f40"
                },
                "keyword": {
                   "color": "#0031a9",
@@ -648,7 +648,7 @@
                   "color": "#000000"
                },
                "operator": {
-                  "color": "#77494f"
+                  "color": "#733f40"
                },
                "property": {
                   "color": "#00603f"
