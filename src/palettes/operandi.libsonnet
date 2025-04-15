@@ -690,7 +690,7 @@ local commonColors = import 'colors.libsonnet';
     fg_completion_match_3: self.yellow_cooler,
 
     // Date mappings
-    date_weekend: self.magenta_cooler,
+    date_weekend: self.blue_cooler,
 
     // Prose mappings
     fg_prose_verbatim: self.yellow,
