@@ -451,6 +451,15 @@ local commonColors = import 'colors.libsonnet';
 
     // Prompt mappings
     fg_prompt: self.cyan_warmer,
+
+    // Mail mappings
+    mail_cite_0: self.cyan_cooler,
+    mail_cite_1: self.yellow_cooler,
+    mail_cite_2: self.cyan,
+    mail_part: self.magenta_cooler,
+    mail_recipient: self.blue_warmer,
+    mail_subject: self.red_cooler,
+    mail_other: self.magenta,
   },
   'Vivendi Tritanopia': self.Vivendi {
     red_warmer: '#ff6740',

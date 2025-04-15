@@ -583,12 +583,14 @@ local commonColors = import 'colors.libsonnet';
     fg_link_symbolic: self.cyan_cooler,
     underline_link_symbolic: self.cyan_cooler,
 
-    mail_cite_0: self.cyan_faint,
-    mail_cite_1: self.red_faint,
-    mail_part: self.cyan_cooler,
-    mail_recipient: self.cyan,
+    // Mail mappings
+    mail_cite_0: self.cyan_cooler,
+    mail_cite_1: self.yellow_cooler,
+    mail_cite_2: self.cyan,
+    mail_part: self.magenta_cooler,
+    mail_recipient: self.blue_warmer,
     mail_subject: self.red_cooler,
-    mail_other: self.cyan,
+    mail_other: self.magenta,
 
     fg_mark_delete: self.red,
     fg_mark_select: self.cyan,
