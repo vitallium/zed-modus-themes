@@ -445,7 +445,7 @@ local commonColors = import 'colors.libsonnet';
     keyword: self.blue_warmer,
     rx_backslash: self.magenta_warmer,
     rx_construct: self.magenta_cooler,
-    string: self.cyan_cooler,
+    string: self.blue,
     type: self.green_warmer,
     variable: self.cyan_warmer,
 

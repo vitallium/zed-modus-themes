@@ -672,7 +672,7 @@
                   "color": "#531ab6"
                },
                "text.literal": {
-                  "color": "#005f5f"
+                  "color": "#00603f"
                },
                "title": {
                   "color": "#5e4816",
@@ -1646,19 +1646,19 @@
                   "color": "#75c13e"
                },
                "string": {
-                  "color": "#6ae4b9"
+                  "color": "#2fafff"
                },
                "string.escape": {
-                  "color": "#6ae4b9"
+                  "color": "#2fafff"
                },
                "string.regex": {
-                  "color": "#6ae4b9"
+                  "color": "#2fafff"
                },
                "string.special": {
-                  "color": "#6ae4b9"
+                  "color": "#2fafff"
                },
                "string.special.symbol": {
-                  "color": "#6ae4b9"
+                  "color": "#2fafff"
                },
                "tag": {
                   "color": "#b6a0ff"
