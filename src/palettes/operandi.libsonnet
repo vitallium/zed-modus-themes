@@ -465,8 +465,15 @@ local commonColors = import 'colors.libsonnet';
     bg_paren_match: '#7fdfcf',
     bg_paren_expression: '#efd3f5',
 
+    //
     // Mappings
+    //
+
+    // General mappings
     cursor: self.red_intense,
+
+    identifier: self.yellow_faint,
+
     warning: self.yellow,
     info: self.green,
 
