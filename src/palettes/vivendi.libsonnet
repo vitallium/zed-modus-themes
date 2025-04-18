@@ -450,6 +450,11 @@ local commonColors = import 'colors.libsonnet';
     type: self.green_cooler,
     variable: self.cyan_warmer,
 
+    // Paren match
+
+    // Accent mappings
+    accent_2: self.magenta_warmer,
+
     // Prompt mappings
     fg_prompt: self.cyan_warmer,
 
