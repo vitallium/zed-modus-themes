@@ -651,7 +651,7 @@
                   "color": "#603238"
                },
                "property": {
-                  "color": "#00603f"
+                  "color": "#306010"
                },
                "string": {
                   "color": "#00598b"
@@ -679,11 +679,11 @@
                   "font_weight": 700
                },
                "type": {
-                  "color": "#00603f",
+                  "color": "#306010",
                   "font_weight": 700
                },
                "variable": {
-                  "color": "#306010"
+                  "color": "#00603f"
                },
                "variable.special": {
                   "color": "#0031a9",
