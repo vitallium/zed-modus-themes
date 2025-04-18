@@ -1643,7 +1643,7 @@
                   "color": "#f78fe7"
                },
                "property": {
-                  "color": "#75c13e"
+                  "color": "#00c06f"
                },
                "string": {
                   "color": "#2fafff"
@@ -1671,7 +1671,7 @@
                   "font_weight": 700
                },
                "type": {
-                  "color": "#75c13e",
+                  "color": "#00c06f",
                   "font_weight": 700
                },
                "variable": {

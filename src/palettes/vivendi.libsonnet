@@ -446,7 +446,7 @@ local commonColors = import 'colors.libsonnet';
     rx_backslash: self.magenta_warmer,
     rx_construct: self.magenta_cooler,
     string: self.blue,
-    type: self.green_warmer,
+    type: self.green_cooler,
     variable: self.cyan_warmer,
 
     // Prompt mappings
