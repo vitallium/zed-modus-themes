@@ -1643,7 +1643,7 @@
                   "color": "#f78fe7"
                },
                "property": {
-                  "color": "#00c06f"
+                  "color": "#11c777"
                },
                "string": {
                   "color": "#2fafff"
@@ -1671,7 +1671,7 @@
                   "font_weight": 700
                },
                "type": {
-                  "color": "#00c06f",
+                  "color": "#11c777",
                   "font_weight": 700
                },
                "variable": {
@@ -1690,7 +1690,7 @@
             "terminal.ansi.bright_black": "#595959",
             "terminal.ansi.bright_blue": "#79a8ff",
             "terminal.ansi.bright_cyan": "#6ae4b9",
-            "terminal.ansi.bright_green": "#00c06f",
+            "terminal.ansi.bright_green": "#11c777",
             "terminal.ansi.bright_magenta": "#feacd0",
             "terminal.ansi.bright_red": "#ff6b55",
             "terminal.ansi.bright_white": "#ffffff",

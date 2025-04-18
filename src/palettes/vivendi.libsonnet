@@ -387,6 +387,7 @@ local commonColors = import 'colors.libsonnet';
 
     // Common accent foregrounds
     green_warmer: '#75c13e',
+    green_cooler: '#11c777',
 
     // Special purpose
     red_faint: '#ef8386',
