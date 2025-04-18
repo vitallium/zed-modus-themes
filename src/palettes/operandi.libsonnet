@@ -423,7 +423,7 @@ local commonColors = import 'colors.libsonnet';
     yellow: '#6d5000',
     yellow_warmer: '#894000',
     yellow_cooler: '#603238',
-    yellow_faint: '#5e4816',
+    yellow_faint: '#574316',
     blue_warmer: '#3546c2',
     cyan: '#00598b',
     cyan_warmer: '#32548f',
