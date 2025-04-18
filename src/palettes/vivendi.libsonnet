@@ -454,7 +454,7 @@ local commonColors = import 'colors.libsonnet';
 
     // Mail mappings
     mail_cite_0: self.cyan_cooler,
-    mail_cite_1: self.yellow_cooler,
+    mail_cite_1: self.cyan_warmer,
     mail_cite_2: self.cyan,
     mail_part: self.magenta_cooler,
     mail_recipient: self.blue_warmer,
