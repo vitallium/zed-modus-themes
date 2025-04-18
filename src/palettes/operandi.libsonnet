@@ -486,6 +486,14 @@ local commonColors = import 'colors.libsonnet';
 
     // Prompt mappings
     fg_prompt: self.green_cooler,
+
+    // Prose mappings
+    fg_prose_code: self.green_cooler,
+    fg_prose_macro: self.blue_cooler,
+    fg_prose_verbatim: self.yellow_warmer,
+
+    // Heading mappings
+    fg_heading_0: self.green_cooler,
   },
   'Operandi Tritanopia': self.Operandi {
     red_warmer: '#b21100',
