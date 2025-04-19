@@ -85,6 +85,31 @@ In the command palette, choose `zed: extensions` then search for `modus-themes`.
    ```
    This process will compile the theme files and prepare them for installation.
 
+## Configuration
+
+### Disabling bold fonts
+
+Use [Zed's experimental feature](https://zed.dev/docs/themes#theme-overrides) to override parts of the current theme:
+
+```jsonc
+"experimental.theme_overrides": {
+  "syntax": {
+    "keyword": {
+      "font_weight": 400
+    },
+    "title": {
+      "font_weight": 400
+    },
+    "type": {
+      "font_weight": 400
+    },
+    "variable.special": {
+      "font_weight": 400
+    }
+  }
+}
+```
+
 ## Acknowledgements
 
 - [Modus Themes](https://protesilaos.com/emacs/modus-themes): Original Modus Themes for
