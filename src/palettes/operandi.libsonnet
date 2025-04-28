@@ -492,8 +492,10 @@ local commonColors = import 'colors.libsonnet';
     variable: self.green_cooler,
 
     // Mail mappings
+    mail_cite_0: self.cyan,
     mail_cite_1: self.yellow,
     mail_cite_2: self.green_warmer,
+    mail_part: self.green_cooler,
 
     // Prompt mappings
     fg_prompt: self.green_cooler,
