@@ -429,7 +429,8 @@ local commonColors = import 'colors.libsonnet';
 
     bg_diff_context: '#1a1f30',
 
-    bg_paren_match: '#5f789f',
+    // Paren match
+    bg_paren_match: '#4f7f9f',
     bg_paren_expression: '#453040',
 
     // Mapping
@@ -449,8 +450,6 @@ local commonColors = import 'colors.libsonnet';
     string: self.blue,
     type: self.green_cooler,
     variable: self.cyan_warmer,
-
-    // Paren match
 
     // Accent mappings
     accent_2: self.magenta_warmer,

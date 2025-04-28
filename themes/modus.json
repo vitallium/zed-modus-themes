@@ -1521,7 +1521,7 @@
             "editor.active_line.background": "#303a6f",
             "editor.active_line_number": "#ffffff",
             "editor.background": "#0d0e1c",
-            "editor.document_highlight.bracket_background": "#5f789f",
+            "editor.document_highlight.bracket_background": "#4f7f9f",
             "editor.document_highlight.read_background": "#45605e",
             "editor.document_highlight.write_background": "#45605e",
             "editor.foreground": "#ffffff",
