@@ -459,10 +459,10 @@ local commonColors = import 'colors.libsonnet';
     fg_prompt: self.cyan_warmer,
 
     // Mail mappings
-    mail_cite_0: self.blue,
+    mail_cite_0: self.blue_faint,
     mail_cite_1: self.cyan_warmer,
     mail_cite_2: self.cyan_cooler,
-    mail_part: self.magenta_cooler,
+    mail_part: self.blue,
     mail_recipient: self.blue_warmer,
     mail_subject: self.red_cooler,
     mail_other: self.magenta,
