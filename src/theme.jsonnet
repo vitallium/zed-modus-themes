@@ -202,7 +202,7 @@ local makeTheme(name, colorScheme) = {
         color: colorScheme.fnname,
       },
       property: {
-        color: colorScheme.type,
+        color: colorScheme.property,
       },
       string: {
         color: colorScheme.string,

@@ -182,6 +182,7 @@ local commonColors = import 'colors.libsonnet';
     number: self.fg_main,
     operator: self.fg_main,
     preprocessor: self.red_cooler,
+    property: self.cyan,
     punctuation: self.fg_main,
     rx_backslash: self.magenta,
     rx_construct: self.green_cooler,
@@ -445,6 +446,7 @@ local commonColors = import 'colors.libsonnet';
     constant: self.magenta_cooler,
     fnname: self.magenta_warmer,
     keyword: self.blue_warmer,
+    property: self.cyan_warmer,
     rx_backslash: self.magenta_warmer,
     rx_construct: self.magenta_cooler,
     string: self.blue,
@@ -467,6 +469,17 @@ local commonColors = import 'colors.libsonnet';
     mail_other: self.magenta,
   },
   'Vivendi Tritanopia': self.Vivendi {
+    // Basic values
+    bg_main: '#000000',
+    bg_dim: '#1e1e1e',
+    fg_main: '#ffffff',
+    fg_dim: '#989898',
+    fg_alt: '#a0d7f2',
+    bg_active: '#535353',
+    bg_inactive: '#303030',
+    border: '#646464',
+
+    // Common accent foregrounds
     red_warmer: '#ff6740',
     red_cooler: '#ff7f86',
     red_faint: '#ff9070',
@@ -478,7 +491,47 @@ local commonColors = import 'colors.libsonnet';
     cyan_warmer: '#4ae2ff',
     cyan_faint: '#7fdbdf',
 
-    fg_alt: '#a0d7f2',
+    // Diffs
+    bg_added: '#004254',
+    bg_added_faint: '#003042',
+    bg_added_refine: '#004f7f',
+    bg_added_fringe: '#008fcf',
+    fg_added: '#9fdfdf',
+    fg_added_intense: '#50c0ef',
+
+    bg_changed: '#2f123f',
+    bg_changed_faint: '#1f022f',
+    bg_changed_refine: '#3f325f',
+    bg_changed_fringe: '#7f55a0',
+    fg_changed: '#e3cfff',
+    fg_changed_intense: '#cf9fe2',
+
+    bg_removed: '#4f1119',
+    bg_removed_faint: '#380a0f',
+    bg_removed_refine: '#781a1f',
+    bg_removed_fringe: '#b81a1f',
+    fg_removed: '#ffbfbf',
+    fg_removed_intense: '#ff9095',
+
+    bg_diff_context: '#1a1a1a',
+
+    // Paren match
+    bg_paren_match: '#2f7f9f',
+    bg_paren_expression: '#453040',
+
+    // Mappings
+
+    /// General mappings
+    fringe: self.bg_dim,
+    cursor: self.red_intense,
+
+    keybind: self.red,
+    name: self.red_cooler,
+    identifier: self.red_faint,
+
+    err: self.red_warmer,
+    warning: self.magenta,
+    info: self.cyan,
 
     bg_graph_green_0: '#afd1c0',
     bg_graph_green_1: '#607a8f',
@@ -502,23 +555,32 @@ local commonColors = import 'colors.libsonnet';
     modeline_warning: '#df9f93',
     modeline_info: '#4fcfef',
 
-    bg_added: '#004254',
-    bg_added_faint: '#003042',
-    bg_added_refine: '#004f7f',
-    bg_added_fringe: '#008fcf',
-    fg_added: '#9fdfdf',
-    fg_added_intense: '#50c0ef',
+    /// Code mappings
+    bracket: self.fg_main,
+    builtin: self.magenta,
+    comment: self.red_faint,
+    constant: self.green_faint,
+    delimiter: self.fg_main,
+    docmarkup: self.magenta_faint,
+    docstring: self.fg_alt,
+    fnname: self.cyan_warmer,
+    keyword: self.red_cooler,
+    number: self.fg_main,
+    operator: self.fg_main,
+    preprocessor: self.red_warmer,
+    property: self.cyan_cooler,
+    punctuation: self.fg_main,
+    rx_backslash: self.magenta,
+    rx_construct: self.red,
+    string: self.cyan,
+    type: self.blue_warmer,
+    variable: self.cyan_cooler,
 
-    bg_changed: '#2f123f',
-    bg_changed_faint: '#1f022f',
-    bg_changed_refine: '#3f325f',
-    bg_changed_fringe: '#7f55a0',
-    fg_changed: '#e3cfff',
-    fg_changed_intense: '#cf9fe2',
-
-    // Paren match
-    bg_paren_match: '#2f7f9f',
-    bg_paren_expression: '#453040',
+    /// Accent mappings
+    accent_0: self.cyan,
+    accent_1: self.red_warmer,
+    accent_2: self.cyan_cooler,
+    accent_3: self.magenta,
 
     prose_tag: self.fg_alt,
   },
