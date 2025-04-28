@@ -190,10 +190,10 @@ local commonColors = import 'colors.libsonnet';
     variable: self.cyan,
 
     // Paren match
-    bg_paren_match: self.bg_cyan_subtle,
+    bg_paren_match: '#2f7f9f',
     fg_paren_match: self.fg_main,
-    bg_paren_expression: null,
-    underline_paren_match: self.bg_yellow_nuanced,
+    bg_paren_expression: '#453040',
+    underline_paren_match: null,
 
     // Accent mappings
     accent_0: self.blue_cooler,
@@ -519,7 +519,7 @@ local commonColors = import 'colors.libsonnet';
 
     // Paren match
     bg_paren_match: '#2f7f9f',
-    bg_paren_expression: self.bg_red_nuanced,
+    bg_paren_expression: '#453040',
 
     prose_tag: self.fg_alt,
   },
@@ -565,6 +565,12 @@ local commonColors = import 'colors.libsonnet';
     bg_removed_fringe: '#d0c03f',
     fg_removed: '#d4d48f',
     fg_removed_intense: '#d0b05f',
+
+    // Paren match
+    bg_paren_match: '#2f7f9f',
+    fg_paren_match: self.fg_main,
+    bg_paren_expression: '#453040',
+    underline_paren_match: null,
 
     // Code mappings
     builtin: self.yellow,
