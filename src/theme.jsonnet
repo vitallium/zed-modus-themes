@@ -72,6 +72,10 @@ local makeTheme(name, colorScheme) = {
     'scrollbar.track.background': colorScheme.bg_dim,
     'scrollbar.track.border': colorScheme.border,
 
+    // Diff
+    'version_control.added': colorScheme.bg_added_fringe,
+    'version_control.modified': colorScheme.bg_changed_fringe,
+    'version_control.deleted': colorScheme.bg_removed_fringe,
     conflict: colorScheme.fg_changed,
     'conflict.background': colorScheme.bg_changed,
     'conflict.border': colorScheme.border,
@@ -104,22 +108,6 @@ local makeTheme(name, colorScheme) = {
     predictive: colorScheme.fg_dim,
     'predictive.background': colorScheme.bg_prompt,
     'predictive.border': colorScheme.border,
-
-    // Git panel
-    version_control_added: colorScheme.fg_added,
-    version_control_modified: colorScheme.fg_changed,
-    version_control_deleted: colorScheme.fg_removed,
-
-    'version.control.added': colorScheme.fg_added,
-    'version.control.added.background': colorScheme.bg_added_faint,
-    'version.control.deleted': colorScheme.fg_removed,
-    'version.control.deleted.background': colorScheme.bg_removed_faint,
-    'version.control.modified': colorScheme.fg_changed,
-    'version.control.modified.background': colorScheme.bg_changed_faint,
-    'version.control.renamed': colorScheme.fg_changed,
-    'version.control.conflict': colorScheme.err,
-    'version.control.conflict.background': colorScheme.bg_prominent_err,
-    'version.control.ignored': colorScheme.fg_dim,
 
     // Terminal
     'terminal.background': colorScheme.bg_main,
