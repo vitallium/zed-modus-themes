@@ -111,7 +111,7 @@ local commonColors = import 'colors.libsonnet';
     bg_hover_secondary: '#f5d0a0',
     bg_hl_line: '#dae5ec',
     bg_region: '#bdbdbd',
-    fg_region: self.fg_main,
+    fg_region: '#000000',
 
     bg_mode_line_active: '#c8c8c8',
     fg_mode_line_active: '#000000',
@@ -151,6 +151,16 @@ local commonColors = import 'colors.libsonnet';
     fg_removed_intense: '#aa2222',
 
     bg_diff_context: '#f3f3f3',
+
+    // Paren match
+    bg_paren_match: '#5fcfff',
+    fg_paren_match: self.fg_main,
+    underline_paren_match: '#efd3f5',
+    bg_paren_expression: null,
+
+    //
+    // Mappings
+    //
 
     // General mappings
     fringe: self.bg_dim,
@@ -200,12 +210,6 @@ local commonColors = import 'colors.libsonnet';
     string: self.blue_warmer,
     type: self.cyan_cooler,
     variable: self.cyan,
-
-    // Paren match
-    bg_paren_match: '#5fcfff',
-    fg_paren_match: self.fg_main,
-    underline_paren_match: '#efd3f5',
-    bg_paren_expression: null,
 
     // Accent mappings
     accent_0: self.blue,
@@ -430,6 +434,13 @@ local commonColors = import 'colors.libsonnet';
     cyan_warmer: '#32548f',
     cyan_faint: '#304463',
 
+    // Uncommon accent foregrounds
+
+    // Common accent backgrounds
+    bg_cyan_subtle: '#bfefff',
+
+    bg_cyan_nuanced: '#e0f2fa',
+
     // Special purpose
     bg_completion: '#f0c1cf',
     bg_hover: '#b2e4dc',
@@ -452,14 +463,23 @@ local commonColors = import 'colors.libsonnet';
     bg_added_faint: '#dcf8d1',
     bg_added_refine: '#acd6a5',
     bg_added_fringe: '#6cc06c',
+    fg_added: '#005000',
+    fg_added_intense: '#006700',
+
     bg_changed: '#ffdfa9',
     bg_changed_faint: '#ffefbf',
     bg_changed_refine: '#fac090',
     bg_changed_fringe: '#c0b200',
+    fg_changed: '#553d00',
+    fg_changed_intense: '#655000',
+
     bg_removed: '#f4d0cf',
     bg_removed_faint: '#ffe9e5',
     bg_removed_refine: '#f3b5a7',
     bg_removed_fringe: '#d84a4f',
+    fg_removed: '#8f1313',
+    fg_removed_intense: '#aa2222',
+
     bg_diff_context: '#efe9df',
 
     // Paren match
@@ -511,6 +531,10 @@ local commonColors = import 'colors.libsonnet';
     fg_heading_0: self.green_cooler,
   },
   'Operandi Tritanopia': self.Operandi {
+    // Basic values
+    fg_alt: '#024960',
+
+    // Common accent foregrounds
     red_warmer: '#b21100',
     red_faint: '#702000',
     yellow: '#695500',
@@ -518,9 +542,11 @@ local commonColors = import 'colors.libsonnet';
     yellow_cooler: '#77492f',
     magenta_intense: '#cd22bd',
     cyan_faint: '#004f5f',
+    // Uncommon accent foregrounds
+    // Common accent backgrounds
+    // Uncommon accent background and foreground pairs
 
-    fg_alt: '#024960',
-
+    // Graphs
     bg_graph_green_0: '#68c0a0',
     bg_graph_green_1: '#a5dfd0',
     bg_graph_yellow_0: '#d99f9f',
@@ -541,6 +567,7 @@ local commonColors = import 'colors.libsonnet';
     modeline_warning: '#6f306f',
     modeline_info: '#00445f',
 
+    // Diffs
     bg_added: '#b5e7ff',
     bg_added_faint: '#c6f6ff',
     bg_added_refine: '#9adcef',
@@ -555,6 +582,16 @@ local commonColors = import 'colors.libsonnet';
     fg_changed: '#6f1343',
     fg_changed_intense: '#7f0f9f',
 
+    // Paren match
+    bg_paren_match: '#5fcfff',
+    fg_paren_match: self.fg_main,
+    bg_paren_expression: '#efd3f5',
+
+    //
+    // Mappings
+    //
+
+    /// General mappings
     cursor: self.red_intense,
 
     keybind: self.red,
@@ -572,6 +609,7 @@ local commonColors = import 'colors.libsonnet';
     bg_active_argument: self.bg_red_nuanced,
     fg_active_argument: self.red_warmer,
 
+    // Code mappings
     builtin: self.magenta,
     comment: self.red_faint,
     constant: self.green_cooler,
@@ -584,16 +622,19 @@ local commonColors = import 'colors.libsonnet';
     string: self.cyan,
     variable: self.cyan_cooler,
 
+    // Accent mappings
     accent_0: self.cyan,
     accent_1: self.red_warmer,
     accent_2: self.cyan_cooler,
     accent_3: self.magenta,
 
+    // Completion mappings
     fg_completion_match_0: self.cyan,
     fg_completion_match_1: self.red_warmer,
     fg_completion_match_2: self.magenta,
     fg_completion_match_3: self.cyan_cooler,
 
+    // Date mappings
     date_common: self.cyan_cooler,
     date_deadline: self.red,
     date_holiday: self.red,
@@ -601,6 +642,7 @@ local commonColors = import 'colors.libsonnet';
     date_scheduled: self.magenta,
     date_weekend: self.magenta_warmer,
 
+    // Link mappings
     fg_link: self.cyan,
     underline_link: self.cyan,
 
@@ -616,12 +658,15 @@ local commonColors = import 'colors.libsonnet';
     mail_subject: self.red_cooler,
     mail_other: self.magenta,
 
+    // Mark mappings
     fg_mark_delete: self.red,
     fg_mark_select: self.cyan,
     fg_mark_other: self.magenta,
 
+    // Prompt mappings
     fg_prompt: self.cyan_cooler,
 
+    // Prose mappings
     fg_prose_code: self.cyan,
     fg_prose_macro: self.red_warmer,
     prose_done: self.cyan,
@@ -639,22 +684,19 @@ local commonColors = import 'colors.libsonnet';
     rainbow_7: self.magenta_faint,
     rainbow_8: self.red_faint,
 
+    // Search mappings
     bg_search_replace: self.bg_yellow_intense,
 
     bg_search_rx_group_1: self.bg_magenta_intense,
     bg_search_rx_group_2: self.bg_cyan_subtle,
     bg_search_rx_group_3: self.bg_red_subtle,
 
+    // Heading mappings
     fg_heading_0: self.cyan_cooler,
     fg_heading_2: self.red_faint,
     fg_heading_3: self.cyan_faint,
     fg_heading_6: self.magenta_faint,
     fg_heading_7: self.cyan_warmer,
-
-    // Paren match
-    bg_paren_match: '#5fcfff',
-    fg_paren_match: self.fg_main,
-    bg_paren_expression: '#efd3f5',
   },
   'Operandi Deuteranopia': self.Operandi {
     yellow: '#695500',
