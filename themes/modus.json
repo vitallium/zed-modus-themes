@@ -1199,19 +1199,19 @@
          "style": {
             "accents": [
                "#ffa00f",
-               "#ff66ff",
+               "#2fafff",
                "#d8af7a",
-               "#ff6b55",
+               "#79a8ff",
                "#cabf00",
-               "#b6a0ff",
+               "#4ae2f0",
                "#d2b580",
-               "#79a8ff"
+               "#82b0ec"
             ],
             "background": "#000000",
             "border": "#646464",
             "border.variant": "#646464",
-            "conflict": "#efef80",
-            "conflict.background": "#363300",
+            "conflict": "#e3cfff",
+            "conflict.background": "#2f123f",
             "conflict.border": "#646464",
             "created": "#c4d5ff",
             "created.background": "#003066",
@@ -1237,8 +1237,8 @@
             "element.hover": "#45605e",
             "element.selected": "#535353",
             "elevated_surface.background": "#1e1e1e",
-            "error": "#ff5f59",
-            "error.background": "#9d1f1f",
+            "error": "#ffa00f",
+            "error.background": "#7a6100",
             "error.border": "#646464",
             "ghost_element.active": "#535353",
             "ghost_element.background": "#1e1e1e",
@@ -1256,20 +1256,20 @@
             "info": "#00bcff",
             "info.background": "#1640b0",
             "info.border": "#646464",
-            "modified": "#efef80",
-            "modified.background": "#363300",
+            "modified": "#e3cfff",
+            "modified.background": "#2f123f",
             "modified.border": "#646464",
             "panel.background": "#000000",
             "players": [
                {
                   "background": "#5a5a5a",
-                  "cursor": "#ffffff",
+                  "cursor": "#efef00",
                   "selection": "#ffffff3d"
                },
                {
-                  "background": "#ff66ff",
-                  "cursor": "#ff66ff",
-                  "selection": "#ff66ff3d"
+                  "background": "#2fafff",
+                  "cursor": "#2fafff",
+                  "selection": "#2fafff3d"
                },
                {
                   "background": "#d8af7a",
@@ -1277,9 +1277,9 @@
                   "selection": "#d8af7a3d"
                },
                {
-                  "background": "#ff6b55",
-                  "cursor": "#ff6b55",
-                  "selection": "#ff6b553d"
+                  "background": "#79a8ff",
+                  "cursor": "#79a8ff",
+                  "selection": "#79a8ff3d"
                },
                {
                   "background": "#cabf00",
@@ -1287,9 +1287,9 @@
                   "selection": "#cabf003d"
                },
                {
-                  "background": "#b6a0ff",
-                  "cursor": "#b6a0ff",
-                  "selection": "#b6a0ff3d"
+                  "background": "#4ae2f0",
+                  "cursor": "#4ae2f0",
+                  "selection": "#4ae2f03d"
                },
                {
                   "background": "#d2b580",
@@ -1300,15 +1300,15 @@
             "predictive": "#989898",
             "predictive.background": null,
             "predictive.border": "#646464",
-            "renamed": "#efef80",
-            "renamed.background": "#363300",
+            "renamed": "#e3cfff",
+            "renamed.background": "#2f123f",
             "renamed.border": "#646464",
             "scrollbar.thumb.background": "#2a2a6a8c",
             "scrollbar.thumb.border": "#646464",
             "scrollbar.thumb.hover_background": "#535353",
             "scrollbar.track.background": "#1e1e1e",
             "scrollbar.track.border": "#646464",
-            "search.match_background": "#2266ae",
+            "search.match_background": "#1640b0",
             "status_bar.background": "#2d2d2d",
             "surface.background": "#1e1e1e",
             "syntax": {
@@ -1425,9 +1425,9 @@
             "toolbar.background": "#000000",
             "version_control.added": "#006fff",
             "version_control.deleted": "#d0c03f",
-            "version_control.modified": "#8a7a00",
-            "warning": "#ffa00f",
-            "warning.background": "#7a6100",
+            "version_control.modified": "#7f55a0",
+            "warning": "#cabf00",
+            "warning.background": "#7030af",
             "warning.border": "#646464"
          }
       },
