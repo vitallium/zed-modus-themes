@@ -1674,14 +1674,14 @@
          "name": "Modus Vivendi Tritanopia",
          "style": {
             "accents": [
-               "#ffffff",
-               "#ef7fff",
-               "#00eff0",
-               "#ff6740",
-               "#efef00",
-               "#b6a0ff",
-               "#44df44",
-               "#79a8ff"
+               "#00d3d0",
+               "#ff5f59",
+               "#4ae2ff",
+               "#ff7f86",
+               "#6ae4b9",
+               "#feacd0",
+               "#7fdbdf",
+               "#caa6df"
             ],
             "background": "#000000",
             "border": "#646464",
@@ -1725,7 +1725,7 @@
             "hint.background": "#1e1e1e",
             "hint.border": "#646464",
             "icon": "#ffffff",
-            "icon.accent": "#79a8ff",
+            "icon.accent": "#00d3d0",
             "icon.disabled": "#989898",
             "icon.muted": "#a0d7f2",
             "icon.placeholder": "#989898",
@@ -1743,34 +1743,34 @@
                   "selection": "#ffffff3d"
                },
                {
-                  "background": "#ef7fff",
-                  "cursor": "#ef7fff",
-                  "selection": "#ef7fff3d"
+                  "background": "#ff5f59",
+                  "cursor": "#ff5f59",
+                  "selection": "#ff5f593d"
                },
                {
-                  "background": "#00eff0",
-                  "cursor": "#00eff0",
-                  "selection": "#00eff03d"
+                  "background": "#4ae2ff",
+                  "cursor": "#4ae2ff",
+                  "selection": "#4ae2ff3d"
                },
                {
-                  "background": "#ff6740",
-                  "cursor": "#ff6740",
-                  "selection": "#ff67403d"
+                  "background": "#ff7f86",
+                  "cursor": "#ff7f86",
+                  "selection": "#ff7f863d"
                },
                {
-                  "background": "#efef00",
-                  "cursor": "#efef00",
-                  "selection": "#efef003d"
+                  "background": "#6ae4b9",
+                  "cursor": "#6ae4b9",
+                  "selection": "#6ae4b93d"
                },
                {
-                  "background": "#b6a0ff",
-                  "cursor": "#b6a0ff",
-                  "selection": "#b6a0ff3d"
+                  "background": "#feacd0",
+                  "cursor": "#feacd0",
+                  "selection": "#feacd03d"
                },
                {
-                  "background": "#44df44",
-                  "cursor": "#44df44",
-                  "selection": "#44df443d"
+                  "background": "#7fdbdf",
+                  "cursor": "#7fdbdf",
+                  "selection": "#7fdbdf3d"
                }
             ],
             "predictive": "#989898",
@@ -1842,10 +1842,10 @@
                   "color": "#88ca9f"
                },
                "text.literal": {
-                  "color": "#6ae4b9"
+                  "color": "#00d3d0"
                },
                "title": {
-                  "color": "#d2b580",
+                  "color": "#ff9070",
                   "font_weight": 700
                },
                "type": {
@@ -1892,7 +1892,7 @@
             "terminal.dim_foreground": "#989898",
             "terminal.foreground": "#ffffff",
             "text": "#ffffff",
-            "text.accent": "#79a8ff",
+            "text.accent": "#00d3d0",
             "text.disabled": "#a0d7f2",
             "text.muted": "#a0d7f2",
             "text.placeholder": "#989898",
@@ -1903,7 +1903,7 @@
             "version_control.deleted": "#b81a1f",
             "version_control.modified": "#7f55a0",
             "warning": "#feacd0",
-            "warning.background": "#7a6100",
+            "warning.background": "#7030af",
             "warning.border": "#646464"
          }
       }
