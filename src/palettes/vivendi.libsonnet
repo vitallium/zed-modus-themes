@@ -225,7 +225,6 @@ local commonColors = import 'colors.libsonnet';
     fg_button_active: self.fg_main,
     fg_button_inactive: self.fg_dim,
     bg_button_active: self.bg_active,
-    bg_button_hover: self.bg_hover,  // Added manually
     bg_button_inactive: self.bg_dim,
 
     // Completion mappings

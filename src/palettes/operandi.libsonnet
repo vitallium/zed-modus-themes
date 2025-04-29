@@ -221,7 +221,6 @@ local commonColors = import 'colors.libsonnet';
     fg_button_active: self.fg_main,
     fg_button_inactive: self.fg_dim,
     bg_button_active: self.bg_active,
-    bg_button_hover: self.bg_hover,  // Added manually
     bg_button_inactive: self.bg_dim,
 
     // Completion mappings
@@ -417,7 +416,6 @@ local commonColors = import 'colors.libsonnet';
     bg_main: '#fbf7f0',
     bg_dim: '#efe9dd',
     fg_main: '#000000',
-    fg_dim: '#6c6c6c',  // Changed manually from #595959
     fg_alt: '#193668',
     bg_active: '#c9b9b0',
     bg_inactive: '#dfd5cf',
@@ -1223,7 +1221,7 @@ local commonColors = import 'colors.libsonnet';
     overline_heading_8: null,
   },
   'Operandi Deuteranopia': self.Operandi {
-    //  Basic values
+    // Basic values
     bg_main: '#ffffff',
     bg_dim: '#f2f2f2',
     fg_main: '#000000',
@@ -1600,7 +1598,6 @@ local commonColors = import 'colors.libsonnet';
     fg_term_white_bright: '#ffffff',
 
     // Heading mappings
-
     fg_heading_0: self.cyan_cooler,
     fg_heading_1: self.fg_main,
     fg_heading_2: self.yellow_faint,
