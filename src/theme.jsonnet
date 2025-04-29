@@ -62,7 +62,7 @@ local makeTheme(name, colorScheme) = {
     'editor.line_number': colorScheme.fg_line_number_inactive,
     'editor.active_line_number': colorScheme.fg_line_number_active,
     'editor.gutter.background': colorScheme.bg_line_number_inactive,
-    'editor.document_highlight.read_background': colorScheme.bg_hover,
+    'editor.document_highlight.read_background': colorScheme.bg_dim,
     'editor.document_highlight.write_background': colorScheme.bg_hover,
     'editor.document_highlight.bracket_background': colorScheme.bg_paren_match,
     'search.match_background': colorScheme.bg_search_lazy,

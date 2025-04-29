@@ -34,7 +34,7 @@
             "editor.active_line_number": "#000000",
             "editor.background": "#ffffff",
             "editor.document_highlight.bracket_background": "#5fcfff",
-            "editor.document_highlight.read_background": "#b2e4dc",
+            "editor.document_highlight.read_background": "#f2f2f2",
             "editor.document_highlight.write_background": "#b2e4dc",
             "editor.foreground": "#000000",
             "editor.gutter.background": "#f2f2f2",
