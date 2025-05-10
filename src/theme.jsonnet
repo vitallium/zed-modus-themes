@@ -176,7 +176,8 @@ local makeTheme(name, colorScheme) = {
     warning: colorScheme.fg_prominent_warning,
     'warning.background': colorScheme.bg_prominent_warning,
     'warning.border': colorScheme.border,
-    info: colorScheme.blue_cooler,
+    // Represents informational status updates or messages.
+    info: colorScheme.info,
     'info.background': colorScheme.bg_blue_intense,
     'info.border': colorScheme.border,
 
