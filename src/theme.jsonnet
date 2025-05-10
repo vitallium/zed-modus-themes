@@ -73,22 +73,42 @@ local makeTheme(name, colorScheme) = {
     'scrollbar.track.border': colorScheme.border,
 
     // Diff
+    // Added version control color.
     'version_control.added': colorScheme.bg_added_fringe,
+    // Modified version control color.
     'version_control.modified': colorScheme.bg_changed_fringe,
+    // Deleted version control color.
     'version_control.deleted': colorScheme.bg_removed_fringe,
-    conflict: colorScheme.fg_changed,
+    // Renamed version control color.
+    'version_control.renamed': colorScheme.bg_changed_fringe,
+    // Conflict version control color.
+    'version_control.conflict': colorScheme.bg_diff_context,
+    // Ignored version control color.
+    'version_control.ignored': colorScheme.fg_dim,
+    // Background color for row highlights of "ours" regions in merge conflicts.
+    'version_control.conflict.ours_background': colorScheme.bg_removed,
+    // Background color for row highlights of "theirs" regions in merge conflicts.
+    'version_control.conflict.theirs_background': colorScheme.bg_added,
+    // Background color for row highlights of "ours" conflict markers in merge conflicts.
+    'version_control.conflict.ours_marker_background': colorScheme.bg_removed_refine,
+    // Background color for row highlights of "theirs" conflict markers in merge conflicts.
+    'version_control.conflict.theirs_marker_background': colorScheme.bg_added_refine,
+    // Background color for row highlights of the "ours"/"theirs" divider in merge conflicts.
+    'version_control.conflict.divider_background': colorScheme.bg_diff_context,
+
+    conflict: colorScheme.fg_changed_intense,
     'conflict.background': colorScheme.bg_changed,
     'conflict.border': colorScheme.border,
-    created: colorScheme.fg_added,
+    created: colorScheme.fg_added_intense,
     'created.background': colorScheme.bg_added,
     'created.border': colorScheme.border,
-    deleted: colorScheme.fg_removed,
+    deleted: colorScheme.fg_removed_intense,
     'deleted.background': colorScheme.bg_removed,
     'deleted.border': colorScheme.border,
-    renamed: colorScheme.fg_changed,
+    renamed: colorScheme.fg_changed_intense,
     'renamed.background': colorScheme.bg_changed,
     'renamed.border': colorScheme.border,
-    modified: colorScheme.fg_changed,
+    modified: colorScheme.fg_changed_intense,
     'modified.background': colorScheme.bg_changed,
     'modified.border': colorScheme.border,
 
