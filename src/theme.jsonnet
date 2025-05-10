@@ -79,6 +79,7 @@ local makeTheme(name, colorScheme) = {
     'panel.background': colorScheme.bg_main,
     'toolbar.background': colorScheme.bg_main,
     'status_bar.background': colorScheme.bg_mode_line_inactive,
+    'search.match_background': colorScheme.bg_search_lazy,
 
     //
     // Tab Bar
@@ -108,7 +109,6 @@ local makeTheme(name, colorScheme) = {
     'editor.document_highlight.write_background': colorScheme.bg_hover,
     // Highlighted brackets background color.
     'editor.document_highlight.bracket_background': colorScheme.bg_paren_match,
-    'search.match_background': colorScheme.bg_search_lazy,
     // The color of the scrollbar thumb.
     'scrollbar.thumb.background': addAlpha(colorScheme.bg_mode_line_active, 0.55),
     // The color of the scrollbar thumb when hovered over.
