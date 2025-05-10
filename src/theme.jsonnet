@@ -176,6 +176,12 @@ local makeTheme(name, colorScheme) = {
     warning: colorScheme.fg_prominent_warning,
     'warning.background': colorScheme.bg_prominent_warning,
     'warning.border': colorScheme.border,
+
+    // Indicates a successful operation or task completion.
+    success: colorScheme.fg_prominent_note,
+    'success.background': colorScheme.bg_prominent_note,
+    'success.border': colorScheme.border,
+
     // Represents informational status updates or messages.
     info: colorScheme.info,
     'info.background': colorScheme.bg_blue_intense,

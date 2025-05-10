@@ -121,6 +121,9 @@
             "scrollbar.track.border": "#9f9f9f",
             "search.match_background": "#a4d5f9",
             "status_bar.background": "#e6e6e6",
+            "success": "#000000",
+            "success.background": "#a4d5f9",
+            "success.border": "#9f9f9f",
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
@@ -368,6 +371,9 @@
             "scrollbar.track.border": "#9f9f9f",
             "search.match_background": "#bfc9ff",
             "status_bar.background": "#e6e6e6",
+            "success": "#000000",
+            "success.background": "#a4d5f9",
+            "success.border": "#9f9f9f",
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
@@ -615,6 +621,9 @@
             "scrollbar.track.border": "#9f9690",
             "search.match_background": "#a4d5f9",
             "status_bar.background": "#dfd9cf",
+            "success": "#000000",
+            "success.background": "#a4d5f9",
+            "success.border": "#9f9690",
             "surface.background": "#efe9dd",
             "syntax": {
                "attribute": {
@@ -862,6 +871,9 @@
             "scrollbar.track.border": "#9f9f9f",
             "search.match_background": "#a4d5f9",
             "status_bar.background": "#e6e6e6",
+            "success": "#000000",
+            "success.background": "#a4d5f9",
+            "success.border": "#9f9f9f",
             "surface.background": "#f2f2f2",
             "syntax": {
                "attribute": {
@@ -1109,6 +1121,9 @@
             "scrollbar.track.border": "#646464",
             "search.match_background": "#2266ae",
             "status_bar.background": "#2d2d2d",
+            "success": "#ffffff",
+            "success.background": "#2266ae",
+            "success.border": "#646464",
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
@@ -1356,6 +1371,9 @@
             "scrollbar.track.border": "#646464",
             "search.match_background": "#1640b0",
             "status_bar.background": "#2d2d2d",
+            "success": "#ffffff",
+            "success.background": "#2266ae",
+            "success.border": "#646464",
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
@@ -1603,6 +1621,9 @@
             "scrollbar.track.border": "#61647a",
             "search.match_background": "#2266ae",
             "status_bar.background": "#292d48",
+            "success": "#ffffff",
+            "success.background": "#2266ae",
+            "success.border": "#61647a",
             "surface.background": "#1d2235",
             "syntax": {
                "attribute": {
@@ -1850,6 +1871,9 @@
             "scrollbar.track.border": "#646464",
             "search.match_background": "#2266ae",
             "status_bar.background": "#2d2d2d",
+            "success": "#ffffff",
+            "success.background": "#2266ae",
+            "success.border": "#646464",
             "surface.background": "#1e1e1e",
             "syntax": {
                "attribute": {
