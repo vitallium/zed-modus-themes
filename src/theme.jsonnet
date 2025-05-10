@@ -172,7 +172,8 @@ local makeTheme(name, colorScheme) = {
     'modified.background': colorScheme.bg_changed,
     'modified.border': colorScheme.border,
 
-    warning: colorScheme.warning,
+    // Represents a warning status, like an operation that is about to fail.
+    warning: colorScheme.fg_prominent_warning,
     'warning.background': colorScheme.bg_prominent_warning,
     'warning.border': colorScheme.border,
     info: colorScheme.blue_cooler,

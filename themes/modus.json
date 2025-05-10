@@ -245,7 +245,7 @@
             "version_control.ignored": "#595959",
             "version_control.modified": "#d7c20a",
             "version_control.renamed": "#d7c20a",
-            "warning": "#884900",
+            "warning": "#000000",
             "warning.background": "#f3d000",
             "warning.border": "#9f9f9f"
          }
@@ -492,7 +492,7 @@
             "version_control.ignored": "#595959",
             "version_control.modified": "#9f6ab0",
             "version_control.renamed": "#9f6ab0",
-            "warning": "#695500",
+            "warning": "#000000",
             "warning.background": "#dfa0f0",
             "warning.border": "#9f9f9f"
          }
@@ -739,7 +739,7 @@
             "version_control.ignored": "#6c6c6c",
             "version_control.modified": "#c0b200",
             "version_control.renamed": "#c0b200",
-            "warning": "#6d5000",
+            "warning": "#000000",
             "warning.background": "#f3d000",
             "warning.border": "#9f9690"
          }
@@ -986,7 +986,7 @@
             "version_control.ignored": "#595959",
             "version_control.modified": "#9f6ab0",
             "version_control.renamed": "#9f6ab0",
-            "warning": "#721045",
+            "warning": "#000000",
             "warning.background": "#dfa0f0",
             "warning.border": "#9f9f9f"
          }
@@ -1233,7 +1233,7 @@
             "version_control.ignored": "#989898",
             "version_control.modified": "#8a7a00",
             "version_control.renamed": "#8a7a00",
-            "warning": "#fec43f",
+            "warning": "#ffffff",
             "warning.background": "#7a6100",
             "warning.border": "#646464"
          }
@@ -1480,7 +1480,7 @@
             "version_control.ignored": "#989898",
             "version_control.modified": "#7f55a0",
             "version_control.renamed": "#7f55a0",
-            "warning": "#cabf00",
+            "warning": "#ffffff",
             "warning.background": "#7030af",
             "warning.border": "#646464"
          }
@@ -1727,7 +1727,7 @@
             "version_control.ignored": "#989898",
             "version_control.modified": "#8f7a30",
             "version_control.renamed": "#8f7a30",
-            "warning": "#d0bc00",
+            "warning": "#ffffff",
             "warning.background": "#7a6100",
             "warning.border": "#61647a"
          }
@@ -1974,7 +1974,7 @@
             "version_control.ignored": "#989898",
             "version_control.modified": "#7f55a0",
             "version_control.renamed": "#7f55a0",
-            "warning": "#feacd0",
+            "warning": "#ffffff",
             "warning.background": "#7030af",
             "warning.border": "#646464"
          }
