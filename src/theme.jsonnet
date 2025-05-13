@@ -132,7 +132,7 @@ local makeTheme(name, colorScheme) = {
     // Represents a renamed entry in version control systems.
     'version_control.renamed': colorScheme.bg_changed_fringe,
     // Represents a conflicting entry in version control systems.
-    'version_control.conflict': colorScheme.bg_diff_context,
+    'version_control.conflict': colorScheme.bg_changed_fringe,
     // Represents an ignored entry in version control systems.
     'version_control.ignored': colorScheme.fg_dim,
     // Background color for row highlights of "ours" regions in merge conflicts.
