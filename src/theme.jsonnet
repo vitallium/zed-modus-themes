@@ -140,11 +140,11 @@ local makeTheme(name, colorScheme) = {
     // Background color for row highlights of "theirs" regions in merge conflicts.
     'version_control.conflict.theirs_background': colorScheme.bg_added,
     // Background color for row highlights of "ours" conflict markers in merge conflicts.
-    'version_control.conflict.ours_marker_background': colorScheme.bg_removed_refine,
+    'version_control.conflict.ours_marker_background': colorScheme.bg_removed,
     // Background color for row highlights of "theirs" conflict markers in merge conflicts.
-    'version_control.conflict.theirs_marker_background': colorScheme.bg_added_refine,
+    'version_control.conflict.theirs_marker_background': colorScheme.bg_added,
     // Background color for row highlights of the "ours"/"theirs" divider in merge conflicts.
-    'version_control.conflict.divider_background': colorScheme.bg_diff_context,
+    'version_control.conflict.divider_background': colorScheme.bg_changed,
 
     // Indicates some kind of conflict, like a file changed on disk while it was open, or
     // merge conflicts in a Git repository.
