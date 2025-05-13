@@ -1,5 +1,5 @@
 [tools]
-jsonnet = "latest"
+go-jsonnet = "latest"
 
 [env]
 JSONNET_PATH = "src"
