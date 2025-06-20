@@ -3,8 +3,6 @@ local commonColors = import 'colors.libsonnet';
 {
   Operandi: {
     appearance: 'light',
-    bold: true,
-
     white: commonColors.white,
     black: commonColors.black,
     gray35: commonColors.gray35,
@@ -1629,17 +1627,5 @@ local commonColors = import 'colors.libsonnet';
     overline_heading_6: null,
     overline_heading_7: null,
     overline_heading_8: null,
-  },
-  'Operandi (non-bold variant)': self.Operandi {
-    bold: false,
-  },
-  'Operandi Tinted (non-bold variant)': self.Operandi {
-    bold: false,
-  },
-  'Operandi Tritanopia (non-bold variant)': self.Operandi {
-    bold: false,
-  },
-  'Operandi Deuteranopia (non-bold variant)': self.Operandi {
-    bold: false,
   },
 }
