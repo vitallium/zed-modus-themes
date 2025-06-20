@@ -276,8 +276,9 @@ local makeTheme(name, colorScheme) = {
       },
       keyword: {
         color: colorScheme.keyword,
-        font_weight: 700,
-      },
+      } + (if colorScheme.bold then {
+             font_weight: 700,
+           } else {}),
       number: {
         color: colorScheme.number,
       },
@@ -310,19 +311,22 @@ local makeTheme(name, colorScheme) = {
       },
       title: {
         color: colorScheme.fg_heading_2,
-        font_weight: 700,
-      },
+      } + (if colorScheme.bold then {
+             font_weight: 700,
+           } else {}),
       type: {
         color: colorScheme.type,
-        font_weight: 700,
-      },
+      } + (if colorScheme.bold then {
+             font_weight: 700,
+           } else {}),
       variable: {
         color: colorScheme.variable,
       },
       'variable.special': {
         color: colorScheme.keyword,
-        font_weight: 700,
-      },
+      } + (if colorScheme.bold then {
+             font_weight: 700,
+           } else {}),
     },
   },
 };

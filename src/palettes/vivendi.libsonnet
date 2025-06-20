@@ -3,6 +3,7 @@ local commonColors = import 'colors.libsonnet';
 {
   Vivendi: {
     appearance: 'dark',
+    bold: true,
 
     white: commonColors.white,
     black: commonColors.black,
@@ -1635,5 +1636,17 @@ local commonColors = import 'colors.libsonnet';
     overline_heading_6: null,
     overline_heading_7: null,
     overline_heading_8: null,
+  },
+  'Vivendi (non-bold variant)': self.Vivendi {
+    bold: false,
+  },
+  'Vivendi Tinted (non-bold variant)': self.Vivendi {
+    bold: false,
+  },
+  'Vivendi Tritanopia (non-bold variant)': self.Vivendi {
+    bold: false,
+  },
+  'Vivendi Deuteranopia (non-bold variant)': self.Vivendi {
+    bold: false,
   },
 }
