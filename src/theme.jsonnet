@@ -276,7 +276,6 @@ local makeTheme(name, colorScheme) = {
       },
       keyword: {
         color: colorScheme.keyword,
-        font_weight: 700,
       },
       number: {
         color: colorScheme.number,
@@ -310,18 +309,15 @@ local makeTheme(name, colorScheme) = {
       },
       title: {
         color: colorScheme.fg_heading_2,
-        font_weight: 700,
       },
       type: {
         color: colorScheme.type,
-        font_weight: 700,
       },
       variable: {
         color: colorScheme.variable,
       },
       'variable.special': {
         color: colorScheme.keyword,
-        font_weight: 700,
       },
     },
   },

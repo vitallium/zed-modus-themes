@@ -87,7 +87,7 @@ In the command palette, choose `zed: extensions` then search for `modus-themes`.
 
 ## Configuration
 
-### Disabling bold fonts
+### Enable bold fonts (`modus-themes-bold-constructs`)
 
 Use [Zed's experimental feature](https://zed.dev/docs/themes#theme-overrides) to override parts of the current theme:
 
@@ -95,16 +95,16 @@ Use [Zed's experimental feature](https://zed.dev/docs/themes#theme-overrides) to
 "experimental.theme_overrides": {
   "syntax": {
     "keyword": {
-      "font_weight": 400
+      "font_weight": 700
     },
     "title": {
-      "font_weight": 400
+      "font_weight": 700
     },
     "type": {
-      "font_weight": 400
+      "font_weight": 700
     },
     "variable.special": {
-      "font_weight": 400
+      "font_weight": 700
     }
   }
 }
