@@ -520,7 +520,7 @@ local commonColors = import 'colors.libsonnet';
     bg_completion: '#483d8a',
     bg_hover: '#45605e',
     bg_hover_secondary: '#64404f',
-    bg_highlight_line: '#303a6f',
+    bg_hl_line: '#303a6f',
     bg_region: '#555a66',
     fg_region: '#ffffff',
 
