@@ -45,7 +45,7 @@ local makeTheme(name, colorScheme) = {
     // Border color. Used for elevated surfaces, like a context menu, popup, or dialog.
     'elevated_surface.background': colorScheme.bg_button_inactive,
     // Background Color. Used for grounded surfaces like a panel or tab.
-    'surface.background': colorScheme.bg_button_inactive,
+    'surface.background': colorScheme.bg_dim,
     // Background Color. Used for the app background and blank panels or windows.
     background: colorScheme.bg_main,
 
