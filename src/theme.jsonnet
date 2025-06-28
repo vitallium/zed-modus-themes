@@ -19,7 +19,7 @@ local makeTheme(name, colorScheme) = {
     // Text Color. Color of the placeholder text typically shown in input fields to guide the user to enter valid data.
     'text.placeholder': colorScheme.fg_dim,
     // Text Color. Color used for text denoting disabled elements. Typically, the color is faded or grayed out to emphasize the disabled state.
-    'text.disabled': colorScheme.fg_alt,
+    'text.disabled': colorScheme.fg_dim,
     // Text Color. Color used for emphasis or highlighting certain text, like an active filter or a matched character in a search.
     'text.accent': colorScheme.fg_link,
 
