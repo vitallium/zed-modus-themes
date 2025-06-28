@@ -78,7 +78,7 @@ local makeTheme(name, colorScheme) = {
     'title_bar.inactive_background': colorScheme.bg_dim,
     'panel.background': colorScheme.bg_main,
     'toolbar.background': colorScheme.bg_main,
-    'status_bar.background': colorScheme.bg_mode_line_inactive,
+    'status_bar.background': colorScheme.bg_mode_line_active,
     'search.match_background': colorScheme.bg_search_lazy,
 
     //
