@@ -225,7 +225,7 @@ local makeTheme(name, colorScheme) = {
     'terminal.ansi.bright_blue': colorScheme.bg_term_blue_bright,
     'terminal.ansi.dim_blue': null,
     'terminal.ansi.magenta': colorScheme.bg_term_magenta,
-    'terminal.ansi.bright_magenta': colorScheme.bg_term_magenta,
+    'terminal.ansi.bright_magenta': colorScheme.bg_term_magenta_bright,
     'terminal.ansi.dim_magenta': null,
     'terminal.ansi.cyan': colorScheme.bg_term_cyan,
     'terminal.ansi.bright_cyan': colorScheme.bg_term_cyan_bright,
