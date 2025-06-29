@@ -96,6 +96,7 @@ local makeTheme(name, colorScheme) = {
     'editor.subheader.background': colorScheme.bg_mode_line_active,
     'editor.highlighted_line.background': colorScheme.bg_hl_line,
     'editor.active_line.background': colorScheme.bg_hl_line,
+    'editor.debugger_active_line.background': colorScheme.bg_hl_line,
     // Text Color. Used to mark invisible characters in the editor.
     'editor.invisible': colorScheme.fg_space,
     // Text Color. Used for the text of the line number in the editor gutter.
@@ -201,6 +202,9 @@ local makeTheme(name, colorScheme) = {
     predictive: colorScheme.fg_dim,
     'predictive.background': colorScheme.bg_prompt,
     'predictive.border': colorScheme.border,
+
+    // Debugger
+    'debugger.accent': colorScheme.err,
 
     //
     // Terminal
