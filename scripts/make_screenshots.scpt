@@ -49,10 +49,10 @@ repeat with theme in themes
         keystroke return
         delay 0.5
 
-        -- Find "let"
+        -- Find "def"
         keystroke "f" using {command down}
         delay 0.5
-        keystroke "let"
+        keystroke "def"
         delay 0.5
 
         -- Take screenshot
