@@ -126,26 +126,20 @@ local makeTheme(name, colorScheme) = {
     //
     // Represents an added entry or hunk in vcs, like git.
     'version_control.added': colorScheme.bg_added_fringe,
-    // Represents a modified entry in version control systems.
-    'version_control.modified': colorScheme.bg_changed_fringe,
     // Represents a deleted entry in version control systems.
     'version_control.deleted': colorScheme.bg_removed_fringe,
+    // Represents a modified entry in version control systems.
+    'version_control.modified': colorScheme.bg_changed_fringe,
     // Represents a renamed entry in version control systems.
     'version_control.renamed': colorScheme.bg_changed_fringe,
     // Represents a conflicting entry in version control systems.
     'version_control.conflict': colorScheme.bg_changed_fringe,
     // Represents an ignored entry in version control systems.
     'version_control.ignored': colorScheme.fg_dim,
-    // Background color for row highlights of "ours" regions in merge conflicts.
-    'version_control.conflict.ours_background': colorScheme.bg_removed,
-    // Background color for row highlights of "theirs" regions in merge conflicts.
-    'version_control.conflict.theirs_background': colorScheme.bg_added,
     // Background color for row highlights of "ours" conflict markers in merge conflicts.
-    'version_control.conflict.ours_marker_background': colorScheme.bg_removed,
+    'version_control.conflict_marker.ours': colorScheme.bg_removed,
     // Background color for row highlights of "theirs" conflict markers in merge conflicts.
-    'version_control.conflict.theirs_marker_background': colorScheme.bg_added,
-    // Background color for row highlights of the "ours"/"theirs" divider in merge conflicts.
-    'version_control.conflict.divider_background': colorScheme.bg_changed,
+    'version_control.conflict_marker.theirs': colorScheme.bg_added,
 
     // Indicates some kind of conflict, like a file changed on disk while it was open, or
     // merge conflicts in a Git repository.
