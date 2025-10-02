@@ -109,7 +109,7 @@ local makeTheme(name, colorScheme) = {
     // Write-access of a symbol, like reading a variable.
     'editor.document_highlight.write_background': colorScheme.bg_hover,
     // Highlighted brackets background color.
-    'editor.document_highlight.bracket_background': colorScheme.bg_paren_match,
+    'editor.document_highlight.bracket_background': addAlpha(colorScheme.bg_paren_match, 0.55),
     // The color of the scrollbar thumb.
     'scrollbar.thumb.background': addAlpha(colorScheme.bg_mode_line_active, 0.55),
     // The color of the scrollbar thumb when hovered over.
