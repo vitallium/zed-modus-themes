@@ -177,6 +177,11 @@ local makeTheme(name, colorScheme) = {
     'success.background': colorScheme.bg_prominent_note,
     'success.border': colorScheme.border,
 
+    // Indicates some kind of unreachable status, like a block of code that can never be reached.
+    unreachable: colorScheme.fg_dim,
+    'unreachable.background': colorScheme.bg_dim,
+    'unreachable.border': colorScheme.border,
+
     // Represents informational status updates or messages.
     info: colorScheme.info,
     'info.background': colorScheme.bg_blue_intense,
