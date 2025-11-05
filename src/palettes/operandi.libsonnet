@@ -53,7 +53,7 @@ local commonColors = import 'colors.libsonnet';
     // Uncommon accent foregrounds
     rust: '#8a290f',
     gold: '#6c501c',
-    olive: '#56692d',
+    olive: '#4c6000',
     slate: '#2f3f83',
     indigo: '#4a3a8a',
     maroon: '#731c52',
