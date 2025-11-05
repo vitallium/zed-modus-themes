@@ -824,7 +824,7 @@ local commonColors = import 'colors.libsonnet';
     bg_dim: '#f2f2f2',
     fg_main: '#000000',
     fg_dim: '#595959',
-    fg_alt: '#024960',
+    fg_alt: '#224960',
     bg_active: '#c4c4c4',
     bg_inactive: '#e0e0e0',
     border: '#9f9f9f',
