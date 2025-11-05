@@ -87,7 +87,7 @@ local commonColors = import 'colors.libsonnet';
     fg_clay: '#f1b090',
 
     bg_ochre: '#462f20',
-    fg_ochre: '#e0d09c',
+    fg_ochre: '#e0d38c',
 
     bg_lavender: '#38325c',
     fg_lavender: '#dfc0f0',
