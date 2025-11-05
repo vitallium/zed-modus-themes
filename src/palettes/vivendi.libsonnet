@@ -459,7 +459,7 @@ local commonColors = import 'colors.libsonnet';
     cyan_intense: '#00eff0',
 
     // Uncommon accent foregrounds
-    rust: '#db7b5f',
+    rust: '#db8b3f',
     gold: '#c0965b',
     olive: '#9cbd6f',
     slate: '#76afbf',
