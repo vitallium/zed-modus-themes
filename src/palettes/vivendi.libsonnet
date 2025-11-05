@@ -500,7 +500,7 @@ local commonColors = import 'colors.libsonnet';
     fg_lavender: '#dfc0f0',
 
     bg_sage: '#143e32',
-    fg_sage: '#c3e7d4',
+    fg_sage: '#83d7ac',
 
     // Graphs
     bg_graph_red_0: '#b52c2c',
