@@ -869,7 +869,7 @@ local commonColors = import 'colors.libsonnet';
     rust: '#db7b5f',
     gold: '#c0965b',
     olive: '#9cbd6f',
-    slate: '#76afbf',
+    slate: '#104860',
     indigo: '#9099d9',
     maroon: '#cf7fa7',
     pink: '#d09dc0',
