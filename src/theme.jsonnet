@@ -328,9 +328,9 @@ local makeTheme(name, colorScheme) = {
     'vim.insert.background': colorScheme.green_faint,
     'vim.visual.background': colorScheme.magenta_faint,
     'vim.replace.background': colorScheme.red_faint,
+    'vim.helix_normal.background': colorScheme.blue_faint,
     // 'vim.visual_line.background': ???,
     // 'vim.visual_block.background': ???,
-    // 'vim.helix_normal.background': ???,
     // 'vim.helix_select.background': ???,
   },
 };
