@@ -1553,7 +1553,7 @@ local commonColors = import 'colors.libsonnet';
     // Space mappings
     bg_space: null,
     fg_space: self.border,
-    bg_space_err: self.bg_yellow_intense,
+    bg_space_err: self.bg_red_intense,
 
     // Terminal mappings
 
