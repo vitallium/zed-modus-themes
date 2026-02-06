@@ -638,7 +638,7 @@ local commonColors = import 'colors.libsonnet';
     fg_completion_match_0: self.blue_cooler,
     fg_completion_match_1: self.magenta_warmer,
     fg_completion_match_2: self.cyan_cooler,
-    fg_completion_match_3: self.yellow_warmer,
+    fg_completion_match_3: self.yellow,
     bg_completion_match_0: null,
     bg_completion_match_1: null,
     bg_completion_match_2: null,
@@ -679,7 +679,7 @@ local commonColors = import 'colors.libsonnet';
 
     // Mail mappings
     mail_cite_0: self.blue_faint,
-    mail_cite_1: self.cyan_warmer,
+    mail_cite_1: self.yellow_cooler,
     mail_cite_2: self.cyan_cooler,
     mail_cite_3: self.red_cooler,
     mail_part: self.blue,
@@ -869,7 +869,7 @@ local commonColors = import 'colors.libsonnet';
     rust: '#db7b5f',
     gold: '#c0965b',
     olive: '#9cbd6f',
-    slate: '#104860',
+    slate: '#76afbf',
     indigo: '#9099d9',
     maroon: '#cf7fa7',
     pink: '#d09dc0',
