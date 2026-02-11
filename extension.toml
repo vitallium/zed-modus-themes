@@ -1,7 +1,7 @@
 id = "modus-themes"
 name = "Modus Themes"
 description = "A complete set of accessible themes for Zed editor. These themes provide high contrast and color-blind friendly color combinations, ensuring readability and comfort for all users. "
-version = "0.1.4"
+version = "0.1.5"
 schema_version = 1
 authors = ["Vitaly Slobodin <vitaliy.slobodin@gmail.com>"]
 repository = "https://github.com/vitallium/zed-modus-themes"
