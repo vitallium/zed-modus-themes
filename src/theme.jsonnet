@@ -294,12 +294,27 @@ local makeTheme(name, colorScheme) = {
       attribute: {
         color: colorScheme.preprocessor,
       },
+      _isinstance: {
+        color: colorScheme.type,
+      },
+      _issubclass: {
+        color: colorScheme.type,
+      },
+      _parent: {
+        color: colorScheme.variable,
+      },
       boolean: {
         color: colorScheme.constant,
+      },
+      charset: {
+        color: colorScheme.preprocessor,
       },
       comment: {
         color: colorScheme.comment,
         font_style: 'italic',
+      },
+      concept: {
+        color: colorScheme.type,
       },
       constant: {
         color: colorScheme.constant,
@@ -307,14 +322,95 @@ local makeTheme(name, colorScheme) = {
       constructor: {
         color: colorScheme.fnname,
       },
+      'diff.delta': {
+        color: colorScheme.fg_changed,
+      },
+      'diff.delta.moved': {
+        color: colorScheme.fg_changed,
+      },
+      'diff.minus': {
+        color: colorScheme.fg_removed,
+      },
+      'diff.plus': {
+        color: colorScheme.fg_added,
+      },
       embedded: {
         color: colorScheme.preprocessor,
+      },
+      emphasis: {
+        color: colorScheme.fg_alt,
+      },
+      'emphasis.markup': {
+        color: colorScheme.fg_alt,
+      },
+      'emphasis.strong': {
+        color: colorScheme.fg_alt,
+      },
+      'emphasis.strong.markup': {
+        color: colorScheme.fg_alt,
+      },
+      enum: {
+        color: colorScheme.type,
+      },
+      'error': {
+        color: colorScheme.err,
       },
       'function': {
         color: colorScheme.fnname,
       },
+      hint: {
+        color: colorScheme.info,
+      },
+      'import': {
+        color: colorScheme.preprocessor,
+      },
+      keyframes: {
+        color: colorScheme.keyword,
+      },
       keyword: {
         color: colorScheme.keyword,
+      },
+      label: {
+        color: colorScheme.property,
+      },
+      'label.regex': {
+        color: colorScheme.rx_construct,
+      },
+      lifetime: {
+        color: colorScheme.keyword,
+      },
+      link_text: {
+        color: colorScheme.fg_link,
+      },
+      'link_text.markup': {
+        color: colorScheme.fg_link,
+      },
+      link_uri: {
+        color: colorScheme.fg_link,
+      },
+      'link_uri.markup': {
+        color: colorScheme.fg_link,
+      },
+      'markup.heading': {
+        color: colorScheme.fg_heading_2,
+      },
+      'markup.link.url': {
+        color: colorScheme.fg_link,
+      },
+      media: {
+        color: colorScheme.type,
+      },
+      module: {
+        color: colorScheme.preprocessor,
+      },
+      namespace: {
+        color: colorScheme.preprocessor,
+      },
+      nested: {
+        color: colorScheme.keyword,
+      },
+      none: {
+        color: colorScheme.fg_main,
       },
       number: {
         color: colorScheme.number,
@@ -322,11 +418,80 @@ local makeTheme(name, colorScheme) = {
       operator: {
         color: colorScheme.fnname,
       },
+      predictive: {
+        color: colorScheme.fg_dim,
+      },
+      preproc: {
+        color: colorScheme.preprocessor,
+      },
+      primary: {
+        color: colorScheme.fg_main,
+      },
       property: {
         color: colorScheme.property,
       },
+      punctuation: {
+        color: colorScheme.punctuation,
+      },
+      'punctuation.bracket': {
+        color: colorScheme.bracket,
+      },
+      'punctuation.bracket.html': {
+        color: colorScheme.bracket,
+      },
+      'punctuation.bracket.jsx': {
+        color: colorScheme.bracket,
+      },
+      'punctuation.bracket.regex': {
+        color: colorScheme.bracket,
+      },
+      'punctuation.delimiter': {
+        color: colorScheme.delimiter,
+      },
+      'punctuation.delimiter.html': {
+        color: colorScheme.delimiter,
+      },
+      'punctuation.delimiter.jsx': {
+        color: colorScheme.delimiter,
+      },
+      'punctuation.delimiter.regex': {
+        color: colorScheme.delimiter,
+      },
+      'punctuation.embedded.markup': {
+        color: colorScheme.punctuation,
+      },
+      'punctuation.list_marker': {
+        color: colorScheme.punctuation,
+      },
+      'punctuation.list_marker.markup': {
+        color: colorScheme.punctuation,
+      },
+      'punctuation.markup': {
+        color: colorScheme.punctuation,
+      },
+      'punctuation.special': {
+        color: colorScheme.punctuation,
+      },
+      'selector.class': {
+        color: colorScheme.type,
+      },
+      'selector.id': {
+        color: colorScheme.keyword,
+      },
+      'selector.pseudo': {
+        color: colorScheme.keyword,
+      },
+      storageclass: {
+        color: colorScheme.keyword,
+      },
+      'strikethrough.markup': {
+        color: colorScheme.fg_dim,
+      },
       string: {
         color: colorScheme.string,
+      },
+      supports: {
+        color: colorScheme.keyword,
       },
       'string.escape': {
         color: colorScheme.string,
@@ -343,6 +508,12 @@ local makeTheme(name, colorScheme) = {
       tag: {
         color: colorScheme.constant,
       },
+      text: {
+        color: colorScheme.fg_main,
+      },
+      'text.jsx': {
+        color: colorScheme.fg_main,
+      },
       'text.literal': {
         color: colorScheme.fg_prose_code,
       },
@@ -352,11 +523,17 @@ local makeTheme(name, colorScheme) = {
       type: {
         color: colorScheme.type,
       },
+      variant: {
+        color: colorScheme.fg_alt,
+      },
       variable: {
         color: colorScheme.variable,
       },
       'variable.special': {
         color: colorScheme.keyword,
+      },
+      warning: {
+        color: colorScheme.warning,
       },
     },
     'vim.normal.background': colorScheme.blue_faint,
