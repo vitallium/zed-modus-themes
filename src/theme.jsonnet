@@ -36,6 +36,10 @@ local makeTheme(name, colorScheme) = {
 
     // Border color. Used for most borders, is usually a high contrast color.
     border: colorScheme.border,
+    'border.disabled': colorScheme.border,
+    'border.focused': colorScheme.fg_link,
+    'border.selected': colorScheme.fg_link,
+    'border.transparent': addAlpha(colorScheme.bg_main, 0.0),
     // Border color. Used for deemphasized borders, like a visual divider between two sections
     'border.variant': colorScheme.border,
 
@@ -48,6 +52,7 @@ local makeTheme(name, colorScheme) = {
     'surface.background': colorScheme.bg_dim,
     // Background Color. Used for the app background and blank panels or windows.
     background: colorScheme.bg_main,
+    'background.appearance': 'opaque',
 
     //
     // Elements might include: Buttons, Inputs, Checkboxes, Radio Buttons...
@@ -60,10 +65,12 @@ local makeTheme(name, colorScheme) = {
     'element.active': colorScheme.bg_button_active,
     // Background Color. Used for the selected state of an element that should have a different background than the surface it's on.
     'element.selected': colorScheme.bg_button_active,
+    'element.selection_background': colorScheme.bg_button_active,
     // Background Color. Used for the disabled state of an element that should have a different background than the surface it's on.
     'element.disabled': colorScheme.bg_button_inactive,
     // Background Color. Used for the area that shows where a dragged element will be dropped.
     'drop_target.background': addAlpha(colorScheme.bg_active, 0.55),
+    'drop_target.border': colorScheme.border,
     // Used for the background of a ghost element that should have the same background as the surface it's on.
     'ghost_element.background': colorScheme.bg_button_inactive,
     // Background Color. Used for the hover state of a ghost element that should have the same background as the surface it's on.
@@ -77,8 +84,23 @@ local makeTheme(name, colorScheme) = {
     'title_bar.background': colorScheme.bg_main,
     'title_bar.inactive_background': colorScheme.bg_dim,
     'panel.background': colorScheme.bg_main,
+    'panel.focused_border': colorScheme.fg_link,
+    'panel.indent_guide': colorScheme.border,
+    'panel.indent_guide_active': colorScheme.fg_line_number_active,
+    'panel.indent_guide_hover': colorScheme.fg_line_number_active,
+    'panel.overlay_background': colorScheme.bg_button_inactive,
+    'panel.overlay_hover': colorScheme.bg_button_hover,
     'toolbar.background': colorScheme.bg_main,
     'status_bar.background': colorScheme.bg_mode_line_active,
+    'pane.focused_border': colorScheme.fg_link,
+    'pane_group.border': colorScheme.border,
+    'link_text.hover': colorScheme.fg_link,
+    hidden: colorScheme.fg_dim,
+    'hidden.background': colorScheme.bg_button_inactive,
+    'hidden.border': colorScheme.border,
+    ignored: colorScheme.fg_dim,
+    'ignored.background': colorScheme.bg_button_inactive,
+    'ignored.border': colorScheme.border,
     'search.match_background': colorScheme.bg_search_lazy,
     'search.active_match_background': addAlpha(colorScheme.bg_search_current, 1),
 
@@ -104,6 +126,11 @@ local makeTheme(name, colorScheme) = {
     'editor.line_number': colorScheme.fg_line_number_inactive,
     // Text Color. Used for the text of the line number in the editor gutter when the line is highlighted.
     'editor.active_line_number': colorScheme.fg_line_number_active,
+    'editor.hover_line_number': colorScheme.fg_line_number_active,
+    'editor.indent_guide': colorScheme.border,
+    'editor.indent_guide_active': colorScheme.fg_line_number_active,
+    'editor.wrap_guide': colorScheme.border,
+    'editor.active_wrap_guide': colorScheme.fg_line_number_active,
     'editor.gutter.background': colorScheme.bg_line_number_inactive,
     // Read-access of a symbol, like reading a variable.
     'editor.document_highlight.read_background': colorScheme.bg_dim,
@@ -115,8 +142,13 @@ local makeTheme(name, colorScheme) = {
     'scrollbar.thumb.background': addAlpha(colorScheme.bg_mode_line_active, 0.55),
     // The color of the scrollbar thumb when hovered over.
     'scrollbar.thumb.hover_background': colorScheme.bg_active,
+    'scrollbar.thumb.active_background': colorScheme.bg_active,
     // The border color of the scrollbar thumb.
     'scrollbar.thumb.border': colorScheme.border,
+    'minimap.thumb.background': addAlpha(colorScheme.bg_mode_line_active, 0.55),
+    'minimap.thumb.hover_background': colorScheme.bg_active,
+    'minimap.thumb.active_background': colorScheme.bg_active,
+    'minimap.thumb.border': colorScheme.border,
     // The background color of the scrollbar track.
     'scrollbar.track.background': colorScheme.bg_dim,
     // The border color of the scrollbar track.
@@ -127,8 +159,10 @@ local makeTheme(name, colorScheme) = {
     //
     // Represents an added entry or hunk in vcs, like git.
     'version_control.added': colorScheme.bg_added_fringe,
+    'version_control.word_added': colorScheme.bg_added,
     // Represents a deleted entry in version control systems.
     'version_control.deleted': colorScheme.bg_removed_fringe,
+    'version_control.word_deleted': colorScheme.bg_removed,
     // Represents a modified entry in version control systems.
     'version_control.modified': colorScheme.bg_changed_fringe,
     // Represents a renamed entry in version control systems.
@@ -210,6 +244,7 @@ local makeTheme(name, colorScheme) = {
     // Terminal
     //
     'terminal.background': colorScheme.bg_main,
+    'terminal.ansi.background': colorScheme.bg_main,
     'terminal.foreground': colorScheme.fg_main,
     'terminal.bright_foreground': colorScheme.fg_alt,
     'terminal.dim_foreground': colorScheme.fg_dim,
@@ -328,12 +363,19 @@ local makeTheme(name, colorScheme) = {
     'vim.normal.foreground': colorScheme.bg_dim,
     'vim.insert.background': colorScheme.green_faint,
     'vim.insert.foreground': colorScheme.bg_dim,
-    'vim.visual.background': colorScheme.magenta_faint,
-    'vim.visual.foreground': colorScheme.bg_dim,
+    'vim.visual.background': colorScheme.bg_magenta_intense,
+    'vim.visual.foreground': colorScheme.fg_main,
+    'vim.visual_line.background': colorScheme.bg_magenta_intense,
+    'vim.visual_line.foreground': colorScheme.fg_main,
+    'vim.visual_block.background': colorScheme.bg_magenta_intense,
+    'vim.visual_block.foreground': colorScheme.fg_main,
+    'vim.yank.background': colorScheme.bg_yellow_intense,
     'vim.replace.background': colorScheme.red_faint,
     'vim.replace.foreground': colorScheme.bg_dim,
     'vim.helix_normal.background': colorScheme.blue_faint,
     'vim.helix_normal.foreground': colorScheme.bg_dim,
+    'vim.helix_select.background': colorScheme.bg_magenta_intense,
+    'vim.helix_select.foreground': colorScheme.fg_main,
   },
 };
 
