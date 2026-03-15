@@ -80,6 +80,7 @@ local makeTheme(name, colorScheme) = {
     'toolbar.background': colorScheme.bg_main,
     'status_bar.background': colorScheme.bg_mode_line_active,
     'search.match_background': colorScheme.bg_search_lazy,
+    'search.active_match_background': addAlpha(colorScheme.bg_search_current, 1),
 
     //
     // Tab Bar
