@@ -131,6 +131,9 @@ local makeTheme(name, colorScheme) = {
     'editor.indent_guide_active': colorScheme.fg_line_number_active,
     'editor.wrap_guide': colorScheme.border,
     'editor.active_wrap_guide': colorScheme.fg_line_number_active,
+    'editor.diff_hunk.background_opacity': 0.375,
+    'editor.diff_hunk.hollow_background_opacity': 0.1875,
+    'editor.diff_hunk.hollow_border_opacity': 0.75,
     'editor.gutter.background': colorScheme.bg_line_number_inactive,
     // Read-access of a symbol, like reading a variable.
     'editor.document_highlight.read_background': colorScheme.bg_dim,
@@ -158,17 +161,17 @@ local makeTheme(name, colorScheme) = {
     // Diff
     //
     // Represents an added entry or hunk in vcs, like git.
-    'version_control.added': colorScheme.bg_added_fringe,
-    'version_control.word_added': colorScheme.bg_added,
+    'version_control.added': colorScheme.fg_added_intense,
+    'version_control.word_added': addAlpha(colorScheme.fg_added_intense, 0.39),
     // Represents a deleted entry in version control systems.
-    'version_control.deleted': colorScheme.bg_removed_fringe,
-    'version_control.word_deleted': colorScheme.bg_removed,
+    'version_control.deleted': colorScheme.fg_removed_intense,
+    'version_control.word_deleted': addAlpha(colorScheme.fg_removed_intense, 0.46),
     // Represents a modified entry in version control systems.
-    'version_control.modified': colorScheme.bg_changed_fringe,
+    'version_control.modified': colorScheme.fg_changed_intense,
     // Represents a renamed entry in version control systems.
-    'version_control.renamed': colorScheme.bg_changed_fringe,
+    'version_control.renamed': colorScheme.fg_changed_intense,
     // Represents a conflicting entry in version control systems.
-    'version_control.conflict': colorScheme.bg_changed_fringe,
+    'version_control.conflict': colorScheme.fg_changed_intense,
     // Represents an ignored entry in version control systems.
     'version_control.ignored': colorScheme.fg_dim,
     // Background color for row highlights of "ours" conflict markers in merge conflicts.
