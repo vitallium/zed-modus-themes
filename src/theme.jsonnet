@@ -65,7 +65,7 @@ local makeTheme(name, colorScheme) = {
     'element.active': colorScheme.bg_button_active,
     // Background Color. Used for the selected state of an element that should have a different background than the surface it's on.
     'element.selected': colorScheme.bg_button_active,
-    'element.selection_background': colorScheme.bg_button_active,
+    'element.selection_background': addAlpha(colorScheme.bg_button_active, 0.55),
     // Background Color. Used for the disabled state of an element that should have a different background than the surface it's on.
     'element.disabled': colorScheme.bg_button_inactive,
     // Background Color. Used for the area that shows where a dragged element will be dropped.
