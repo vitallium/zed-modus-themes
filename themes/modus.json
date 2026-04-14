@@ -228,9 +228,6 @@
                "function": {
                   "color": "#721045"
                },
-               "hint": {
-                  "color": "#005f5f"
-               },
                "import": {
                   "color": "#a0132f"
                },
@@ -705,9 +702,6 @@
                },
                "function": {
                   "color": "#973300"
-               },
-               "hint": {
-                  "color": "#0031a9"
                },
                "import": {
                   "color": "#531ab6"
@@ -1184,9 +1178,6 @@
                "function": {
                   "color": "#602938"
                },
-               "hint": {
-                  "color": "#006300"
-               },
                "import": {
                   "color": "#894000"
                },
@@ -1661,9 +1652,6 @@
                },
                "function": {
                   "color": "#3f578f"
-               },
-               "hint": {
-                  "color": "#005e8b"
                },
                "import": {
                   "color": "#b21100"
@@ -2140,9 +2128,6 @@
                "function": {
                   "color": "#feacd0"
                },
-               "hint": {
-                  "color": "#6ae4b9"
-               },
                "import": {
                   "color": "#ff7f86"
                },
@@ -2617,9 +2602,6 @@
                },
                "function": {
                   "color": "#ffa00f"
-               },
-               "hint": {
-                  "color": "#2fafff"
                },
                "import": {
                   "color": "#b6a0ff"
@@ -3096,9 +3078,6 @@
                "function": {
                   "color": "#f78fe7"
                },
-               "hint": {
-                  "color": "#11c777"
-               },
                "import": {
                   "color": "#ff7f86"
                },
@@ -3573,9 +3552,6 @@
                },
                "function": {
                   "color": "#4ae2ff"
-               },
-               "hint": {
-                  "color": "#00d3d0"
                },
                "import": {
                   "color": "#ff6740"

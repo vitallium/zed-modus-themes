@@ -358,9 +358,6 @@ local makeTheme(name, colorScheme) = {
       'function': {
         color: colorScheme.fnname,
       },
-      hint: {
-        color: colorScheme.info,
-      },
       'import': {
         color: colorScheme.preprocessor,
       },
