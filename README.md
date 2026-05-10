@@ -87,6 +87,29 @@ In the command palette, choose `zed: extensions` then search for `modus-themes`.
 
 ## Configuration
 
+### Adjust diff hunk contrast
+
+If you want stronger or weaker diff hunk highlights for accessibility, use Zed's `theme_overrides` setting and override the diff hunk colors directly.
+
+Higher alpha values increase contrast. For example, `#00670040` is more visible than `#00670028`.
+
+```jsonc
+{
+  "theme_overrides": {
+    "Modus Operandi": {
+      "editor.diff_hunk.added.background": "#00670040",
+      "editor.diff_hunk.added.hollow_background": "#00670020",
+      "editor.diff_hunk.added.hollow_border": "#00670099",
+      "editor.diff_hunk.deleted.background": "#aa222240",
+      "editor.diff_hunk.deleted.hollow_background": "#aa222220",
+      "editor.diff_hunk.deleted.hollow_border": "#aa222299"
+    }
+  }
+}
+```
+
+Replace `Modus Operandi` with the exact theme name you use.
+
 ### Enable bold fonts (`modus-themes-bold-constructs`)
 
 Use [Zed's feature](https://zed.dev/docs/themes#theme-overrides) to override parts of the current theme:
