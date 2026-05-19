@@ -8,12 +8,7 @@ local addAlpha(color, alpha) =
   else
     color;
 
-local makeTheme(name, colorScheme) =
-  local diffHunkFillOpacity = 0.8;
-  local diffHunkHollowBackgroundOpacity = 0.75;
-  local diffHunkHollowBorderOpacity = 0.9;
-
-  {
+local makeTheme(name, colorScheme) = {
     name: 'Modus ' + name,
     appearance: colorScheme.appearance,
     style: {
@@ -136,12 +131,12 @@ local makeTheme(name, colorScheme) =
       'editor.indent_guide_active': colorScheme.fg_line_number_active,
       'editor.wrap_guide': colorScheme.border,
       'editor.active_wrap_guide': colorScheme.fg_line_number_active,
-      'editor.diff_hunk.added.background': addAlpha(colorScheme.fg_added_intense, diffHunkFillOpacity),
-      'editor.diff_hunk.added.hollow_background': addAlpha(colorScheme.fg_added_intense, diffHunkHollowBackgroundOpacity),
-      'editor.diff_hunk.added.hollow_border': addAlpha(colorScheme.fg_added_intense, diffHunkHollowBorderOpacity),
-      'editor.diff_hunk.deleted.background': addAlpha(colorScheme.fg_removed_intense, diffHunkFillOpacity),
-      'editor.diff_hunk.deleted.hollow_background': addAlpha(colorScheme.fg_removed_intense, diffHunkHollowBackgroundOpacity),
-      'editor.diff_hunk.deleted.hollow_border': addAlpha(colorScheme.fg_removed_intense, diffHunkHollowBorderOpacity),
+      'editor.diff_hunk.added.background': colorScheme.bg_added,
+      'editor.diff_hunk.added.hollow_background': colorScheme.bg_added_faint,
+      'editor.diff_hunk.added.hollow_border': colorScheme.bg_added_fringe,
+      'editor.diff_hunk.deleted.background': colorScheme.bg_removed,
+      'editor.diff_hunk.deleted.hollow_background': colorScheme.bg_removed_faint,
+      'editor.diff_hunk.deleted.hollow_border': colorScheme.bg_removed_fringe,
       'editor.gutter.background': colorScheme.bg_line_number_inactive,
       // Read-access of a symbol, like reading a variable.
       'editor.document_highlight.read_background': colorScheme.bg_dim,
