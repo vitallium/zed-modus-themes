@@ -116,6 +116,7 @@ local makeTheme(name, colorScheme) = {
       //
       'editor.background': colorScheme.bg_main,
       'editor.foreground': colorScheme.fg_main,
+      'editor.code_lens.foreground': colorScheme.fg_dim,
       'editor.subheader.background': colorScheme.bg_mode_line_active,
       'editor.highlighted_line.background': colorScheme.bg_hl_line,
       'editor.active_line.background': colorScheme.bg_hl_line,
